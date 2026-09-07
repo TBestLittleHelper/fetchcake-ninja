@@ -85,7 +85,11 @@ dialog {
 
 #winDialogStats {
   text-align: center;
-  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+#winDialogDate {
+  text-align: center;
   font-size: 0.9rem;
 }
 
