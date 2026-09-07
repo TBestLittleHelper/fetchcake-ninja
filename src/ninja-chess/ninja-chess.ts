@@ -24,7 +24,21 @@ import type { Puzzle, PuzzleStats, CupName, GameState, SavedRun } from './types'
 import type { DrawShape } from '@lichess-org/chessground/draw';
 
 initSound();
-initLeaderboard();
+
+async function openRun(record: SavedRun): Promise<void> {
+  const puzzles = await fetchPuzzles(record.cup);
+  const perPuzzleSquares = Math.floor(record.squares / puzzles.length);
+  const stats: PuzzleStats[] = puzzles.map((_, i) => ({
+    squares: i === puzzles.length - 1
+      ? record.squares - perPuzzleSquares * (puzzles.length - 1)
+      : perPuzzleSquares,
+    time: record.time / puzzles.length,
+  }));
+  showRunDialog(puzzles, record.cup, stats, record.date);
+}
+
+const leaderboardDialog = document.querySelector<HTMLDialogElement>('#leaderboardDialog');
+leaderboardDialog?.addEventListener('show', () => openLeaderboard(openRun));
 
 const COMPLETED_CUPS_KEY = 'completedCups';
 const LICHESS_PUZZLES_KEY = 'lichessPuzzles';

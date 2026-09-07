@@ -1,6 +1,8 @@
 import type { CupName, RunRecord, SavedRun } from './types';
 
 const RUN_HISTORY_KEY = 'runHistory';
+let onOpenRun: (record: SavedRun) => void = () => {};
+let initialized = false;
 
 function isSavedRun(record: unknown): record is SavedRun {
   if (typeof record !== 'object' || record === null) {
@@ -109,6 +111,9 @@ function renderRunHistory(): void {
   }
   for (const record of records) {
     const row = document.createElement('tr');
+    row.classList.add('runRow');
+    row.title = `Open ${displayCupName(record.cup)} run recap`;
+    row.addEventListener('click', () => onOpenRun(record));
     const cup = document.createElement('td');
     cup.textContent = displayCupName(record.cup);
     const time = document.createElement('td');
@@ -140,15 +145,17 @@ function rerenderLeaderboard(): void {
   }
 }
 
-export function initLeaderboard(): void {
-  tabButtons.forEach((button) => {
-    button.addEventListener('click', () => {
-      selectLeaderboardTab(button.dataset.tab ?? 'author');
+export function openLeaderboard(onRunOpen: (record: SavedRun) => void): void {
+  if (!initialized) {
+    initialized = true;
+    onOpenRun = onRunOpen;
+    tabButtons.forEach((button) => {
+      button.addEventListener('click', () => {
+        selectLeaderboardTab(button.dataset.tab ?? 'author');
+      });
     });
-  });
-
-  const leaderboardButton = document.querySelector<HTMLButtonElement>('#leaderboardButton');
-  leaderboardButton?.addEventListener('click', rerenderLeaderboard);
-
-  selectLeaderboardTab('author');
+    selectLeaderboardTab('author');
+    return;
+  }
+  rerenderLeaderboard();
 }
