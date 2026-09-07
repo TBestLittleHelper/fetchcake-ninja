@@ -346,6 +346,7 @@ function endRun(): void {
   try {
     localStorage.setItem(COMPLETED_CUPS_KEY, JSON.stringify([...completedCups]));
   } catch {
+    console.error('Failed to save completed cups to localStorage');
   }
   const totalTime = puzzleStats.reduce((sum, s) => sum + s.time, 0);
   const totalSquares = puzzleStats.reduce((sum, s) => sum + s.squares, 0);
