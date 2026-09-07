@@ -26,4 +26,4 @@ Frog icon by Lorc under CC BY 3.0 ( https://game-icons.net/1x1/lorc/frog.html )
 
 Puzzles used is a sample from https://database.lichess.org/#puzzles
 
-Chessboard is chessground and chess rules chessops
+Chessboard is [chessground](https://github.com/lichess-org/chessground) and chess rules [chessops](https://github.com/lichess-org/chessops)
