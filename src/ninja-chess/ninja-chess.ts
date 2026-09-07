@@ -71,8 +71,8 @@ const authorRecords: RunRecord[] = [
   { cup: 'fish', time: 60.2, squares: 635 },
   { cup: 'camel', time: 100, squares: 200 },
   { cup: 'frog', time: 100, squares: 200 },
-  { cup: 'mite', time: 100, squares: 200 },
   { cup: 'rhino', time: 100, squares: 200 },
+  { cup: 'spider', time: 33.9, squares: 87 },
 ];
 function isLichessEnabled(): boolean {
   return puzzlesToggle?.checked ?? false;
@@ -95,7 +95,7 @@ async function fetchPuzzles(cup: CupName): Promise<Puzzle[]> {
       fish: 'easiest',
       camel: 'easier',
       frog: 'normal',
-      mite: 'harder',
+      spider: 'harder',
       rhino: 'hardest',
     };
     const batch = await fetchLichessPuzzles(nbPuzzles as 10 | 20 | 30 | 40 | 50, difficultyMap[cup]);

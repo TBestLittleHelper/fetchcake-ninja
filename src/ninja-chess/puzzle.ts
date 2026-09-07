@@ -10,8 +10,8 @@ async function loadPuzzleData(cup: CupName): Promise<Puzzle[]> {
 			return (await import('../assets/camel.json')).default.puzzles as Puzzle[];
 		case 'frog':
 			return (await import('../assets/frog.json')).default.puzzles as Puzzle[];
-		case 'mite':
-			return (await import('../assets/mite.json')).default.puzzles as Puzzle[];
+		case 'spider':
+			return (await import('../assets/spider.json')).default.puzzles as Puzzle[];
 		case 'rhino':
 			return (await import('../assets/rhino.json')).default.puzzles as Puzzle[];
 		case 'fish':
