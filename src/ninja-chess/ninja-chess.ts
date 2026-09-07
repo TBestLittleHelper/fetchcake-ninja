@@ -67,6 +67,13 @@ if (resetRunsButton) {
   });
 }
 
+const authorRecords: RunRecord[] = [
+  { cup: 'fish', time: 60.2, squares: 635 },
+  { cup: 'camel', time: 100, squares: 200 },
+  { cup: 'frog', time: 100, squares: 200 },
+  { cup: 'mite', time: 100, squares: 200 },
+  { cup: 'rhino', time: 100, squares: 200 },
+];
 function isLichessEnabled(): boolean {
   return puzzlesToggle?.checked ?? false;
 }
