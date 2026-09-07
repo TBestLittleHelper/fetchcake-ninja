@@ -131,7 +131,7 @@ puzzleBatch = await getPuzzleBatch(selectedCup);
 const initialPuzzle = puzzleBatch[0];
 const initialMoves = initialPuzzle.moves.split(" ")
 
-const gamestate: GameState = {
+const gameState: GameState = {
   solvedPuzzles: 0,
   currentPuzzle: initialPuzzle,
   currentPuzzleTotalSquares: 0,
@@ -144,10 +144,10 @@ const gamestate: GameState = {
 
 
 function loadPuzzle() {
-  const setup = parseFen(gamestate.currentPuzzle.fen).unwrap()
-  const move = parseUci(gamestate.moveUci)
+  const setup = parseFen(gameState.currentPuzzle.fen).unwrap()
+  const move = parseUci(gameState.moveUci)
   if (!move) {
-    throw new Error(`Could not parse move: ${gamestate.moveUci}`)
+    throw new Error(`Could not parse move: ${gameState.moveUci}`)
   }
   const chess = Chess.fromSetup(setup).unwrap()
   chess.play(move)
@@ -160,15 +160,15 @@ const addAttempt = (square: Key): void => {
   if (puzzleStartTime === 0) {
     puzzleStartTime = Date.now();
   }
-  gamestate.currentPuzzleTotalSquares++;
-  gamestate.attemptSquares.push(square);
+  gameState.currentPuzzleTotalSquares++;
+  gameState.attemptSquares.push(square);
 
   // Remove oldest attempts
-  while (gamestate.attemptSquares.length > maxSquaresAttempt) {
-    gamestate.attemptSquares.shift();
+  while (gameState.attemptSquares.length > maxSquaresAttempt) {
+    gameState.attemptSquares.shift();
   }
 
-  const updatedShapes: DrawShape[] = gamestate.attemptSquares.map(sq => ({
+  const updatedShapes: DrawShape[] = gameState.attemptSquares.map(sq => ({
     orig: sq,
     brush: 'paleBlue',
   }));
@@ -178,7 +178,7 @@ const addAttempt = (square: Key): void => {
 
 const puzzle = loadPuzzle()
 
-gamestate.status = "Playing"
+gameState.status = "Playing"
 
 const config: Config = {
   coordinates: true,
@@ -189,7 +189,7 @@ const config: Config = {
   },
   fen: puzzle.fen,
   orientation: puzzle.chess.turn,
-  lastMove: [gamestate.moveUci.substring(0, 2), gamestate.moveUci.substring(2, 4)] as Key[]
+  lastMove: [gameState.moveUci.substring(0, 2), gameState.moveUci.substring(2, 4)] as Key[]
 
 }
 const ground = Chessground(boardElement, config)
@@ -231,14 +231,14 @@ async function loadCup(cup: CupName) {
 
   puzzleStats.length = 0;
   puzzleStartTime = 0;
-  gamestate.solvedPuzzles = 0;
-  gamestate.currentPuzzle = puzzleBatch[0];
-  gamestate.currentPuzzleTotalSquares = 0;
-  gamestate.moves = gamestate.currentPuzzle.moves.split(' ');
-  gamestate.moveUci = gamestate.moves[0];
-  gamestate.solution = gamestate.moves.slice(1);
-  gamestate.attemptSquares = [];
-  gamestate.status = 'Playing';
+  gameState.solvedPuzzles = 0;
+  gameState.currentPuzzle = puzzleBatch[0];
+  gameState.currentPuzzleTotalSquares = 0;
+  gameState.moves = gameState.currentPuzzle.moves.split(' ');
+  gameState.moveUci = gameState.moves[0];
+  gameState.solution = gameState.moves.slice(1);
+  gameState.attemptSquares = [];
+  gameState.status = 'Playing';
   if (progressElement) {
     progressElement.value = 0;
   }
@@ -248,7 +248,7 @@ async function loadCup(cup: CupName) {
   ground.set({
     fen: puzzle.fen,
     orientation: puzzle.chess.turn,
-    lastMove: [gamestate.moveUci.substring(0, 2), gamestate.moveUci.substring(2, 4)] as Key[],
+    lastMove: [gameState.moveUci.substring(0, 2), gameState.moveUci.substring(2, 4)] as Key[],
   });
 }
 
@@ -278,17 +278,17 @@ const logSquareAtPos = (x: number, y: number) => {
   if (isSolved()) {
     playSound()
     puzzleStats.push({
-      squares: gamestate.currentPuzzleTotalSquares,
+      squares: gameState.currentPuzzleTotalSquares,
       time: (Date.now() - puzzleStartTime) / 1000,
     });
-    gamestate.solvedPuzzles++;
-    progressElement.value = gamestate.solvedPuzzles;
-    console.log("Puzzle solved! nb solved puzzles:", gamestate.solvedPuzzles)
-    if (gamestate.solvedPuzzles >= nbPuzzles) {
+    gameState.solvedPuzzles++;
+    progressElement.value = gameState.solvedPuzzles;
+    console.log("Puzzle solved! nb solved puzzles:", gameState.solvedPuzzles)
+    if (gameState.solvedPuzzles >= nbPuzzles) {
       endGame();
       return;
     }
-    nextPuzzle(puzzleBatch, gamestate.solvedPuzzles)
+    nextPuzzle(puzzleBatch, gameState.solvedPuzzles)
   }
 }
 
@@ -299,15 +299,15 @@ boardElement.addEventListener('pointermove', (event: PointerEvent) => {
 })
 
 function isSolved(): boolean {
-  if (gamestate.solution.length === 0) return false;
+  if (gameState.solution.length === 0) return false;
 
   // Get first move and convert to squares
-  const firstMove = gamestate.solution[0];
+  const firstMove = gameState.solution[0];
   const fromSquare = firstMove.substring(0, 2) as Key;
   const toSquare = firstMove.substring(2, 4) as Key;
 
   // Check if attempt matches the two squares from the first move
-  if (gamestate.attemptSquares.includes(fromSquare) && gamestate.attemptSquares.includes(toSquare)) {
+  if (gameState.attemptSquares.includes(fromSquare) && gameState.attemptSquares.includes(toSquare)) {
     return true;
   }
 
@@ -321,23 +321,23 @@ function nextPuzzle(puzzleBatch: Puzzle[], nextIndex: number): void {
   if (nextIndex >= puzzleBatch.length) {
     nextIndex = 0;
   }
-  gamestate.currentPuzzle = puzzleBatch[nextIndex];
-  gamestate.currentPuzzleTotalSquares = 0;
-  gamestate.moves = gamestate.currentPuzzle.moves.split(" ");
-  gamestate.moveUci = gamestate.moves[0]
-  gamestate.solution = gamestate.moves.slice(1)
-  gamestate.attemptSquares = []
+  gameState.currentPuzzle = puzzleBatch[nextIndex];
+  gameState.currentPuzzleTotalSquares = 0;
+  gameState.moves = gameState.currentPuzzle.moves.split(" ");
+  gameState.moveUci = gameState.moves[0]
+  gameState.solution = gameState.moves.slice(1)
+  gameState.attemptSquares = []
 
   const puzzle = loadPuzzle()
 
-  console.log("Play " + gamestate.solution[0].toString())
+  console.log("Play " + gameState.solution[0].toString())
 
   ground.setShapes([]);
   ground.set({
     fen: puzzle.fen,
     orientation: puzzle.chess.turn,
-    lastMove: [gamestate.moveUci.substring(0, 2),
-    gamestate.moveUci.substring(2, 4)] as Key[]
+    lastMove: [gameState.moveUci.substring(0, 2),
+    gameState.moveUci.substring(2, 4)] as Key[]
   })
 }
 
