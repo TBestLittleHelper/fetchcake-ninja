@@ -18,24 +18,18 @@
      <form method="dialog">
       <div class="dialogHeader">
         <h3>Ninja Chess Leaderboard</h3>
-        <button class="dialog-close">✕</button></div>
-
-  </form>
-    <table>
-    <thead>
-      <tr>
-        <th>Player</th>
-        <th>Cup</th>
-        <th>Time</th>
-      </tr>
-    </thead>
-    <tbody id="leaderboardBody">
-      <tr><td>Author</td><td>Fish</td><td>32.4s</td></tr>
-      <tr><td>Author</td><td>Camel</td><td>35.1s</td></tr>
-      <tr><td>Author</td><td>Frog</td><td>38.7s</td></tr>
-      <tr><td>Author</td><td>Spider</td><td>33.9s</td></tr>
-      <tr><td>Author</td><td>Rhino</td><td>39.2s</td></tr>
-    </tbody>
+        <button class="dialog-close">✕</button>
+      </div>
+    </form>
+    <div id="leaderboardTabs">
+      <button type="button" class="leaderboardTab" data-tab="author" aria-pressed="false">Author Records</button>
+      <button type="button" class="leaderboardTab" data-tab="history" aria-pressed="false">Run History</button>
+    </div>
+    <table id="leaderboardTable">
+      <thead id="leaderboardHead">
+      </thead>
+      <tbody id="leaderboardBody">
+      </tbody>
     </table>
     <p>Run history is stored locally in your browser. For competetive play, you should record your runs.</p>
   </dialog>
