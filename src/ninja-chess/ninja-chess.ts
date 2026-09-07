@@ -359,5 +359,5 @@ function endRun(): void {
   saveRunHistory(records);
   const cupButton = cupButtons.find((button) => button.dataset.cup === selectedCup);
   cupButton?.classList.add('completed');
-  showRunDialog(puzzleBatch, selectedCup, puzzleStats, runDate);
+  showRunDialog(puzzleBatch, selectedCup, puzzleStats, new Date().toISOString());
 };
