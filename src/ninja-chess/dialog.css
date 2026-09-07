@@ -46,6 +46,16 @@ dialog {
   width: 25%;
 }
 
+#resetRunsButton {
+  justify-content: center;
+  padding: 0.4rem 0.75rem;
+  border-radius: 6px;
+  border: 1px solid red;
+  border-width: 0.15rem;
+  background-color: transparent;
+  cursor: pointer;
+}
+
 #leaderboardDialog table {
   display: table;
   margin: 0 auto;

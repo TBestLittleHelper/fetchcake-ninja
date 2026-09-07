@@ -48,6 +48,25 @@ if (puzzlesToggle) {
   });
 }
 
+const resetRunsButton = document.querySelector<HTMLButtonElement>('#resetRunsButton');
+
+if (resetRunsButton) {
+  resetRunsButton.addEventListener('click', () => {
+    if (!confirm('Are you sure you want to permanently erase all completed games?')) {
+      return;
+    }
+    try {
+      localStorage.removeItem('completedCups');
+    } catch {
+      console.error('Failed to clear completed runs from localStorage');
+    }
+    completedCups.clear();
+    cupButtons.forEach((button) => {
+      button.classList.remove('completed');
+    });
+  });
+}
+
 function isLichessEnabled(): boolean {
   return puzzlesToggle?.checked ?? false;
 }
