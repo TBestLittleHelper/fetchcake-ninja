@@ -1,0 +1,20 @@
+{
+  "name": "ninja",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "puzzle": "node lichess_db_puzzle/sample-puzzles.js"
+  },
+  "devDependencies": {
+    "typescript": "~6.0.3",
+    "vite": "^8.2.2"
+  },
+  "dependencies": {
+    "@lichess-org/chessground": "^10.1.1",
+    "chessops": "^0.15.1"
+  }
+}

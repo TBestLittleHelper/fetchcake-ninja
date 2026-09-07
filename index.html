@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/labrador-head.png" type="image/x-icon">
+  <title>Ninja Chess - Fetchcake</title>
+
+  <script type="module" src="src/ninja-chess/ninja-chess.ts"></script>
+</head>
+<body>
+  <header>
+    <button id="leaderboardButton" command="show-modal" commandfor="leaderboardDialog">🏆</button>
+    <h1> <a href="" target="_self" title="Restart">Ninja Chess</a> </h1>
+    <button id="settingsButton" command="show-modal" commandfor="settingsDialog">⚙️</button>
+  </header>
+  <dialog id="leaderboardDialog">
+     <form method="dialog">
+      <div class="dialogHeader">
+        <h3>Ninja Chess Leaderboard</h3>
+        <button class="dialog-close">✕</button></div>
+
+  </form>
+    <table>
+    <thead>
+      <tr>
+        <th>Player</th>
+        <th>Cup</th>
+        <th>Time</th>
+      </tr>
+    </thead>
+    <tbody id="leaderboardBody">
+      <tr><td>Author</td><td>Fish</td><td>32.4s</td></tr>
+      <tr><td>Author</td><td>Camel</td><td>35.1s</td></tr>
+      <tr><td>Author</td><td>Frog</td><td>38.7s</td></tr>
+      <tr><td>Author</td><td>Spider</td><td>33.9s</td></tr>
+      <tr><td>Author</td><td>Rhino</td><td>39.2s</td></tr>
+    </tbody>
+    </table>
+    <p>Local scores are not saved. To add your score to the static site, manually submit a recording of your run on <a href="https://github.com/TBestLittleHelper/fetchcake/issues" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+  </dialog>
+  <dialog id="settingsDialog">
+     <form method="dialog">
+      <div class="dialogHeader">
+        <h3>Settings</h3>
+        <button class="dialog-close">✕</button>
+      </div>
+      <div id="settingsDialogOptions">
+      <label id="settingsDialogLabel" class="setting toggle settingRow">
+      <input type="checkbox" id="puzzlesToggle">
+      Live Puzzles
+    </label>
+    <label id="settingsSoundLabel" class="setting toggle settingRow">
+      <input type="checkbox" id="soundToggle">
+      Sound
+    </label>
+    <p>The source code is on <a href="https://github.com/TBestLittleHelper/fetchcake" target="_blank" rel="noopener noreferrer">Github</a></p>
+    </div>
+    </form>
+  </dialog>
+  <dialog id="winDialog">
+    <form method="dialog">
+      <div class="dialogHeader">
+        <h3 id="winDialogTitle"></h3>
+        <button class="dialog-close">✕</button>
+      </div>
+    </form>
+    <div id="winDialogStats"></div>
+    <div id="winDialogGrid"></div>
+  </dialog>
+  <main>
+    <progress id="ninjaGameProgress" value="0"></progress>
+    <div id="ninjaChessContainer">
+      <div id="board"></div>
+    </div>
+    <div id="cupContainer">
+      <svg class="cup-icon selected" data-cup="fish" viewBox="0 0 512 512" aria-label="Fish Cup">
+        <use href="/cups/tropical-fish.svg"></use>
+      </svg>
+      <svg class="cup-icon" data-cup="camel" viewBox="0 0 512 512" aria-label="Camel Cup">
+        <use href="/cups/camel.svg"></use>
+      </svg>
+      <svg class="cup-icon" data-cup="frog" viewBox="0 0 512 512" aria-label="Frog Cup">
+        <use href="/cups/frog.svg"></use>
+      </svg>
+      <svg class="cup-icon" data-cup="mite" viewBox="0 0 512 512" aria-label="Spider Cup">
+        <use href="/cups/mite-alt.svg"></use>
+      </svg>
+      <svg class="cup-icon" data-cup="rhino" viewBox="0 0 512 512" aria-label="Rhino Cup">
+        <use href="/cups/rhinoceros-horn.svg"></use>
+      </svg>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,104 @@
+:root {
+  --text-dialog-color: black;
+}
+
+dialog {
+  margin: auto;
+
+  border: none;
+  border-radius: 12px;
+  padding: 1rem;
+  max-width: 600px;
+  width: 90vw;
+
+  background-color: #229090;
+  color: var(--text-dialog-color);
+}
+
+.dialogHeader {
+  display: flex;
+  align-items: center;
+}
+
+.dialogHeader h3 {
+  flex: 1;
+  text-align: center;
+  margin: 0;
+}
+
+.dialog-close {
+  height: 2rem;
+  background-color: transparent;
+  border-radius: 5px;
+  margin-left: auto;
+}
+
+#settingsDialogOptions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.settingRow {
+  display: flex;
+  align-items: center;
+  width: 25%;
+}
+
+#leaderboardDialog table {
+  display: table;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+#leaderboardDialog th,
+#leaderboardDialog td {
+  display: table-cell;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  vertical-align: middle;
+}
+
+#winDialog {
+  max-height: 90dvh;
+  width: 90vw;
+  max-width: 90vw;
+}
+
+#winDialogStats {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+#winDialogGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  overflow-y: auto;
+  max-height: 60dvh;
+  padding: 0.5rem;
+}
+
+.winPuzzleCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.winBoard {
+  width: 120px;
+  height: 120px;
+}
+
+.winPuzzleStat {
+  font-size: 0.8rem;
+}
+
+.winPuzzleNum {
+  font-size: 0.75rem;
+  opacity: 0.7;
+}
