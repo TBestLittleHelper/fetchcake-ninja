@@ -32,3 +32,13 @@ export interface GameState {
 	attemptSquares: Key[];
 	status: string;
 }
+
+export interface RunRecord {
+	cup: CupName;
+	time: number;
+	squares: number;
+}
+
+export interface SavedRun extends RunRecord {
+	date: string;
+}
