@@ -77,6 +77,14 @@ dialog {
   vertical-align: middle;
 }
 
+#leaderboardDialog tbody tr.runRow {
+  cursor: pointer;
+}
+
+#leaderboardDialog tbody tr.runRow:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
 #winDialog {
   max-height: 90dvh;
   width: 90vw;
