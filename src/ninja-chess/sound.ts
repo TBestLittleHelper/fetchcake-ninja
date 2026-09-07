@@ -1,4 +1,5 @@
 const soundUrl = "./sound/chessClock.m4a";
+const SOUND_ENABLED_KEY = 'soundEnabled';
 
 let soundBuffer: AudioBuffer | null = null;
 let audioContext: AudioContext | null = null;
@@ -33,7 +34,7 @@ async function loadSoundBuffer() {
 
 function loadSoundEnabled(): boolean {
   try {
-    return localStorage.getItem('soundEnabled') !== 'false';
+    return localStorage.getItem(SOUND_ENABLED_KEY) !== 'false';
   } catch {
     return true;
   }
@@ -48,7 +49,7 @@ export function initSound() {
     soundToggle.addEventListener('change', () => {
       soundEnabled = soundToggle.checked;
       try {
-        localStorage.setItem('soundEnabled', soundEnabled.toString());
+        localStorage.setItem(SOUND_ENABLED_KEY, soundEnabled.toString());
       } catch {
         console.error('Failed to save soundEnabled to localStorage');
       }
