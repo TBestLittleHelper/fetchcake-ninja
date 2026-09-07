@@ -6,10 +6,11 @@ import { parseUci } from 'chessops/util'
 import type { Puzzle, PuzzleStats } from './types'
 import type { Key } from '@lichess-org/chessground/types'
 
-export function showWinDialog(puzzles: Puzzle[], cupName: string, stats: PuzzleStats[]): void {
+export function showWinDialog(puzzles: Puzzle[], cupName: string, stats: PuzzleStats[], date?: string): void {
   const dialog = document.getElementById('winDialog') as HTMLDialogElement
   const title = document.getElementById('winDialogTitle')!
   const statsElement = document.getElementById('winDialogStats')!
+  const dateElement = document.getElementById('winDialogDate')!
   const grid = document.getElementById('winDialogGrid')!
 
   const totalTime = stats.reduce((sum, s) => sum + s.time, 0)
@@ -17,6 +18,7 @@ export function showWinDialog(puzzles: Puzzle[], cupName: string, stats: PuzzleS
 
   title.textContent = `${cupName.charAt(0).toUpperCase()}${cupName.slice(1)} Cup Winner!`
   statsElement.textContent = `${totalSquares} squares in ${totalTime.toFixed(1)}s`
+  dateElement.textContent = date ? new Date(date).toLocaleString() : ''
   grid.innerHTML = ''
 
   puzzles.forEach((puzzle, index) => {
