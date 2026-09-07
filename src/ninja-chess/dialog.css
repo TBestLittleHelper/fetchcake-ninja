@@ -56,6 +56,13 @@ dialog {
   cursor: pointer;
 }
 
+.leaderboardTab {
+  padding: 0.4rem 0.75rem;
+  border-radius: 6px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
 #leaderboardDialog table {
   display: table;
   margin: 0 auto;

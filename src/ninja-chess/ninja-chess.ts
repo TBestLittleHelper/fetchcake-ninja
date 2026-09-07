@@ -18,11 +18,17 @@ import { fetchLichessPuzzles } from './lichess-puzzles';
 import type { Difficulty } from './lichess-puzzles';
 import { initSound, playSound, resumeAudioContext } from './sound';
 import { showWinDialog } from './win-dialog';
+import { initLeaderboard, loadRunHistory, saveRunHistory, clearRunHistory } from './leaderboard';
 import type { Key } from '@lichess-org/chessground/types';
 import type { Puzzle, PuzzleStats, CupName, GameState } from './types';
 import type { DrawShape } from '@lichess-org/chessground/draw';
 
 initSound();
+initLeaderboard();
+
+const COMPLETED_CUPS_KEY = 'completedCups';
+const LICHESS_PUZZLES_KEY = 'lichessPuzzles';
+
 
 const nbPuzzles = getnbPuzzles();
 const maxSquaresAttempt = 9;
@@ -31,7 +37,7 @@ const puzzlesToggle = document.querySelector<HTMLInputElement>('#puzzlesToggle')
 
 function loadPuzzlesEnabled(): boolean {
   try {
-    return localStorage.getItem('lichessPuzzles') === 'true';
+    return localStorage.getItem(LICHESS_PUZZLES_KEY) === 'true';
   } catch {
     return false;
   }
@@ -41,7 +47,7 @@ if (puzzlesToggle) {
   puzzlesToggle.checked = loadPuzzlesEnabled();
   puzzlesToggle.addEventListener('change', () => {
     try {
-      localStorage.setItem('lichessPuzzles', puzzlesToggle.checked.toString());
+      localStorage.setItem(LICHESS_PUZZLES_KEY, puzzlesToggle.checked.toString());
     } catch {
       console.error('Failed to save lichessPuzzles to localStorage');
     }
@@ -56,7 +62,8 @@ if (resetRunsButton) {
       return;
     }
     try {
-      localStorage.removeItem('completedCups');
+      localStorage.removeItem(COMPLETED_CUPS_KEY);
+      clearRunHistory();
     } catch {
       console.error('Failed to clear completed runs from localStorage');
     }
@@ -67,13 +74,6 @@ if (resetRunsButton) {
   });
 }
 
-const authorRecords: RunRecord[] = [
-  { cup: 'fish', time: 60.2, squares: 635 },
-  { cup: 'camel', time: 100, squares: 200 },
-  { cup: 'frog', time: 100, squares: 200 },
-  { cup: 'rhino', time: 100, squares: 200 },
-  { cup: 'spider', time: 33.9, squares: 87 },
-];
 function isLichessEnabled(): boolean {
   return puzzlesToggle?.checked ?? false;
 }
@@ -204,7 +204,7 @@ if (!container) {
 
 const cupButtons = Array.from(document.querySelectorAll<SVGSVGElement>('#cupContainer svg.cup-icon'));
 
-const cupNames: CupName[] = ['fish', 'camel', 'frog', 'mite', 'rhino'];
+const cupNames: CupName[] = ['fish', 'camel', 'frog', 'spider', 'rhino'];
 
 const completedCups = loadCompletedCups();
 const puzzleStats: PuzzleStats[] = [];
@@ -212,7 +212,7 @@ let puzzleStartTime = Date.now();
 
 function loadCompletedCups(): Set<CupName> {
   try {
-    const stored: unknown = JSON.parse(localStorage.getItem('completedCups') ?? '[]');
+    const stored: unknown = JSON.parse(localStorage.getItem(COMPLETED_CUPS_KEY) ?? '[]');
     if (!Array.isArray(stored)) {
       return new Set();
     }
@@ -344,9 +344,19 @@ function nextPuzzle(puzzleBatch: Puzzle[], nextIndex: number): void {
 function endGame(): void {
   completedCups.add(selectedCup);
   try {
-    localStorage.setItem('completedCups', JSON.stringify([...completedCups]));
+    localStorage.setItem(COMPLETED_CUPS_KEY, JSON.stringify([...completedCups]));
   } catch {
   }
+  const totalTime = puzzleStats.reduce((sum, s) => sum + s.time, 0);
+  const totalSquares = puzzleStats.reduce((sum, s) => sum + s.squares, 0);
+  const records = loadRunHistory();
+  records.push({
+    cup: selectedCup,
+    time: totalTime,
+    squares: totalSquares,
+    date: new Date().toISOString(),
+  });
+  saveRunHistory(records);
   const cupButton = cupButtons.find((button) => button.dataset.cup === selectedCup);
   cupButton?.classList.add('completed');
   showWinDialog(puzzleBatch, selectedCup, puzzleStats);
