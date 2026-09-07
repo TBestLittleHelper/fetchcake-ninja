@@ -85,23 +85,23 @@ dialog {
   background-color: rgba(255, 255, 255, 0.15);
 }
 
-#winDialog {
+#runDialog {
   max-height: 90dvh;
   width: 90vw;
   max-width: 90vw;
 }
 
-#winDialogStats {
+#runDialogStats {
   text-align: center;
   font-size: 0.9rem;
 }
 
-#winDialogDate {
+#runDialogDate {
   text-align: center;
   font-size: 0.9rem;
 }
 
-#winDialogGrid {
+#runDialogGrid {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -111,23 +111,23 @@ dialog {
   padding: 0.5rem;
 }
 
-.winPuzzleCard {
+.runPuzzleCard {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 0.25rem;
 }
 
-.winBoard {
+.runBoard {
   width: 120px;
   height: 120px;
 }
 
-.winPuzzleStat {
+.runPuzzleStat {
   font-size: 0.8rem;
 }
 
-.winPuzzleNum {
+.runPuzzleNum {
   font-size: 0.75rem;
   opacity: 0.7;
 }

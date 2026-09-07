@@ -17,10 +17,10 @@ import { getnbPuzzles, getPuzzleBatch } from './puzzle';
 import { fetchLichessPuzzles } from './lichess-puzzles';
 import type { Difficulty } from './lichess-puzzles';
 import { initSound, playSound, resumeAudioContext } from './sound';
-import { showWinDialog } from './win-dialog';
-import { initLeaderboard, loadRunHistory, saveRunHistory, clearRunHistory } from './leaderboard';
+import { showRunDialog } from './run-dialog';
+import { openLeaderboard, loadRunHistory, saveRunHistory, clearRunHistory } from './leaderboard';
 import type { Key } from '@lichess-org/chessground/types';
-import type { Puzzle, PuzzleStats, CupName, GameState } from './types';
+import type { Puzzle, PuzzleStats, CupName, GameState, SavedRun } from './types';
 import type { DrawShape } from '@lichess-org/chessground/draw';
 
 initSound();
@@ -285,7 +285,7 @@ const logSquareAtPos = (x: number, y: number) => {
     progressElement.value = gameState.solvedPuzzles;
     console.log("Puzzle solved! nb solved puzzles:", gameState.solvedPuzzles)
     if (gameState.solvedPuzzles >= nbPuzzles) {
-      endGame();
+      endRun();
       return;
     }
     nextPuzzle(puzzleBatch, gameState.solvedPuzzles)
@@ -341,7 +341,7 @@ function nextPuzzle(puzzleBatch: Puzzle[], nextIndex: number): void {
   })
 }
 
-function endGame(): void {
+function endRun(): void {
   completedCups.add(selectedCup);
   try {
     localStorage.setItem(COMPLETED_CUPS_KEY, JSON.stringify([...completedCups]));
@@ -359,5 +359,5 @@ function endGame(): void {
   saveRunHistory(records);
   const cupButton = cupButtons.find((button) => button.dataset.cup === selectedCup);
   cupButton?.classList.add('completed');
-  showWinDialog(puzzleBatch, selectedCup, puzzleStats);
+  showRunDialog(puzzleBatch, selectedCup, puzzleStats, runDate);
 };

@@ -6,12 +6,12 @@ import { parseUci } from 'chessops/util'
 import type { Puzzle, PuzzleStats } from './types'
 import type { Key } from '@lichess-org/chessground/types'
 
-export function showWinDialog(puzzles: Puzzle[], cupName: string, stats: PuzzleStats[], date?: string): void {
-  const dialog = document.getElementById('winDialog') as HTMLDialogElement
-  const title = document.getElementById('winDialogTitle')!
-  const statsElement = document.getElementById('winDialogStats')!
-  const dateElement = document.getElementById('winDialogDate')!
-  const grid = document.getElementById('winDialogGrid')!
+export function showRunDialog(puzzles: Puzzle[], cupName: string, stats: PuzzleStats[], date?: string): void {
+  const dialog = document.getElementById('runDialog') as HTMLDialogElement
+  const title = document.getElementById('runDialogTitle')!
+  const statsElement = document.getElementById('runDialogStats')!
+  const dateElement = document.getElementById('runDialogDate')!
+  const grid = document.getElementById('runDialogGrid')!
 
   const totalTime = stats.reduce((sum, s) => sum + s.time, 0)
   const totalSquares = stats.reduce((sum, s) => sum + s.squares, 0)
@@ -23,17 +23,17 @@ export function showWinDialog(puzzles: Puzzle[], cupName: string, stats: PuzzleS
 
   puzzles.forEach((puzzle, index) => {
     const puzzleEntry = document.createElement('div')
-    puzzleEntry.className = 'winPuzzleCard'
+    puzzleEntry.className = 'runPuzzleCard'
 
     const puzzleLink = document.createElement('a')
-    puzzleLink.className = 'winPuzzleNum'
+    puzzleLink.className = 'runPuzzleNum'
     puzzleLink.textContent = `#${index + 1}`
     puzzleLink.href = `https://lichess.org/training/${puzzle.puzzleId}`
     puzzleLink.target = '_blank'
     puzzleLink.rel = 'noopener noreferrer'
 
     const boardContainer = document.createElement('div')
-    boardContainer.className = 'winBoard'
+    boardContainer.className = 'runBoard'
 
     const firstMove = puzzle.moves.split(' ')[0]
     const move = parseUci(firstMove)!
@@ -59,7 +59,7 @@ export function showWinDialog(puzzles: Puzzle[], cupName: string, stats: PuzzleS
 
     const stat = stats[index]
     const puzzleStatLabel = document.createElement('span')
-    puzzleStatLabel.className = 'winPuzzleStat'
+    puzzleStatLabel.className = 'runPuzzleStat'
     puzzleStatLabel.textContent = stat
       ? `${stat.squares} squares in ${Math.round(stat.time)}s`
       : '—'
