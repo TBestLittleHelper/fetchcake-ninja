@@ -14,7 +14,7 @@ export const cupFilters = {
 	fish: { rating: 1200, maxRating: 1400, nbPlays: 10000, popularity: 80 },
 	camel: { rating: 1400, maxRating: 1600, nbPlays: 10000, popularity: 80 },
 	frog: { rating: 1600, maxRating: 1800, nbPlays: 10000, popularity: 80 },
-	mite: { rating: 1800, maxRating: 2000, nbPlays: 10000, popularity: 80 },
+	spider: { rating: 1800, maxRating: 2000, nbPlays: 10000, popularity: 80 },
 	rhino: { rating: 2000, maxRating: 3000, nbPlays: 10000, popularity: 80 },
 };
 
