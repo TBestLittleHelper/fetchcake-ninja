@@ -1,10 +1,10 @@
-import type { CupName, RunRecord, SavedRun } from './types';
+import type { CupName, RunRecord, LocalSavedRun } from './types';
 
 const RUN_HISTORY_KEY = 'runHistory';
-let onOpenRun: (record: SavedRun) => void = () => {};
+let onOpenRun: (record: LocalSavedRun) => void = () => { };
 let initialized = false;
 
-function isSavedRun(record: unknown): record is SavedRun {
+function isSavedRun(record: unknown): record is LocalSavedRun {
   if (typeof record !== 'object' || record === null) {
     return false;
   }
@@ -13,11 +13,14 @@ function isSavedRun(record: unknown): record is SavedRun {
     typeof candidate.cup === 'string' &&
     typeof candidate.time === 'number' &&
     typeof candidate.squares === 'number' &&
-    typeof candidate.date === 'string'
+    typeof candidate.date === 'string' &&
+    Array.isArray(candidate.puzzles) &&
+    Array.isArray(candidate.stats) &&
+    typeof candidate.isLichess === 'boolean'
   );
 }
 
-export function loadRunHistory(): SavedRun[] {
+export function loadRunHistory(): LocalSavedRun[] {
   try {
     const stored: unknown = JSON.parse(localStorage.getItem(RUN_HISTORY_KEY) ?? '[]');
     if (!Array.isArray(stored)) {
@@ -29,7 +32,7 @@ export function loadRunHistory(): SavedRun[] {
   }
 }
 
-export function saveRunHistory(records: SavedRun[]): void {
+export function saveRunHistory(records: LocalSavedRun[]): void {
   try {
     localStorage.setItem(RUN_HISTORY_KEY, JSON.stringify(records));
   } catch {
@@ -145,7 +148,7 @@ function rerenderLeaderboard(): void {
   }
 }
 
-export function openLeaderboard(onRunOpen: (record: SavedRun) => void): void {
+export function openLeaderboard(onRunOpen: (record: LocalSavedRun) => void): void {
   if (!initialized) {
     initialized = true;
     onOpenRun = onRunOpen;

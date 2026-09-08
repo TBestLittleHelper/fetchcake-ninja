@@ -20,21 +20,13 @@ import { initSound, playSound, resumeAudioContext } from './sound';
 import { showRunDialog } from './run-dialog';
 import { openLeaderboard, loadRunHistory, saveRunHistory, clearRunHistory } from './leaderboard';
 import type { Key } from '@lichess-org/chessground/types';
-import type { Puzzle, PuzzleStats, CupName, GameState, SavedRun } from './types';
+import type { Puzzle, PuzzleStats, CupName, GameState, LocalSavedRun } from './types';
 import type { DrawShape } from '@lichess-org/chessground/draw';
 
 initSound();
 
-async function openRun(record: SavedRun): Promise<void> {
-  const puzzles = await fetchPuzzles(record.cup);
-  const perPuzzleSquares = Math.floor(record.squares / puzzles.length);
-  const stats: PuzzleStats[] = puzzles.map((_, i) => ({
-    squares: i === puzzles.length - 1
-      ? record.squares - perPuzzleSquares * (puzzles.length - 1)
-      : perPuzzleSquares,
-    time: record.time / puzzles.length,
-  }));
-  showRunDialog(puzzles, record.cup, stats, record.date);
+function openRun(record: LocalSavedRun): void {
+  showRunDialog(record.puzzles, record.cup, record.stats, record.date);
 }
 
 const leaderboardButton = document.querySelector<HTMLButtonElement>('#leaderboardButton');
@@ -370,6 +362,9 @@ function endRun(): void {
     time: totalTime,
     squares: totalSquares,
     date: new Date().toISOString(),
+    puzzles: puzzleBatch,
+    stats: puzzleStats,
+    isLichessAPI: isLichessEnabled(),
   });
   saveRunHistory(records);
   const cupButton = cupButtons.find((button) => button.dataset.cup === selectedCup);

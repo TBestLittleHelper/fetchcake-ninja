@@ -39,6 +39,9 @@ export interface RunRecord {
 	squares: number;
 }
 
-export interface SavedRun extends RunRecord {
+export interface LocalSavedRun extends RunRecord {
 	date: string;
+	puzzles: Puzzle[];
+	stats: PuzzleStats[];
+	isLichessAPI: boolean;
 }
