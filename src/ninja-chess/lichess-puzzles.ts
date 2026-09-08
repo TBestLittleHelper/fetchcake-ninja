@@ -36,10 +36,10 @@ export async function fetchLichessPuzzles(
   number: PuzzleCount,
   difficulty: Difficulty
 ): Promise<LichessPuzzleBatch> {
-  const url = `${API_URL}/mix?nb=${number}&difficulty=${difficulty}`;
+  const url = `${API_URL}/mix?nb=${nb}&difficulty=${difficulty}`;
   const response = await fetch(url);
   if (!response.ok) {
-    alert("Failed to call Lichess API. Turn off the API option in settings to play");
+    alert("Failed to call Lichess API. Turn off the API option in settings to play locally");
     throw new Error(`Failed to fetch puzzles: ${response.status}`);
   }
   return response.json();

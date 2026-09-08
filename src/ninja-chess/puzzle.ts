@@ -1,4 +1,5 @@
 import type { Puzzle, CupName } from './types';
+import type { PuzzleCount } from './lichess-puzzles';
 
 const CupPuzzleLength = 30;
 
@@ -36,6 +37,6 @@ export async function getPuzzleBatch(cup: CupName = 'fish') {
 	return indices.map((index) => puzzleDatabase[index]);
 }
 
-export function getnbPuzzles() {
+export function getnbPuzzles(): PuzzleCount {
 	return CupPuzzleLength;
 }

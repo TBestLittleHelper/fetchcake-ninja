@@ -104,7 +104,7 @@ async function fetchPuzzles(cup: CupName): Promise<Puzzle[]> {
       spider: 'harder',
       rhino: 'hardest',
     };
-    const batch = await fetchLichessPuzzles(nbPuzzles as 10 | 20 | 30 | 40 | 50, difficultyMap[cup]);
+    const batch = await fetchLichessPuzzles({ nb: nbPuzzles, difficulty: difficultyMap[cup] });
     return batch.puzzles.map(entry => ({
       puzzleId: entry.puzzle.id,
       fen: fenFromPgn(entry.game.pgn, entry.puzzle.initialPly),
