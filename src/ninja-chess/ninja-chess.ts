@@ -37,8 +37,8 @@ async function openRun(record: SavedRun): Promise<void> {
   showRunDialog(puzzles, record.cup, stats, record.date);
 }
 
-const leaderboardDialog = document.querySelector<HTMLDialogElement>('#leaderboardDialog');
-leaderboardDialog?.addEventListener('show', () => openLeaderboard(openRun));
+const leaderboardButton = document.querySelector<HTMLButtonElement>('#leaderboardButton');
+leaderboardButton?.addEventListener('click', () => openLeaderboard(openRun));
 
 const COMPLETED_CUPS_KEY = 'completedCups';
 const LICHESS_PUZZLES_KEY = 'lichessPuzzles';
