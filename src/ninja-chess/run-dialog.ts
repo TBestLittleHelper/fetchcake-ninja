@@ -40,9 +40,10 @@ export function showRunDialog(puzzles: Puzzle[], cupName: string, stats: PuzzleS
 
     const setup = parseFen(puzzle.fen).unwrap()
     const chess = Chess.fromSetup(setup).unwrap()
+    chess.play(move)
+
     const orientation = chess.turn
 
-    chess.play(move)
 
     const fen = makeFen(chess.toSetup())
 
