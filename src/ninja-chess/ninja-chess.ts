@@ -64,7 +64,7 @@ const resetRunsButton = document.querySelector<HTMLButtonElement>('#resetRunsBut
 
 if (resetRunsButton) {
   resetRunsButton.addEventListener('click', () => {
-    if (!confirm('Are you sure you want to permanently erase all completed games?')) {
+    if (!confirm('Are you sure you want to permanently erase all run history?')) {
       return;
     }
     try {
