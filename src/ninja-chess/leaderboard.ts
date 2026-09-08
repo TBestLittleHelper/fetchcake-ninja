@@ -16,7 +16,7 @@ function isSavedRun(record: unknown): record is LocalSavedRun {
     typeof candidate.date === 'string' &&
     Array.isArray(candidate.puzzles) &&
     Array.isArray(candidate.stats) &&
-    typeof candidate.isLichess === 'boolean'
+    typeof candidate.isLichessAPI === 'boolean'
   );
 }
 
