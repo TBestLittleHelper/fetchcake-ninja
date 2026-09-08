@@ -87,11 +87,12 @@ function isLichessEnabled(): boolean {
 function fenFromPgn(pgn: string, initialPly: number): string {
   const moves = pgn.split(' ');
   const chess = Chess.default();
-  for (let i = 0; i <= initialPly && i < moves.length; i++) {
-    const move = parseSan(chess, moves[i]);
-    if (!move) break;
-    chess.play(move);
+  const move = parseSan(chess, moves[initialPly]);
+  if (!move) {
+    throw new Error(`Could not parse move: ${moves[initialPly]}`);
   }
+
+  chess.play(move);
   return makeFen(chess.toSetup());
 }
 
