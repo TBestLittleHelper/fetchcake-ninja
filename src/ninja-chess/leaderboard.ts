@@ -51,7 +51,7 @@ function displayCupName(cup: CupName): string {
 
 const authorRecords: RunRecord[] = [
   { cup: 'fish', time: 32.4, squares: 102 },
-  { cup: 'camel', time: 35.1, squares: 98 },
+  { cup: 'camel', time: 68.1, squares: 475 },
   { cup: 'frog', time: 38.7, squares: 115 },
   { cup: 'spider', time: 33.9, squares: 87 },
   { cup: 'rhino', time: 39.2, squares: 121 },
