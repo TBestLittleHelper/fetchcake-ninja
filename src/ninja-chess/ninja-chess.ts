@@ -26,7 +26,7 @@ import type { DrawShape } from '@lichess-org/chessground/draw';
 initSound();
 
 function openRun(record: LocalSavedRun): void {
-  showRunDialog(record.puzzles, record.cup, record.stats, record.date);
+  showRunDialog(record.puzzles, record.cup, record.stats, record.date, record.isLichessAPI);
 }
 
 const leaderboardButton = document.querySelector<HTMLButtonElement>('#leaderboardButton');
@@ -369,5 +369,5 @@ function endRun(): void {
   saveRunHistory(records);
   const cupButton = cupButtons.find((button) => button.dataset.cup === selectedCup);
   cupButton?.classList.add('completed');
-  showRunDialog(puzzleBatch, selectedCup, puzzleStats, new Date().toISOString());
+  showRunDialog(puzzleBatch, selectedCup, puzzleStats, new Date().toISOString(), isLichessEnabled());
 };
