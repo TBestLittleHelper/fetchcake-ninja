@@ -33,8 +33,7 @@ export interface LichessPuzzleBatch {
 }
 
 export async function fetchLichessPuzzles(
-  number: PuzzleCount,
-  difficulty: Difficulty
+  { nb, difficulty }: { nb: PuzzleCount; difficulty: Difficulty }
 ): Promise<LichessPuzzleBatch> {
   const url = `${API_URL}/mix?nb=${nb}&difficulty=${difficulty}`;
   const response = await fetch(url);
