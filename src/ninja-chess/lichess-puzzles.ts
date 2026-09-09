@@ -1,7 +1,8 @@
+import { PuzzleBatchSize } from './puzzle';
+
 const API_URL = 'https://lichess.org/api/puzzle/batch';
 
 export type Difficulty = 'easiest' | 'easier' | 'normal' | 'harder' | 'hardest';
-export type PuzzleCount = 10 | 20 | 30 | 40 | 50;
 
 export interface LichessPuzzleData {
   id: string;
@@ -33,9 +34,9 @@ export interface LichessPuzzleBatch {
 }
 
 export async function fetchLichessPuzzles(
-  { nb, difficulty }: { nb: PuzzleCount; difficulty: Difficulty }
+  { difficulty }: { difficulty: Difficulty }
 ): Promise<LichessPuzzleBatch> {
-  const url = `${API_URL}/mix?nb=${nb}&difficulty=${difficulty}`;
+  const url = `${API_URL}/mix?=${PuzzleBatchSize}&difficulty=${difficulty}`;
   const response = await fetch(url);
   if (!response.ok) {
     alert("Failed to call Lichess API. Turn off the API option in settings to play locally");

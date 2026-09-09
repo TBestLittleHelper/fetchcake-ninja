@@ -1,7 +1,6 @@
 import type { Puzzle, CupName } from './types';
-import type { PuzzleCount } from './lichess-puzzles';
 
-const CupPuzzleLength = 30;
+export const PuzzleBatchSize = 30;
 
 const puzzleCache: Partial<Record<CupName, Puzzle[]>> = {};
 
@@ -30,13 +29,9 @@ export async function getPuzzleBatch(cup: CupName = 'fish') {
 	const selected = new Set<number>();
 	const puzzleDatabaseLength = puzzleDatabase.length;
 
-	while (selected.size < CupPuzzleLength) {
+	while (selected.size < PuzzleBatchSize) {
 		selected.add(Math.floor(Math.random() * puzzleDatabaseLength));
 	}
 	const indices = [...selected];
 	return indices.map((index) => puzzleDatabase[index]);
-}
-
-export function getnbPuzzles(): PuzzleCount {
-	return CupPuzzleLength;
 }

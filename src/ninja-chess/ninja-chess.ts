@@ -13,7 +13,7 @@ import { parseFen, makeFen } from 'chessops/fen';
 import { parseUci } from 'chessops/util';
 import { parseSan } from 'chessops/san';
 
-import { getnbPuzzles, getPuzzleBatch } from './puzzle';
+import { PuzzleBatchSize, getPuzzleBatch } from './puzzle';
 import { fetchLichessPuzzles } from './lichess-puzzles';
 import type { Difficulty } from './lichess-puzzles';
 import { initSound, playSound, resumeAudioContext } from './sound';
@@ -35,8 +35,6 @@ leaderboardButton?.addEventListener('click', () => openLeaderboard(openRun));
 const COMPLETED_CUPS_KEY = 'completedCups';
 const LICHESS_PUZZLES_KEY = 'lichessPuzzles';
 
-
-const nbPuzzles = getnbPuzzles();
 const maxSquaresAttempt = 9;
 
 const puzzlesToggle = document.querySelector<HTMLInputElement>('#puzzlesToggle');
@@ -105,7 +103,7 @@ async function fetchPuzzles(cup: CupName): Promise<Puzzle[]> {
       spider: 'harder',
       rhino: 'hardest',
     };
-    const batch = await fetchLichessPuzzles({ nb: nbPuzzles, difficulty: difficultyMap[cup] });
+    const batch = await fetchLichessPuzzles({ difficulty: difficultyMap[cup] });
     return batch.puzzles.map(entry => ({
       puzzleId: entry.puzzle.id,
       fen: fenFromPgn(entry.game.pgn, entry.puzzle.initialPly),
@@ -129,7 +127,7 @@ if (!boardElement || !progressElement) {
   throw new Error('Board or status element is missing from ninja-chess.html.')
 }
 
-progressElement.max = nbPuzzles;
+progressElement.max = PuzzleBatchSize;
 
 // Initialize game state
 let selectedCup: CupName = 'fish';
@@ -291,7 +289,7 @@ const logSquareAtPos = (x: number, y: number) => {
     gameState.solvedPuzzles++;
     progressElement.value = gameState.solvedPuzzles;
     console.log("Puzzle solved! nb solved puzzles:", gameState.solvedPuzzles)
-    if (gameState.solvedPuzzles >= nbPuzzles) {
+    if (gameState.solvedPuzzles >= PuzzleBatchSize) {
       endRun();
       return;
     }
