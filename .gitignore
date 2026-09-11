@@ -2,3 +2,4 @@ node_modules
 dist
 lichess_db_puzzle.csv
 .vscode
+lichess_db_puzzle/lichess_api_example.json
