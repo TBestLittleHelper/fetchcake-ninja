@@ -128,7 +128,6 @@ const config: Config = {
 
 }
 const ground = Chessground(boardElement, config)
-ground.set(config)
 
 const cupButtons = Array.from(document.querySelectorAll<SVGSVGElement>('#cupContainer svg.cup-icon'));
 
