@@ -11,11 +11,8 @@ import type { Config } from "@lichess-org/chessground/config";
 import { Chess } from 'chessops/chess';
 import { parseFen, makeFen } from 'chessops/fen';
 import { parseUci } from 'chessops/util';
-import { parseSan } from 'chessops/san';
 
 import { PuzzleBatchSize, getPuzzleBatch } from './puzzle';
-import { fetchLichessPuzzles } from './lichess-puzzles';
-import type { Difficulty } from './lichess-puzzles';
 import { initSound, playSound, resumeAudioContext } from './sound';
 import { showRunDialog } from './run-dialog';
 import { openLeaderboard, loadRunHistory, saveRunHistory, clearRunHistory } from './leaderboard';
@@ -26,7 +23,7 @@ import type { DrawShape } from '@lichess-org/chessground/draw';
 initSound();
 
 function openRun(record: LocalSavedRun): void {
-  showRunDialog(record.puzzles, record.cup, record.stats, record.date, record.isLichessAPI);
+  showRunDialog(record.puzzles, record.cup, record.stats, record.date);
 }
 
 const leaderboardButton = document.querySelector<HTMLButtonElement>('#leaderboardButton');
@@ -78,44 +75,7 @@ if (resetRunsButton) {
   });
 }
 
-function isLichessEnabled(): boolean {
-  return puzzlesToggle?.checked ?? false;
-}
-
-function fenFromPgn(pgn: string, initialPly: number): string {
-  const moves = pgn.replace(/\d+\.\.\./g, '').replace(/\d+\./g, '').trim().split(/\s+/);
-  const chess = Chess.default();
-  for (let i = 0; i <= initialPly; i++) {
-    const move = parseSan(chess, moves[i]);
-    if (!move) throw new Error(`Could not parse move: ${moves[i]}`);
-    chess.play(move);
-  }
-  return makeFen(chess.toSetup());
-}
-
 async function fetchPuzzles(cup: CupName): Promise<Puzzle[]> {
-  if (isLichessEnabled()) {
-    const difficultyMap: Record<CupName, Difficulty> = {
-      fish: 'easiest',
-      camel: 'easier',
-      frog: 'normal',
-      spider: 'harder',
-      rhino: 'hardest',
-    };
-    const batch = await fetchLichessPuzzles({ difficulty: difficultyMap[cup] });
-    return batch.puzzles.map(entry => ({
-      puzzleId: entry.puzzle.id,
-      fen: fenFromPgn(entry.game.pgn, entry.puzzle.initialPly),
-      moves: entry.puzzle.solution.join(' '),
-      rating: entry.puzzle.rating,
-      ratingDeviation: 0,
-      popularity: 0,
-      nbPlays: entry.puzzle.plays,
-      themes: entry.puzzle.themes.join(' '),
-      gameUrl: '',
-      openingTags: '',
-    }));
-  }
   return getPuzzleBatch(cup);
 }
 
@@ -368,10 +328,9 @@ function endRun(): void {
     date: new Date().toISOString(),
     puzzles: puzzleBatch,
     stats: puzzleStats,
-    isLichessAPI: isLichessEnabled(),
   });
   saveRunHistory(records);
   const cupButton = cupButtons.find((button) => button.dataset.cup === selectedCup);
   cupButton?.classList.add('completed');
-  showRunDialog(puzzleBatch, selectedCup, puzzleStats, new Date().toISOString(), isLichessEnabled());
+  showRunDialog(puzzleBatch, selectedCup, puzzleStats, new Date().toISOString());
 };

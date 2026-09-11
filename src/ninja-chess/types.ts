@@ -43,5 +43,4 @@ export interface LocalSavedRun extends RunRecord {
 	date: string;
 	puzzles: Puzzle[];
 	stats: PuzzleStats[];
-	isLichessAPI: boolean;
 }

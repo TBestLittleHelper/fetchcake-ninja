@@ -6,7 +6,7 @@ import { parseUci } from 'chessops/util'
 import type { Puzzle, PuzzleStats } from './types'
 import type { Key } from '@lichess-org/chessground/types'
 
-export function showRunDialog(puzzles: Puzzle[], cupName: string, stats: PuzzleStats[], date?: string, isLichessAPI = false): void {
+export function showRunDialog(puzzles: Puzzle[], cupName: string, stats: PuzzleStats[], date?: string): void {
   const dialog = document.getElementById('runDialog') as HTMLDialogElement
   const title = document.getElementById('runDialogTitle')!
   const statsElement = document.getElementById('runDialogStats')!
@@ -16,7 +16,7 @@ export function showRunDialog(puzzles: Puzzle[], cupName: string, stats: PuzzleS
   const totalTime = stats.reduce((sum, s) => sum + s.time, 0)
   const totalSquares = stats.reduce((sum, s) => sum + s.squares, 0)
 
-  title.textContent = `${cupName.charAt(0).toUpperCase()}${cupName.slice(1)} Cup ${isLichessAPI ? 'API ' : ''}Winner!`
+  title.textContent = `${cupName.charAt(0).toUpperCase()}${cupName.slice(1)} Cup Winner!`
   statsElement.textContent = `${totalSquares} squares in ${totalTime.toFixed(1)}s`
   dateElement.textContent = date ? new Date(date).toLocaleString() : ''
   grid.innerHTML = ''
