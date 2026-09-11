@@ -133,13 +133,6 @@ const config: Config = {
 const ground = Chessground(boardElement, config)
 ground.set(config)
 
-// Initialize Ninja Chess page
-const container = document.querySelector<HTMLElement>('#ninjaChessContainer')
-
-if (!container) {
-  throw new Error('Ninja Chess markup is missing from ninja-chess.html.')
-}
-
 const cupButtons = Array.from(document.querySelectorAll<SVGSVGElement>('#cupContainer svg.cup-icon'));
 
 const cupNames: CupName[] = ['fish', 'camel', 'frog', 'spider', 'rhino'];
