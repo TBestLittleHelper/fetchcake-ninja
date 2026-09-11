@@ -8,7 +8,9 @@ import { parseFen } from 'chessops/fen';
 
 const inputFile = path.join('lichess_db_puzzle', 'lichess_db_puzzle.csv');
 const outputDirectory = path.join('src', 'assets');
-const numberOfPuzzles = 300;
+const batchesPerCup = 3;
+const puzzlesPerBatch = 300;
+const numberOfPuzzles = batchesPerCup * puzzlesPerBatch;
 
 export const cupFilters = {
 	fish: { rating: 1200, maxRating: 1400, nbPlays: 10000, popularity: 80 },
@@ -99,10 +101,13 @@ async function samplePuzzles() {
 			.sort((a, b) => b.popularity - a.popularity)
 			.slice(0, numberOfPuzzles);
 
-		const outputFile = path.join(outputDirectory, `${cupName}.json`);
-		const jsonOutput = JSON.stringify({ puzzles: topPuzzles }, null, 2);
-		fs.writeFileSync(outputFile, jsonOutput);
-		console.log(`Wrote ${topPuzzles.length} puzzles to ${outputFile}`);
+		for (let batchIndex = 0; batchIndex < batchesPerCup; batchIndex++) {
+			const batch = topPuzzles.filter((_, index) => index % batchesPerCup === batchIndex);
+			const outputFile = path.join(outputDirectory, `${cupName}-${batchIndex + 1}.json`);
+			const jsonOutput = JSON.stringify({ puzzles: batch }, null, 2);
+			fs.writeFileSync(outputFile, jsonOutput);
+			console.log(`Wrote ${batch.length} puzzles to ${outputFile}`);
+		}
 	}
 }
 
