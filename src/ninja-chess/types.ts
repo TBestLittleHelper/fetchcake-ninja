@@ -30,7 +30,6 @@ export interface GameState {
 	moveUci: string;
 	solution: string[];
 	attemptSquares: Key[];
-	status: string;
 }
 
 export interface RunRecord {

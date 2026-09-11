@@ -77,7 +77,6 @@ const gameState: GameState = {
   moveUci: initialMoves[0],
   solution: initialMoves.slice(1),
   attemptSquares: [],
-  status: ''
 }
 
 
@@ -115,8 +114,6 @@ const addAttempt = (square: Key): void => {
 };
 
 const puzzle = loadPuzzle()
-
-gameState.status = "Playing"
 
 const config: Config = {
   coordinates: true,
@@ -169,7 +166,6 @@ async function loadCup(cup: CupName) {
   gameState.moveUci = gameState.moves[0];
   gameState.solution = gameState.moves.slice(1);
   gameState.attemptSquares = [];
-  gameState.status = 'Playing';
   if (progressElement) {
     progressElement.value = 0;
   }
