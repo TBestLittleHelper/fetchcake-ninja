@@ -42,9 +42,6 @@ export function showRunDialog(puzzles: Puzzle[], cupName: string, stats: PuzzleS
     const chess = Chess.fromSetup(setup).unwrap()
     chess.play(move)
 
-    const orientation = chess.turn
-
-
     const fen = makeFen(chess.toSetup())
 
     const config: Config = {
@@ -52,7 +49,7 @@ export function showRunDialog(puzzles: Puzzle[], cupName: string, stats: PuzzleS
       viewOnly: true,
       disableContextMenu: true,
       fen,
-      orientation,
+      orientation: chess.turn,
       lastMove: [firstMove.substring(0, 2), firstMove.substring(2, 4)] as Key[],
     }
 
