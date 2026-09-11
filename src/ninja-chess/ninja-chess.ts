@@ -296,7 +296,13 @@ const logSquareAtPos = (x: number, y: number) => {
   }
 }
 
-// Log square on pointermove ( mouse, touch or pen )
+// Log square on touch down, mouse press or pen touch
+boardElement.addEventListener('pointerdown', (event: PointerEvent) => {
+  resumeAudioContext()
+  logSquareAtPos(event.clientX, event.clientY)
+})
+
+// Log square on pointer move (mouse, touch or pen)
 boardElement.addEventListener('pointermove', (event: PointerEvent) => {
   resumeAudioContext()
   logSquareAtPos(event.clientX, event.clientY)
