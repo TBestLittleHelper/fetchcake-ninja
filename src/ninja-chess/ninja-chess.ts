@@ -75,10 +75,6 @@ if (resetRunsButton) {
   });
 }
 
-async function fetchPuzzles(cup: CupName): Promise<Puzzle[]> {
-  return getPuzzleBatch(cup);
-}
-
 const boardElement = document.querySelector<HTMLElement>('#board')
 const progressElement = document.querySelector<HTMLProgressElement>("#ninjaGameProgress")
 
@@ -188,7 +184,7 @@ function loadCompletedCups(): Set<CupName> {
 
 async function loadCup(cup: CupName) {
   selectedCup = cup;
-  puzzleBatch = await fetchPuzzles(selectedCup);
+  puzzleBatch = await getPuzzleBatch(selectedCup);
   cupButtons.forEach((button) => {
     button.classList.toggle('selected', button.dataset.cup === cup);
   });
