@@ -2,7 +2,7 @@ import type { Key } from '@lichess-org/chessground/types';
 
 export type CupName = 'fish' | 'camel' | 'frog' | 'spider' | 'rhino';
 
-export type PuzzleID = string;
+type PuzzleID = string;
 
 export interface Puzzle {
 	puzzleId: PuzzleID;
