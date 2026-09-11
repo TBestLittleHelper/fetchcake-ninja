@@ -21,11 +21,9 @@ export async function getPuzzleBatch(cup: CupName = 'fish') {
 	const batch = Math.floor(Math.random() * BatchesPerCup) + 1;
 	const puzzleDatabase = await loadPuzzleData(cup, batch);
 	const selected = new Set<number>();
-	const puzzleDatabaseLength = puzzleDatabase.length;
 
 	while (selected.size < PuzzleBatchSize) {
-		selected.add(Math.floor(Math.random() * puzzleDatabaseLength));
+		selected.add(Math.floor(Math.random() * puzzleDatabase.length));
 	}
-	const indices = [...selected];
-	return indices.map((index) => puzzleDatabase[index]);
+	return [...selected].map((index) => puzzleDatabase[index]);
 }
