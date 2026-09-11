@@ -30,30 +30,8 @@ const leaderboardButton = document.querySelector<HTMLButtonElement>('#leaderboar
 leaderboardButton?.addEventListener('click', () => openLeaderboard(openRun));
 
 const COMPLETED_CUPS_KEY = 'completedCups';
-const LICHESS_PUZZLES_KEY = 'lichessPuzzles';
 
 const maxSquaresAttempt = 9;
-
-const puzzlesToggle = document.querySelector<HTMLInputElement>('#puzzlesToggle');
-
-function loadPuzzlesEnabled(): boolean {
-  try {
-    return localStorage.getItem(LICHESS_PUZZLES_KEY) === 'true';
-  } catch {
-    return false;
-  }
-}
-
-if (puzzlesToggle) {
-  puzzlesToggle.checked = loadPuzzlesEnabled();
-  puzzlesToggle.addEventListener('change', () => {
-    try {
-      localStorage.setItem(LICHESS_PUZZLES_KEY, puzzlesToggle.checked.toString());
-    } catch {
-      console.error('Failed to save lichessPuzzles to localStorage');
-    }
-  });
-}
 
 const resetRunsButton = document.querySelector<HTMLButtonElement>('#resetRunsButton');
 
