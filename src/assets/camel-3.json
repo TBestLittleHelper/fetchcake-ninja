@@ -4,3601 +4,1801 @@
       "puzzleId": "1hxbS",
       "fen": "8/pp1R4/2p4p/4k3/2P5/3N1qP1/P6K/8 b - - 7 36",
       "moves": "e5f6 d7f7 f6f7 d3e5 f7f6 e5f3",
-      "rating": 1437,
-      "ratingDeviation": 75,
-      "popularity": 99,
-      "nbPlays": 13485,
-      "themes": "advantage attraction endgame exposedKing fork long sacrifice",
-      "gameUrl": "https://lichess.org/EgdPfTGZ/black#72",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/EgdPfTGZ/black#72"
     },
     {
       "puzzleId": "842kW",
       "fen": "8/2R4k/5Kp1/6P1/5P2/p7/8/5r2 b - - 3 45",
       "moves": "h7h8 f6g6 f1f4 c7c8 f4f8 c8f8",
-      "rating": 1480,
-      "ratingDeviation": 75,
-      "popularity": 99,
-      "nbPlays": 14618,
-      "themes": "endgame exposedKing long mate mateIn3 rookEndgame",
-      "gameUrl": "https://lichess.org/9Wl5NSyv/black#90",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/9Wl5NSyv/black#90"
     },
     {
       "puzzleId": "GBpSU",
       "fen": "8/5p1p/p2q1k2/6p1/5P2/5Q2/PrP2P2/4R2K b - - 0 31",
       "moves": "d6f4 f3c3 f6g6 c3b2 f4f3 h1g1",
-      "rating": 1485,
-      "ratingDeviation": 75,
-      "popularity": 99,
-      "nbPlays": 11787,
-      "themes": "advantage endgame fork long",
-      "gameUrl": "https://lichess.org/lKemVjzJ/black#62",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/lKemVjzJ/black#62"
     },
     {
       "puzzleId": "RqeNG",
       "fen": "7k/4Nb1p/7K/6P1/8/8/8/8 b - - 18 72",
       "moves": "f7g8 g5g6 h7g6 e7g6",
-      "rating": 1507,
-      "ratingDeviation": 76,
-      "popularity": 99,
-      "nbPlays": 34135,
-      "themes": "endgame mate mateIn2 short",
-      "gameUrl": "https://lichess.org/8hJGg53z/black#144",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/8hJGg53z/black#144"
     },
     {
       "puzzleId": "W9Cwe",
       "fen": "3r3k/5pp1/1Q3B1b/p4B2/8/P4b2/2Pq4/1K4R1 b - - 0 31",
       "moves": "g7f6 b6f6 h6g7 f6g7",
-      "rating": 1474,
-      "ratingDeviation": 75,
-      "popularity": 99,
-      "nbPlays": 15138,
-      "themes": "mate mateIn2 middlegame short",
-      "gameUrl": "https://lichess.org/BQrRoNmA/black#62",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/BQrRoNmA/black#62"
     },
     {
       "puzzleId": "dwK8G",
       "fen": "2r3k1/3Q1pp1/1p5p/p1q5/7P/8/5PP1/4R1K1 b - - 2 32",
       "moves": "c5c6 e1e8 c8e8 d7c6",
-      "rating": 1436,
-      "ratingDeviation": 74,
-      "popularity": 99,
-      "nbPlays": 11509,
-      "themes": "advantage deflection endgame short",
-      "gameUrl": "https://lichess.org/T5wK5YUs/black#64",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/T5wK5YUs/black#64"
     },
     {
       "puzzleId": "uikPx",
       "fen": "1r3rk1/2q3bp/1pp1p1p1/p2pP1N1/8/2PQP3/PP3PP1/R3K2R b KQ - 1 17",
       "moves": "h7h6 g5e6 c7f7 e6f8",
-      "rating": 1565,
-      "ratingDeviation": 79,
-      "popularity": 99,
-      "nbPlays": 11271,
-      "themes": "crushing fork middlegame short",
-      "gameUrl": "https://lichess.org/xJsSTdER/black#34",
-      "openingTags": "Queens_Pawn_Game Queens_Pawn_Game_Accelerated_London_System"
+      "gameUrl": "https://lichess.org/xJsSTdER/black#34"
     },
     {
       "puzzleId": "0uqTi",
       "fen": "rnb1qrk1/pp4pp/4p3/3p4/5b1Q/3B3P/PPPN2P1/2KR3R b - - 1 15",
       "moves": "e6e5 h4h7 g8f7 d3g6 f7f6 g6e8",
-      "rating": 1419,
-      "ratingDeviation": 76,
-      "popularity": 98,
-      "nbPlays": 17126,
-      "themes": "crushing kingsideAttack long middlegame skewer",
-      "gameUrl": "https://lichess.org/8F9keKNI/black#30",
-      "openingTags": "Queens_Pawn_Game Queens_Pawn_Game_Other_variations"
+      "gameUrl": "https://lichess.org/8F9keKNI/black#30"
     },
     {
       "puzzleId": "1xqB5",
       "fen": "4Q1k1/pp5q/2nb1r2/3p1p2/7N/6P1/PP3P1P/4R1K1 b - - 1 30",
       "moves": "f6f8 e8e6 h7f7 e6d6",
-      "rating": 1444,
-      "ratingDeviation": 77,
-      "popularity": 98,
-      "nbPlays": 13372,
-      "themes": "advantage fork middlegame short",
-      "gameUrl": "https://lichess.org/04zzZH8i/black#60",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/04zzZH8i/black#60"
     },
     {
       "puzzleId": "2DluY",
       "fen": "1r3k2/3Q1pp1/8/p2p1B2/3b4/Pq5P/5PP1/4R1K1 b - - 1 31",
       "moves": "b3b6 d7e7 f8g8 e7e8 b8e8 e1e8",
-      "rating": 1510,
-      "ratingDeviation": 75,
-      "popularity": 98,
-      "nbPlays": 12653,
-      "themes": "endgame long mate mateIn3 pillsburysMate sacrifice",
-      "gameUrl": "https://lichess.org/ye0hEQId/black#62",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/ye0hEQId/black#62"
     },
     {
       "puzzleId": "2nFwR",
       "fen": "8/4r1k1/1p4P1/1Pp2P2/2P5/3PpR2/7r/4K3 b - - 5 44",
       "moves": "h2f2 f5f6 g7g6 f6e7 f2f3 e7e8q",
-      "rating": 1472,
-      "ratingDeviation": 76,
-      "popularity": 98,
-      "nbPlays": 10179,
-      "themes": "advancedPawn crushing endgame fork long promotion rookEndgame",
-      "gameUrl": "https://lichess.org/1fjt28gB/black#88",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/1fjt28gB/black#88"
     },
     {
       "puzzleId": "4RuS4",
       "fen": "8/4k1p1/2p2b2/3p4/2n3QP/1P6/P5K1/4r3 b - - 2 38",
       "moves": "c4e5 g4b4 c6c5 b4e1",
-      "rating": 1431,
-      "ratingDeviation": 75,
-      "popularity": 98,
-      "nbPlays": 28867,
-      "themes": "advantage endgame fork master short",
-      "gameUrl": "https://lichess.org/449fQ3UY/black#76",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/449fQ3UY/black#76"
     },
     {
       "puzzleId": "5CCei",
       "fen": "r4r1k/1pp4p/p1pq1p2/4N2b/4Pp2/3P3P/PPPNQPR1/2K3R1 b - - 0 20",
       "moves": "h5e2 g2g8 f8g8 e5f7",
-      "rating": 1465,
-      "ratingDeviation": 77,
-      "popularity": 98,
-      "nbPlays": 15226,
-      "themes": "cornerMate kingsideAttack mate mateIn2 middlegame sacrifice short",
-      "gameUrl": "https://lichess.org/lmpdQBuy/black#40",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/lmpdQBuy/black#40"
     },
     {
       "puzzleId": "5vjTF",
       "fen": "8/1p2p1k1/p2bP1p1/8/3Q4/2rB2P1/P5K1/2r5 b - - 2 31",
       "moves": "g7h6 d4h8 h6g5 h8h4",
-      "rating": 1542,
-      "ratingDeviation": 75,
-      "popularity": 98,
-      "nbPlays": 22724,
-      "themes": "endgame mate mateIn2 short",
-      "gameUrl": "https://lichess.org/2NAl1kEf/black#62",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/2NAl1kEf/black#62"
     },
     {
       "puzzleId": "6j6a6",
       "fen": "r3br1k/pp6/1qn1p1Q1/3pB1Pn/3P4/2P5/PP1N1PP1/R3K2R b KQ - 2 17",
       "moves": "c6e5 h1h5",
-      "rating": 1499,
-      "ratingDeviation": 75,
-      "popularity": 98,
-      "nbPlays": 12980,
-      "themes": "kingsideAttack mate mateIn1 middlegame oneMove",
-      "gameUrl": "https://lichess.org/AKqEya1Q/black#34",
-      "openingTags": "Horwitz_Defense Horwitz_Defense_Other_variations"
+      "gameUrl": "https://lichess.org/AKqEya1Q/black#34"
     },
     {
       "puzzleId": "7git1",
       "fen": "8/pp1b4/2p1p3/5pr1/3P1kr1/2P5/PP3K1Q/8 b - - 21 49",
       "moves": "f4e4 h2e5 e4d3 e5e2",
-      "rating": 1521,
-      "ratingDeviation": 74,
-      "popularity": 98,
-      "nbPlays": 14654,
-      "themes": "endgame mate mateIn2 short",
-      "gameUrl": "https://lichess.org/a5A05fVY/black#98",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/a5A05fVY/black#98"
     },
     {
       "puzzleId": "8Dy3R",
       "fen": "8/3rk3/7p/1R2K1p1/5nPP/8/P7/8 b - - 0 56",
       "moves": "d7d5 b5d5 f4d5 e5d5 g5h4 d5e4 h4h3 e4f3 h3h2 f3g2 h2h1r g2h1",
-      "rating": 1411,
-      "ratingDeviation": 76,
-      "popularity": 98,
-      "nbPlays": 18730,
-      "themes": "crushing endgame veryLong",
-      "gameUrl": "https://lichess.org/eAUnR9RE/black#112",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/eAUnR9RE/black#112"
     },
     {
       "puzzleId": "8Y4Wz",
       "fen": "8/8/5pp1/3p2k1/2q5/4QP1P/6P1/7K b - - 2 37",
       "moves": "c4f4 h3h4 g5f5 g2g4",
-      "rating": 1467,
-      "ratingDeviation": 76,
-      "popularity": 98,
-      "nbPlays": 12908,
-      "themes": "crushing endgame pin queenEndgame short",
-      "gameUrl": "https://lichess.org/yspmmZGk/black#74",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/yspmmZGk/black#74"
     },
     {
       "puzzleId": "8h7Fa",
       "fen": "3r1rk1/pp5p/6p1/1qp2p2/5P2/2P2B1R/bPQ2P1P/6RK b - - 1 24",
       "moves": "a2d5 f3d5 d8d5 c3c4 b5c6 c4d5",
-      "rating": 1457,
-      "ratingDeviation": 76,
-      "popularity": 98,
-      "nbPlays": 12543,
-      "themes": "advantage attraction fork long middlegame",
-      "gameUrl": "https://lichess.org/7yaecWJQ/black#48",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/7yaecWJQ/black#48"
     },
     {
       "puzzleId": "9KEqt",
       "fen": "rn1q2k1/1p3pb1/p2p3n/2pP2NQ/2P1N3/8/PP3PPP/4R1K1 b - - 2 18",
       "moves": "d8e7 e4f6 e7f6 e1e8 g7f8 e8f8 g8f8 g5h7 f8e7 h7f6",
-      "rating": 1440,
-      "ratingDeviation": 75,
-      "popularity": 98,
-      "nbPlays": 17846,
-      "themes": "attraction clearance crushing fork middlegame sacrifice veryLong",
-      "gameUrl": "https://lichess.org/MR41RheU/black#36",
-      "openingTags": "Benoni_Defense Benoni_Defense_French_Benoni"
+      "gameUrl": "https://lichess.org/MR41RheU/black#36"
     },
     {
       "puzzleId": "AsG9b",
       "fen": "2k1q3/3q4/8/5N2/2Q5/5PPK/7P/8 b - - 18 58",
       "moves": "d7c7 f5d6 c8d8 c4c7 d8c7 d6e8",
-      "rating": 1566,
-      "ratingDeviation": 74,
-      "popularity": 98,
-      "nbPlays": 12774,
-      "themes": "attraction crushing endgame exposedKing long pin",
-      "gameUrl": "https://lichess.org/x3wFfHs2/black#116",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/x3wFfHs2/black#116"
     },
     {
       "puzzleId": "BwQGS",
       "fen": "r4r1k/5pp1/3Q3p/1q1P4/p2B4/7P/1pR2PP1/5RK1 b - - 0 31",
       "moves": "b2b1q d6h6 h8g8 h6g7",
-      "rating": 1468,
-      "ratingDeviation": 75,
-      "popularity": 98,
-      "nbPlays": 14487,
-      "themes": "mate mateIn2 middlegame pin short",
-      "gameUrl": "https://lichess.org/3lzEjmlY/black#62",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/3lzEjmlY/black#62"
     },
     {
       "puzzleId": "CV8NS",
       "fen": "1r3rk1/p2nqppp/1p6/3Rp3/4P3/2Q2N2/PP3PPP/3R2K1 b - - 0 17",
       "moves": "b8c8 d5d7 e7d7 d1d7 c8c3 b2c3",
-      "rating": 1512,
-      "ratingDeviation": 75,
-      "popularity": 98,
-      "nbPlays": 33587,
-      "themes": "crushing long middlegame",
-      "gameUrl": "https://lichess.org/J00Gd9BA/black#34",
-      "openingTags": "Queens_Gambit_Accepted Queens_Gambit_Accepted_Other_variations"
+      "gameUrl": "https://lichess.org/J00Gd9BA/black#34"
     },
     {
       "puzzleId": "Ct1iX",
       "fen": "2r3k1/p5pp/8/1p2pq2/2P5/P2n2R1/2Q2P1P/5RK1 b - - 0 34",
       "moves": "c8c4 c2d3 f5d3 g3d3",
-      "rating": 1432,
-      "ratingDeviation": 76,
-      "popularity": 98,
-      "nbPlays": 13677,
-      "themes": "advantage endgame short",
-      "gameUrl": "https://lichess.org/m3AHY7v8/black#68",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/m3AHY7v8/black#68"
     },
     {
       "puzzleId": "DTr1n",
       "fen": "r2qk2r/ppp2pp1/4p2p/3pP3/6n1/1Q2P3/PPP2PP1/RN2K2R b KQkq - 1 12",
       "moves": "b7b6 b3a4 d8d7 a4g4",
-      "rating": 1515,
-      "ratingDeviation": 75,
-      "popularity": 98,
-      "nbPlays": 15170,
-      "themes": "crushing fork middlegame short",
-      "gameUrl": "https://lichess.org/ykcLVK4t/black#24",
-      "openingTags": "Queens_Pawn_Game Queens_Pawn_Game_Accelerated_London_System"
+      "gameUrl": "https://lichess.org/ykcLVK4t/black#24"
     },
     {
       "puzzleId": "E8864",
       "fen": "6Q1/1pp1k3/5p2/p7/2Pp3p/PP1Pr2B/2K3Rq/8 b - - 6 40",
       "moves": "h2h3 g2g7 e7d6 g8d5",
-      "rating": 1560,
-      "ratingDeviation": 75,
-      "popularity": 98,
-      "nbPlays": 13878,
-      "themes": "endgame mate mateIn2 short",
-      "gameUrl": "https://lichess.org/jP9IGVmI/black#80",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/jP9IGVmI/black#80"
     },
     {
       "puzzleId": "ErFMW",
       "fen": "r2k1b1r/ppqnpB1b/2p2npp/2N1p3/3P3P/1Q6/PPP2PP1/R1B1K2R b KQ - 2 15",
       "moves": "e5d4 c5e6 d8c8 e6c7",
-      "rating": 1540,
-      "ratingDeviation": 76,
-      "popularity": 98,
-      "nbPlays": 13435,
-      "themes": "advantage fork opening short",
-      "gameUrl": "https://lichess.org/PKKkPOVG/black#30",
-      "openingTags": "Caro-Kann_Defense Caro-Kann_Defense_Two_Knights_Attack"
+      "gameUrl": "https://lichess.org/PKKkPOVG/black#30"
     },
     {
       "puzzleId": "FVgtv",
       "fen": "r1b2rk1/pp2qpbp/2p2np1/2n1p3/2P1P3/P1N1BN1P/1PB2PP1/R2Q1RK1 b - - 4 12",
       "moves": "f8d8 e3c5 d8d1 c5e7 d1a1 f1a1",
-      "rating": 1413,
-      "ratingDeviation": 75,
-      "popularity": 98,
-      "nbPlays": 15615,
-      "themes": "crushing long opening",
-      "gameUrl": "https://lichess.org/5i27oOQI/black#24",
-      "openingTags": "Kings_Indian_Defense Kings_Indian_Defense_Makogonov_Variation"
+      "gameUrl": "https://lichess.org/5i27oOQI/black#24"
     },
     {
       "puzzleId": "GVA70",
       "fen": "8/4r2p/3RP1p1/1p3k2/P3b2P/1P1p1pP1/1B3K2/8 b - - 0 41",
       "moves": "e7e6 g3g4 f5g4 d6e6",
-      "rating": 1421,
-      "ratingDeviation": 75,
-      "popularity": 98,
-      "nbPlays": 13178,
-      "themes": "crushing deflection endgame short",
-      "gameUrl": "https://lichess.org/CHuA6UcX/black#82",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/CHuA6UcX/black#82"
     },
     {
       "puzzleId": "H9JUl",
       "fen": "3r4/1rp1R2p/2p1p1pk/4N3/8/6P1/6KP/8 b - - 1 38",
       "moves": "c6c5 e5f7 h6h5 f7d8",
-      "rating": 1418,
-      "ratingDeviation": 76,
-      "popularity": 98,
-      "nbPlays": 14644,
-      "themes": "advantage endgame fork short",
-      "gameUrl": "https://lichess.org/P7TBKK6A/black#76",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/P7TBKK6A/black#76"
     },
     {
       "puzzleId": "HtHB9",
       "fen": "2rq1r2/5pk1/3p2p1/p3pP1Q/Pp2P3/1B1P2R1/2n3PP/1R5K b - - 0 23",
       "moves": "f8h8 g3g6 f7g6 h5g6 g7f8 g6f7",
-      "rating": 1517,
-      "ratingDeviation": 77,
-      "popularity": 98,
-      "nbPlays": 30357,
-      "themes": "long mate mateIn3 middlegame sacrifice",
-      "gameUrl": "https://lichess.org/goZtOIyB/black#46",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/goZtOIyB/black#46"
     },
     {
       "puzzleId": "IIZbL",
       "fen": "r3k2r/ppqn1ppp/2pbp3/6N1/3PN3/3Q2Pb/PPP2P1P/R1B1R1K1 b kq - 0 12",
       "moves": "h3f5 e4d6 c7d6 d3f5",
-      "rating": 1416,
-      "ratingDeviation": 76,
-      "popularity": 98,
-      "nbPlays": 11861,
-      "themes": "crushing discoveredAttack middlegame pin short",
-      "gameUrl": "https://lichess.org/SwKiwYER/black#24",
-      "openingTags": "Caro-Kann_Defense Caro-Kann_Defense_Other_variations"
+      "gameUrl": "https://lichess.org/SwKiwYER/black#24"
     },
     {
       "puzzleId": "Ikeos",
       "fen": "5R1k/4r2p/p7/1p1Q2p1/2pP2Pq/2P1r2P/PPB4K/8 b - - 0 36",
       "moves": "h8g7 d5g8 g7h6 f8f6",
-      "rating": 1526,
-      "ratingDeviation": 78,
-      "popularity": 98,
-      "nbPlays": 19557,
-      "themes": "endgame mate mateIn2 short",
-      "gameUrl": "https://lichess.org/lCg5hpml/black#72",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/lCg5hpml/black#72"
     },
     {
       "puzzleId": "J1UFp",
       "fen": "2r1r3/3kpp1p/3p2p1/1p6/4qPP1/1P5P/P2R4/K1R3Q1 b - - 4 32",
       "moves": "e4f4 g1a7 d7e6 c1e1 e6f6 d2f2",
-      "rating": 1432,
-      "ratingDeviation": 74,
-      "popularity": 98,
-      "nbPlays": 15450,
-      "themes": "crushing endgame long pin",
-      "gameUrl": "https://lichess.org/wV7df08r/black#64",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/wV7df08r/black#64"
     },
     {
       "puzzleId": "JNCXE",
       "fen": "4r3/2p1P2k/p5Rb/1pp1q2r/5p2/3P1P2/PPP3Q1/1K4R1 b - - 2 32",
       "moves": "e8e7 g6h6 h5h6 g2g8",
-      "rating": 1435,
-      "ratingDeviation": 75,
-      "popularity": 98,
-      "nbPlays": 15926,
-      "themes": "clearance master mate mateIn2 middlegame sacrifice short",
-      "gameUrl": "https://lichess.org/VMltThXr/black#64",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/VMltThXr/black#64"
     },
     {
       "puzzleId": "K31xJ",
       "fen": "r2q4/pp3k1p/3p1PpB/2p1n3/2P5/1P6/P6P/3Q1RK1 b - - 2 27",
       "moves": "d8d7 d1d5 d7e6 d5b7 e5d7 b7a8",
-      "rating": 1432,
-      "ratingDeviation": 75,
-      "popularity": 98,
-      "nbPlays": 20991,
-      "themes": "crushing deflection endgame fork long",
-      "gameUrl": "https://lichess.org/2vQT2KgG/black#54",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/2vQT2KgG/black#54"
     },
     {
       "puzzleId": "Khhax",
       "fen": "5rb1/4Q1k1/2p3q1/p1P2p2/P2np1p1/6P1/5PK1/5B1R b - - 3 39",
       "moves": "g8f7 e7e5 g6f6 h1h7 g7h7 e5f6",
-      "rating": 1439,
-      "ratingDeviation": 76,
-      "popularity": 98,
-      "nbPlays": 10002,
-      "themes": "advantage deflection exposedKing fork long middlegame",
-      "gameUrl": "https://lichess.org/zvKuNnRx/black#78",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/zvKuNnRx/black#78"
     },
     {
       "puzzleId": "LNtyO",
       "fen": "r2r2k1/3P1p1p/3K1B2/3R4/1p6/1n4P1/p6P/8 b - - 1 40",
       "moves": "a2a1q d5g5 g8f8 f6e7",
-      "rating": 1467,
-      "ratingDeviation": 77,
-      "popularity": 98,
-      "nbPlays": 10633,
-      "themes": "endgame mate mateIn2 short",
-      "gameUrl": "https://lichess.org/M71mk9SJ/black#80",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/M71mk9SJ/black#80"
     },
     {
       "puzzleId": "MD8du",
       "fen": "8/5k2/6RK/7P/8/8/8/6r1 b - - 10 74",
       "moves": "g1g6 h5g6 f7f8 h6h7",
-      "rating": 1505,
-      "ratingDeviation": 75,
-      "popularity": 98,
-      "nbPlays": 12129,
-      "themes": "crushing defensiveMove endgame short",
-      "gameUrl": "https://lichess.org/3DnCiRT3/black#148",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/3DnCiRT3/black#148"
     },
     {
       "puzzleId": "Mf3ba",
       "fen": "8/1pp5/4k3/6RP/p7/6P1/r4PK1/8 b - - 0 35",
       "moves": "a4a3 h5h6 a2d2 h6h7 d2d8 g5g8",
-      "rating": 1447,
-      "ratingDeviation": 75,
-      "popularity": 98,
-      "nbPlays": 21578,
-      "themes": "advancedPawn crushing endgame long rookEndgame",
-      "gameUrl": "https://lichess.org/rHOb3gHu/black#70",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/rHOb3gHu/black#70"
     },
     {
       "puzzleId": "MuXjP",
       "fen": "2r3k1/1p3pp1/4p1P1/pB4P1/P2P4/B1n1PK2/2rq1P1R/Q7 b - - 0 26",
       "moves": "c3b5 h2h8 g8h8 a1h1 h8g8 h1h7",
-      "rating": 1569,
-      "ratingDeviation": 76,
-      "popularity": 98,
-      "nbPlays": 22541,
-      "themes": "attraction kingsideAttack long mate mateIn3 middlegame sacrifice",
-      "gameUrl": "https://lichess.org/CJVlCHLm/black#52",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/CJVlCHLm/black#52"
     },
     {
       "puzzleId": "O42JC",
       "fen": "r1b3k1/ppp2pp1/3n3p/3p2q1/5Q2/3BP2P/PPP3P1/R4RK1 b - - 1 22",
       "moves": "c8h3 f4g5 h6g5 g2h3",
-      "rating": 1446,
-      "ratingDeviation": 74,
-      "popularity": 98,
-      "nbPlays": 10724,
-      "themes": "crushing middlegame short",
-      "gameUrl": "https://lichess.org/yFNLN0uz/black#44",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/yFNLN0uz/black#44"
     },
     {
       "puzzleId": "OhMgt",
       "fen": "r4knr/pQ3ppp/2P1p3/4qb2/8/2P2P2/P1P1N1PP/R3K2R b KQ - 2 15",
       "moves": "a8b8 c6c7 b8b7 c7c8q f8e7 c8b7",
-      "rating": 1406,
-      "ratingDeviation": 76,
-      "popularity": 98,
-      "nbPlays": 17893,
-      "themes": "advancedPawn advantage fork long middlegame promotion",
-      "gameUrl": "https://lichess.org/Tf4bVXaO/black#30",
-      "openingTags": "Nimzowitsch_Defense Nimzowitsch_Defense_Scandinavian_Variation"
+      "gameUrl": "https://lichess.org/Tf4bVXaO/black#30"
     },
     {
       "puzzleId": "PUoAp",
       "fen": "4R3/7k/6pp/1p1P4/2p5/2P3P1/1Pr3PK/8 b - - 0 40",
       "moves": "c2b2 d5d6 b2d2 e8e7 h7g8 d6d7",
-      "rating": 1509,
-      "ratingDeviation": 79,
-      "popularity": 98,
-      "nbPlays": 28654,
-      "themes": "advancedPawn crushing endgame long rookEndgame",
-      "gameUrl": "https://lichess.org/WuoOtZ9F/black#80",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/WuoOtZ9F/black#80"
     },
     {
       "puzzleId": "Q5aDE",
       "fen": "2rk1b1r/1Q2pppp/4q3/1B1Nnb2/3Pn3/8/PP3PPP/R1B1K2R b KQ - 0 13",
       "moves": "e4d6 b7b6 c8c7 b6c7",
-      "rating": 1483,
-      "ratingDeviation": 75,
-      "popularity": 98,
-      "nbPlays": 11206,
-      "themes": "mate mateIn2 opening short",
-      "gameUrl": "https://lichess.org/fqmIINj8/black#26",
-      "openingTags": "Slav_Defense Slav_Defense_Three_Knights_Variation"
+      "gameUrl": "https://lichess.org/fqmIINj8/black#26"
     },
     {
       "puzzleId": "QKUFh",
       "fen": "7k/1p3rpp/3p1q2/2p1P3/3p1PQ1/3r3P/6P1/2R2RK1 b - - 0 26",
       "moves": "d6e5 f4e5 f6f1 c1f1 f7f1 g1f1",
-      "rating": 1402,
-      "ratingDeviation": 77,
-      "popularity": 98,
-      "nbPlays": 14031,
-      "themes": "crushing endgame long",
-      "gameUrl": "https://lichess.org/CHTv51fJ/black#52",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/CHTv51fJ/black#52"
     },
     {
       "puzzleId": "QgDLH",
       "fen": "8/6R1/8/6k1/5n2/5Pbp/8/7K b - - 1 55",
       "moves": "g5h4 g7g4 h4h5 g4g3",
-      "rating": 1448,
-      "ratingDeviation": 79,
-      "popularity": 98,
-      "nbPlays": 32094,
-      "themes": "crushing deflection endgame short",
-      "gameUrl": "https://lichess.org/AKL9fd5X/black#110",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/AKL9fd5X/black#110"
     },
     {
       "puzzleId": "R6M2I",
       "fen": "6k1/1pR4p/b5P1/6R1/8/4P3/2p3PK/5r2 b - - 2 45",
       "moves": "c2c1q g6h7 g8h8 g5g8",
-      "rating": 1403,
-      "ratingDeviation": 77,
-      "popularity": 98,
-      "nbPlays": 13189,
-      "themes": "advancedPawn discoveredCheck doubleCheck endgame mate mateIn2 short",
-      "gameUrl": "https://lichess.org/juBFKABP/black#90",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/juBFKABP/black#90"
     },
     {
       "puzzleId": "RzDRm",
       "fen": "3r2k1/p4ppp/1p3n2/2p4q/8/1P3N2/P3QPPP/4R1K1 b - - 1 22",
       "moves": "g7g6 e2e7 d8e8 e7f6",
-      "rating": 1426,
-      "ratingDeviation": 75,
-      "popularity": 98,
-      "nbPlays": 10571,
-      "themes": "advantage endgame fork short",
-      "gameUrl": "https://lichess.org/2bOTxCfg/black#44",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/2bOTxCfg/black#44"
     },
     {
       "puzzleId": "SUOR0",
       "fen": "4r1k1/pp1Rrpp1/1pn4p/8/8/2P2N1P/PP3PP1/3R1K2 b - - 5 21",
       "moves": "c6b8 d7e7 e8e7 d1d8 g8h7 d8b8",
-      "rating": 1538,
-      "ratingDeviation": 78,
-      "popularity": 98,
-      "nbPlays": 17288,
-      "themes": "clearance crushing endgame fork long",
-      "gameUrl": "https://lichess.org/orFYRBHr/black#42",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/orFYRBHr/black#42"
     },
     {
       "puzzleId": "THNDY",
       "fen": "1R6/8/6p1/6k1/5pr1/5K2/8/8 b - - 1 65",
       "moves": "g5f5 b8b5 f5f6 f3g4",
-      "rating": 1458,
-      "ratingDeviation": 75,
-      "popularity": 98,
-      "nbPlays": 17406,
-      "themes": "crushing deflection endgame rookEndgame short",
-      "gameUrl": "https://lichess.org/U643v3w7/black#130",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/U643v3w7/black#130"
     },
     {
       "puzzleId": "TxXgg",
       "fen": "1k4r1/pp3Q2/7p/4q3/4P3/3r3P/PP4B1/2R4K b - - 0 25",
       "moves": "g8c8 c1c8 b8c8 f7c4 e5c7 c4d3",
-      "rating": 1445,
-      "ratingDeviation": 75,
-      "popularity": 98,
-      "nbPlays": 12477,
-      "themes": "advantage attraction endgame fork long",
-      "gameUrl": "https://lichess.org/3WyUtKOS/black#50",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/3WyUtKOS/black#50"
     },
     {
       "puzzleId": "UVrnD",
       "fen": "2r2k2/pp3p2/4pP2/1P1p2R1/P2P3q/2r5/3QKP2/1B6 b - - 2 34",
       "moves": "h4h3 g5g8 f8g8 d2g5 g8f8 g5g7 f8e8 g7g8 e8d7 g8f7 d7d8 f7e7",
-      "rating": 1470,
-      "ratingDeviation": 81,
-      "popularity": 98,
-      "nbPlays": 10971,
-      "themes": "attraction deflection endgame mate mateIn5 sacrifice veryLong",
-      "gameUrl": "https://lichess.org/Em3CDTCu/black#68",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/Em3CDTCu/black#68"
     },
     {
       "puzzleId": "VR5EN",
       "fen": "r1b2rk1/1pp1q1p1/3b2B1/3pP2p/8/2P1P2P/Pp1NQ3/1K2R2R b - - 0 21",
       "moves": "d6e5 e2h5 c8f5 g6f5 f8f5 h5f5",
-      "rating": 1551,
-      "ratingDeviation": 76,
-      "popularity": 98,
-      "nbPlays": 11416,
-      "themes": "advantage long middlegame",
-      "gameUrl": "https://lichess.org/Svo7um9X/black#42",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/Svo7um9X/black#42"
     },
     {
       "puzzleId": "WAHe2",
       "fen": "r6r/pb3R2/1p1pk3/4p3/6P1/3Bb3/PPP3P1/1K3R2 b - - 0 28",
       "moves": "b7g2 d3c4 g2d5 f1f6",
-      "rating": 1517,
-      "ratingDeviation": 75,
-      "popularity": 98,
-      "nbPlays": 19000,
-      "themes": "blindSwineMate mate mateIn2 middlegame short",
-      "gameUrl": "https://lichess.org/xUuV6eSw/black#56",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/xUuV6eSw/black#56"
     },
     {
       "puzzleId": "X0nui",
       "fen": "r1r5/kp1R1p2/p6Q/1Bq5/3B4/8/PPp2PPP/6K1 b - - 0 27",
       "moves": "c5d4 h6a6 a7b8 a6b7",
-      "rating": 1442,
-      "ratingDeviation": 75,
-      "popularity": 98,
-      "nbPlays": 16680,
-      "themes": "endgame epauletteMate mate mateIn2 pin short",
-      "gameUrl": "https://lichess.org/uYCwFeVl/black#54",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/uYCwFeVl/black#54"
     },
     {
       "puzzleId": "XTvyB",
       "fen": "r1b1r1k1/6p1/p5pp/1p1p4/3P1Q2/1qP2N2/6PP/2R2RK1 b - - 0 27",
       "moves": "e8f8 f4f8 g8f8 f3d2 f8g8 d2b3",
-      "rating": 1400,
-      "ratingDeviation": 75,
-      "popularity": 98,
-      "nbPlays": 10163,
-      "themes": "advantage discoveredAttack discoveredCheck long middlegame sacrifice",
-      "gameUrl": "https://lichess.org/MbAeu1Hg/black#54",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/MbAeu1Hg/black#54"
     },
     {
       "puzzleId": "XuPGr",
       "fen": "1r4k1/4qppp/p7/Q1p5/8/P6P/1r3P2/3RR1K1 b - - 4 27",
       "moves": "b2e2 e1e2 e7e2 d1d8 e2e8 d8e8",
-      "rating": 1538,
-      "ratingDeviation": 75,
-      "popularity": 98,
-      "nbPlays": 18831,
-      "themes": "crushing endgame long",
-      "gameUrl": "https://lichess.org/gQbxq1LB/black#54",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/gQbxq1LB/black#54"
     },
     {
       "puzzleId": "YIfHD",
       "fen": "2Q5/8/4Q3/p5pk/8/5P1P/2r3PK/2q5 b - - 4 63",
       "moves": "c2c8 g2g4 h5h4 e6h6",
-      "rating": 1552,
-      "ratingDeviation": 74,
-      "popularity": 98,
-      "nbPlays": 21233,
-      "themes": "endgame mate mateIn2 short",
-      "gameUrl": "https://lichess.org/XemqDfio/black#126",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/XemqDfio/black#126"
     },
     {
       "puzzleId": "YsYwN",
       "fen": "r6r/pp2n1pp/3b4/2p3P1/3p2kN/1P4P1/P1n2PK1/2BR4 b - - 2 20",
       "moves": "e7g6 f2f3 g4h5 g3g4 h5h4 d1h1 d6h2 h1h2",
-      "rating": 1474,
-      "ratingDeviation": 75,
-      "popularity": 98,
-      "nbPlays": 11967,
-      "themes": "mate mateIn4 middlegame sacrifice veryLong",
-      "gameUrl": "https://lichess.org/otQRUl2o/black#40",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/otQRUl2o/black#40"
     },
     {
       "puzzleId": "ZsFVC",
       "fen": "2kr3r/ppp2Rpp/2n5/2b1B3/8/7q/P1PPQ2P/RN1K4 b - - 0 15",
       "moves": "h8e8 f7c7 c8b8 c7c6 e8e5 e2e5",
-      "rating": 1561,
-      "ratingDeviation": 75,
-      "popularity": 98,
-      "nbPlays": 21742,
-      "themes": "crushing discoveredAttack discoveredCheck long middlegame queensideAttack",
-      "gameUrl": "https://lichess.org/hlu3yD4J/black#30",
-      "openingTags": "Scandinavian_Defense Scandinavian_Defense_Other_variations"
+      "gameUrl": "https://lichess.org/hlu3yD4J/black#30"
     },
     {
       "puzzleId": "aerCO",
       "fen": "3rr1k1/1p3p2/p2p2pp/2pPq3/2PNN3/3Q1PP1/PP4KP/4R3 b - - 0 24",
       "moves": "e5d4 d3d4 c5d4 e4f6",
-      "rating": 1420,
-      "ratingDeviation": 75,
-      "popularity": 98,
-      "nbPlays": 13384,
-      "themes": "advantage endgame short",
-      "gameUrl": "https://lichess.org/OFxGr1Tv/black#48",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/OFxGr1Tv/black#48"
     },
     {
       "puzzleId": "bWYok",
       "fen": "r1bq1rk1/pp1nb3/2pppN1Q/8/3P1n1P/3B1N2/PPP2PP1/2KR3R b - - 2 14",
       "moves": "f8f6 h6h7 g8f8 h7h8 f8f7 f3g5",
-      "rating": 1403,
-      "ratingDeviation": 76,
-      "popularity": 98,
-      "nbPlays": 16405,
-      "themes": "exposedKing kingsideAttack long mate mateIn3 middlegame",
-      "gameUrl": "https://lichess.org/RWogs6MW/black#28",
-      "openingTags": "Dutch_Defense Dutch_Defense_Raphael_Variation"
+      "gameUrl": "https://lichess.org/RWogs6MW/black#28"
     },
     {
       "puzzleId": "cD9BW",
       "fen": "2brr3/1p3p1k/p1p2Pp1/2Ppq3/5QP1/3B3R/P1P4P/7K b - - 1 32",
       "moves": "h7g8 h3h8 g8h8 f4h6 h8g8 h6g7",
-      "rating": 1479,
-      "ratingDeviation": 76,
-      "popularity": 98,
-      "nbPlays": 10004,
-      "themes": "attraction kingsideAttack long mate mateIn3 middlegame sacrifice",
-      "gameUrl": "https://lichess.org/OxqWS9Bq/black#64",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/OxqWS9Bq/black#64"
     },
     {
       "puzzleId": "coz8t",
       "fen": "r4rk1/pp3pbR/3pn1p1/8/1PB4Q/4q1P1/P5P1/1K5R b - - 5 25",
       "moves": "e3e5 h7h8 g7h8 h4h7",
-      "rating": 1525,
-      "ratingDeviation": 75,
-      "popularity": 98,
-      "nbPlays": 14782,
-      "themes": "clearance kingsideAttack mate mateIn2 middlegame sacrifice short",
-      "gameUrl": "https://lichess.org/bnEqYNqq/black#50",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/bnEqYNqq/black#50"
     },
     {
       "puzzleId": "eVbHu",
       "fen": "4r1rk/1p1b1Qp1/p1pp2Pp/6q1/2P1P3/1P5P/P4RB1/5R1K b - - 6 34",
       "moves": "e8e7 f7g8 h8g8 f2f8",
-      "rating": 1420,
-      "ratingDeviation": 75,
-      "popularity": 98,
-      "nbPlays": 10579,
-      "themes": "attraction kingsideAttack mate mateIn2 middlegame sacrifice short",
-      "gameUrl": "https://lichess.org/YWWr0lbx/black#68",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/YWWr0lbx/black#68"
     },
     {
       "puzzleId": "f4aNr",
       "fen": "r1bqk2r/ppppn2p/2n2Pp1/2P4Q/2B5/8/PPP2PpP/RNB1R1K1 b kq - 0 10",
       "moves": "g6h5 f6f7 e8f8 c1h6",
-      "rating": 1449,
-      "ratingDeviation": 76,
-      "popularity": 98,
-      "nbPlays": 11737,
-      "themes": "advancedPawn mate mateIn2 opening short",
-      "gameUrl": "https://lichess.org/aAFbBFPI/black#20",
-      "openingTags": "Italian_Game Italian_Game_Giuoco_Piano"
+      "gameUrl": "https://lichess.org/aAFbBFPI/black#20"
     },
     {
       "puzzleId": "g24Id",
       "fen": "2r1r3/pp2ppkp/3p2P1/3Q4/4P3/4q2P/PnP3P1/5R1K b - - 0 23",
       "moves": "f7f6 d5f7 g7h6 f7h7 h6g5 f1f5",
-      "rating": 1489,
-      "ratingDeviation": 77,
-      "popularity": 98,
-      "nbPlays": 11652,
-      "themes": "endgame long mate mateIn3",
-      "gameUrl": "https://lichess.org/nAH4zFQC/black#46",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/nAH4zFQC/black#46"
     },
     {
       "puzzleId": "gKvac",
       "fen": "3rr2k/p5p1/7p/7Q/3B4/2P2NK1/PP2q3/3R4 b - - 0 30",
       "moves": "e2d1 h5h6 h8g8 h6g7",
-      "rating": 1406,
-      "ratingDeviation": 75,
-      "popularity": 98,
-      "nbPlays": 12292,
-      "themes": "endgame mate mateIn2 pin short",
-      "gameUrl": "https://lichess.org/WGYRn00g/black#60",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/WGYRn00g/black#60"
     },
     {
       "puzzleId": "hHQMa",
       "fen": "2rqr1k1/1p2bpp1/p4n1p/3p4/3Q3B/2N4P/PPP2PP1/3RR1K1 b - - 0 17",
       "moves": "c8c4 d4c4 d5c4 d1d8 e8d8 e1e7",
-      "rating": 1515,
-      "ratingDeviation": 77,
-      "popularity": 98,
-      "nbPlays": 11945,
-      "themes": "advantage capturingDefender discoveredAttack long middlegame",
-      "gameUrl": "https://lichess.org/JFxs8yZ7/black#34",
-      "openingTags": "Sicilian_Defense Sicilian_Defense_Old_Sicilian"
+      "gameUrl": "https://lichess.org/JFxs8yZ7/black#34"
     },
     {
       "puzzleId": "hjmb4",
       "fen": "2r5/2P5/pP3b1K/8/P7/8/4pk2/2R5 b - - 0 71",
       "moves": "e2e1q c1e1 f2e1 b6b7 c8c7 b7b8q",
-      "rating": 1435,
-      "ratingDeviation": 75,
-      "popularity": 98,
-      "nbPlays": 11785,
-      "themes": "advancedPawn advantage endgame long promotion",
-      "gameUrl": "https://lichess.org/IGkajQlj/black#142",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/IGkajQlj/black#142"
     },
     {
       "puzzleId": "ipIRE",
       "fen": "4Q3/8/1p6/1kb2Kp1/8/6rp/8/8 b - - 1 58",
       "moves": "b5a5 e8e1 a5a4 e1g3",
-      "rating": 1433,
-      "ratingDeviation": 75,
-      "popularity": 98,
-      "nbPlays": 15021,
-      "themes": "crushing endgame fork master short",
-      "gameUrl": "https://lichess.org/Y8rO0ifc/black#116",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/Y8rO0ifc/black#116"
     },
     {
       "puzzleId": "jCoZv",
       "fen": "8/4Kp2/1k3Ppp/4P1n1/8/8/6PP/8 b - - 0 62",
       "moves": "b6c7 h2h4 g5e6 e7f7 c7d7 f7g6",
-      "rating": 1416,
-      "ratingDeviation": 77,
-      "popularity": 98,
-      "nbPlays": 13872,
-      "themes": "crushing endgame knightEndgame long",
-      "gameUrl": "https://lichess.org/HOEZXr54/black#124",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/HOEZXr54/black#124"
     },
     {
       "puzzleId": "jouSA",
       "fen": "1r4rk/p4p1p/2p2PpQ/4p1P1/4q3/5R2/2p4P/5RK1 b - - 1 30",
       "moves": "b8b1 h6h7 h8h7 f3h3 e4h4 h3h4",
-      "rating": 1498,
-      "ratingDeviation": 75,
-      "popularity": 98,
-      "nbPlays": 11743,
-      "themes": "attraction endgame long mate mateIn3 sacrifice",
-      "gameUrl": "https://lichess.org/yPcUhNqR/black#60",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/yPcUhNqR/black#60"
     },
     {
       "puzzleId": "k9HVK",
       "fen": "2r4r/pp1k3p/4p1p1/2nNP3/6q1/8/PPPQ3P/2KR1R2 b - - 0 19",
       "moves": "e6d5 d2d5 d7e8 d5f7",
-      "rating": 1454,
-      "ratingDeviation": 76,
-      "popularity": 98,
-      "nbPlays": 10583,
-      "themes": "mate mateIn2 middlegame short",
-      "gameUrl": "https://lichess.org/zku7POqM/black#38",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/zku7POqM/black#38"
     },
     {
       "puzzleId": "kWJwB",
       "fen": "r2q3r/ppp1bkp1/2np4/6p1/4PPQ1/8/PPP5/RNB2RK1 b - - 0 14",
       "moves": "h8h4 f4g5 f7g8 g4h4",
-      "rating": 1518,
-      "ratingDeviation": 75,
-      "popularity": 98,
-      "nbPlays": 19329,
-      "themes": "crushing discoveredAttack discoveredCheck middlegame short",
-      "gameUrl": "https://lichess.org/WT9IXm9w/black#28",
-      "openingTags": "Philidor_Defense Philidor_Defense_Other_variations"
+      "gameUrl": "https://lichess.org/WT9IXm9w/black#28"
     },
     {
       "puzzleId": "lEGRf",
       "fen": "3b1r2/2p5/8/BP1kp1p1/6Pp/2K2P1P/8/5R2 b - - 1 34",
       "moves": "e5e4 f3e4 d5e4 f1f8",
-      "rating": 1456,
-      "ratingDeviation": 77,
-      "popularity": 98,
-      "nbPlays": 11996,
-      "themes": "crushing discoveredAttack endgame short",
-      "gameUrl": "https://lichess.org/6HTfpOC9/black#68",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/6HTfpOC9/black#68"
     },
     {
       "puzzleId": "lNsbj",
       "fen": "2r1r3/5k2/p1p1b1np/1pP3p1/3BBp2/5P2/PP2R1PP/1K2R3 b - - 5 29",
       "moves": "e6d5 e4g6 f7g6 e2e8 c8e8 e1e8",
-      "rating": 1455,
-      "ratingDeviation": 76,
-      "popularity": 98,
-      "nbPlays": 12775,
-      "themes": "crushing discoveredAttack long master middlegame",
-      "gameUrl": "https://lichess.org/imMaubut/black#58",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/imMaubut/black#58"
     },
     {
       "puzzleId": "lbrNX",
       "fen": "r6k/ppp3pp/4Q3/1b6/3P4/qPP3P1/P3N2r/1K1R3R b - - 2 23",
       "moves": "h2e2 h1h7 h8h7 d1h1 e2h2 h1h2",
-      "rating": 1542,
-      "ratingDeviation": 74,
-      "popularity": 98,
-      "nbPlays": 15203,
-      "themes": "attraction long mate mateIn3 middlegame sacrifice",
-      "gameUrl": "https://lichess.org/yg43u7eQ/black#46",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/yg43u7eQ/black#46"
     },
     {
       "puzzleId": "lm2Gu",
       "fen": "7k/pp1Q2p1/2p5/6qp/8/6PK/PPB2r1P/4R3 b - - 0 28",
       "moves": "f2c2 e1e8 h8h7 d7d3 g5g6 e8h8 h7h8 d3g6",
-      "rating": 1436,
-      "ratingDeviation": 75,
-      "popularity": 98,
-      "nbPlays": 14960,
-      "themes": "advantage deflection endgame fork veryLong",
-      "gameUrl": "https://lichess.org/zV9gIyGf/black#56",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/zV9gIyGf/black#56"
     },
     {
       "puzzleId": "mqAdA",
       "fen": "6rk/2R1N1pp/b7/8/8/p5QP/1q3PP1/6K1 b - - 7 40",
       "moves": "a3a2 e7g6 h7g6 g3h4",
-      "rating": 1499,
-      "ratingDeviation": 77,
-      "popularity": 98,
-      "nbPlays": 29043,
-      "themes": "endgame mate mateIn2 sacrifice short",
-      "gameUrl": "https://lichess.org/cJhVlSHC/black#80",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/cJhVlSHC/black#80"
     },
     {
       "puzzleId": "n9q1V",
       "fen": "r4r1k/ppp3pp/1b1P1q2/8/1P2B3/4P2b/P1Q2P2/R1BR2K1 b - - 2 22",
       "moves": "f6a1 c1b2 a1b2 c2b2",
-      "rating": 1455,
-      "ratingDeviation": 74,
-      "popularity": 98,
-      "nbPlays": 21466,
-      "themes": "advantage middlegame short",
-      "gameUrl": "https://lichess.org/y5oIY11m/black#44",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/y5oIY11m/black#44"
     },
     {
       "puzzleId": "nXhs3",
       "fen": "rnb1k2r/pppp2pp/8/8/4N3/3PnN2/PPP3PP/RK2R3 b kq - 2 15",
       "moves": "e3g2 e4d6 e8f8 e1e8",
-      "rating": 1556,
-      "ratingDeviation": 75,
-      "popularity": 98,
-      "nbPlays": 10764,
-      "themes": "discoveredCheck doubleCheck mate mateIn2 middlegame short",
-      "gameUrl": "https://lichess.org/wzZ0nf4D/black#30",
-      "openingTags": "Englund_Gambit_Complex Englund_Gambit_Complex_Soller_Gambit"
+      "gameUrl": "https://lichess.org/wzZ0nf4D/black#30"
     },
     {
       "puzzleId": "oMYom",
       "fen": "3r4/8/6Rp/4pBk1/4K3/2p2P2/2Pb4/8 b - - 25 62",
       "moves": "g5h4 g6g4 h4h3 g4g8",
-      "rating": 1500,
-      "ratingDeviation": 76,
-      "popularity": 98,
-      "nbPlays": 15305,
-      "themes": "crushing discoveredAttack discoveredCheck endgame short",
-      "gameUrl": "https://lichess.org/kCbUlHce/black#124",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/kCbUlHce/black#124"
     },
     {
       "puzzleId": "p6uke",
       "fen": "7R/1bpB2p1/3p1pk1/3P4/p1P1P1P1/6K1/5r2/8 b - - 3 36",
       "moves": "f2f1 d7e8 g6g5 h8h5",
-      "rating": 1579,
-      "ratingDeviation": 73,
-      "popularity": 98,
-      "nbPlays": 16666,
-      "themes": "endgame mate mateIn2 operaMate short",
-      "gameUrl": "https://lichess.org/hIhiMLeS/black#72",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/hIhiMLeS/black#72"
     },
     {
       "puzzleId": "pTyYR",
       "fen": "8/7k/4R3/8/5pR1/1P3B2/1q3PPK/q7 b - - 1 40",
       "moves": "b2f2 f3e4 h7h8 e6h6",
-      "rating": 1440,
-      "ratingDeviation": 76,
-      "popularity": 98,
-      "nbPlays": 15956,
-      "themes": "endgame mate mateIn2 short",
-      "gameUrl": "https://lichess.org/aMad6neF/black#80",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/aMad6neF/black#80"
     },
     {
       "puzzleId": "plAX0",
       "fen": "8/k1Rp1p2/3Nb1p1/4p1P1/N7/Kn6/1P5r/8 b - - 5 43",
       "moves": "a7b8 c7b7 b8a8 a4b6",
-      "rating": 1492,
-      "ratingDeviation": 76,
-      "popularity": 98,
-      "nbPlays": 20919,
-      "themes": "endgame mate mateIn2 short",
-      "gameUrl": "https://lichess.org/cCvtd3Eb/black#86",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/cCvtd3Eb/black#86"
     },
     {
       "puzzleId": "quE5f",
       "fen": "r2qr1k1/pp3ppp/2pB1b2/3p1Nn1/6Q1/2P5/PP3PPP/3RR1K1 b - - 2 19",
       "moves": "g5e4 f5h6 g8h8 h6f7",
-      "rating": 1454,
-      "ratingDeviation": 77,
-      "popularity": 98,
-      "nbPlays": 10069,
-      "themes": "advantage deflection kingsideAttack middlegame pin short",
-      "gameUrl": "https://lichess.org/473cLwdk/black#38",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/473cLwdk/black#38"
     },
     {
       "puzzleId": "rIz7G",
       "fen": "3R1r1k/2p3p1/4b2r/2q1p1Q1/2P1BpP1/7P/6PK/8 b - - 3 39",
       "moves": "f8d8 g5d8 e6g8 e4d5 c5d5 c4d5",
-      "rating": 1414,
-      "ratingDeviation": 74,
-      "popularity": 98,
-      "nbPlays": 10288,
-      "themes": "advantage endgame long",
-      "gameUrl": "https://lichess.org/so2TroAg/black#78",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/so2TroAg/black#78"
     },
     {
       "puzzleId": "rfDaz",
       "fen": "5rk1/1p4p1/6Q1/pb1p1N1p/8/2P4P/Pq3PP1/5RK1 b - - 7 32",
       "moves": "b2c3 f5e7 g8h8 g6h5",
-      "rating": 1494,
-      "ratingDeviation": 78,
-      "popularity": 98,
-      "nbPlays": 18206,
-      "themes": "endgame mate mateIn2 short",
-      "gameUrl": "https://lichess.org/eACS6qOo/black#64",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/eACS6qOo/black#64"
     },
     {
       "puzzleId": "rwQaZ",
       "fen": "8/3R1b2/3p1k2/1p1Pr2p/7K/1B3P2/P7/8 b - - 4 40",
       "moves": "f7d5 d7d6 f6e7 d6d5",
-      "rating": 1460,
-      "ratingDeviation": 75,
-      "popularity": 98,
-      "nbPlays": 12608,
-      "themes": "crushing endgame master short",
-      "gameUrl": "https://lichess.org/q8pHI7BR/black#80",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/q8pHI7BR/black#80"
     },
     {
       "puzzleId": "sdst7",
       "fen": "r2qr3/pp3kpB/2pb2Q1/3p4/3P2PP/1P2P3/P2B4/2K4n b - - 1 23",
       "moves": "f7e7 g6g7 e7e6 h7f5",
-      "rating": 1427,
-      "ratingDeviation": 75,
-      "popularity": 98,
-      "nbPlays": 10727,
-      "themes": "mate mateIn2 middlegame short",
-      "gameUrl": "https://lichess.org/uNBBs3F0/black#46",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/uNBBs3F0/black#46"
     },
     {
       "puzzleId": "tNAA5",
       "fen": "8/pR6/7k/2p5/3p4/8/PPP3r1/2K5 b - - 0 43",
       "moves": "g2g7 b7g7 h6g7 c1d2 c5c4 c2c3",
-      "rating": 1448,
-      "ratingDeviation": 77,
-      "popularity": 98,
-      "nbPlays": 11259,
-      "themes": "crushing endgame long rookEndgame",
-      "gameUrl": "https://lichess.org/oIizYfak/black#86",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/oIizYfak/black#86"
     },
     {
       "puzzleId": "uw8hw",
       "fen": "6Q1/4r2p/2q2k2/p3pp2/3p4/7P/P1P2P2/1R4K1 b - - 1 38",
       "moves": "c6e8 b1b6 e7e6 g8e8",
-      "rating": 1402,
-      "ratingDeviation": 74,
-      "popularity": 98,
-      "nbPlays": 30603,
-      "themes": "crushing endgame pin short",
-      "gameUrl": "https://lichess.org/5ebCFfQ9/black#76",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/5ebCFfQ9/black#76"
     },
     {
       "puzzleId": "vTXbj",
       "fen": "8/1b3k2/p6p/1p1p1pp1/4n3/P2NPB1P/1PK2PP1/8 b - - 3 29",
       "moves": "f7e6 f3e4 d5e4 d3c5 e6e5 c5b7",
-      "rating": 1405,
-      "ratingDeviation": 74,
-      "popularity": 98,
-      "nbPlays": 14521,
-      "themes": "crushing endgame fork long",
-      "gameUrl": "https://lichess.org/buqcMHe2/black#58",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/buqcMHe2/black#58"
     },
     {
       "puzzleId": "vxiRa",
       "fen": "2r1r1k1/4npb1/p5p1/1p1qN3/5PP1/8/PPB1R2Q/2K4R b - - 4 26",
       "moves": "d5a2 h2h7 g8f8 e5d7",
-      "rating": 1446,
-      "ratingDeviation": 76,
-      "popularity": 98,
-      "nbPlays": 14453,
-      "themes": "mate mateIn2 middlegame short",
-      "gameUrl": "https://lichess.org/AJscgw0g/black#52",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/AJscgw0g/black#52"
     },
     {
       "puzzleId": "wa6eS",
       "fen": "r2q1r2/ppp4k/1bnpb2p/4p3/4P3/P1NP4/1PPQ1PR1/2KR4 b - - 5 18",
       "moves": "f8g8 d2h6 h7h6 d1h1 e6h3 h1h3 d8h4 h3h4",
-      "rating": 1488,
-      "ratingDeviation": 77,
-      "popularity": 98,
-      "nbPlays": 11240,
-      "themes": "attraction mate mateIn4 middlegame sacrifice veryLong",
-      "gameUrl": "https://lichess.org/GKCjKQCJ/black#36",
-      "openingTags": "Bishops_Opening Bishops_Opening_Berlin_Defense"
+      "gameUrl": "https://lichess.org/GKCjKQCJ/black#36"
     },
     {
       "puzzleId": "woG8W",
       "fen": "8/8/4N1p1/4n2k/6PP/7K/8/8 b - - 0 43",
       "moves": "e5g4 e6f4 h5h6 h3g4",
-      "rating": 1590,
-      "ratingDeviation": 77,
-      "popularity": 98,
-      "nbPlays": 16096,
-      "themes": "crushing deflection endgame knightEndgame master short",
-      "gameUrl": "https://lichess.org/cwJzONAQ/black#86",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/cwJzONAQ/black#86"
     },
     {
       "puzzleId": "x7Lz4",
       "fen": "1r6/p5k1/8/3P1R2/Pr3N2/1p6/1P4K1/8 b - - 0 48",
       "moves": "b8f8 f4e6 g7g6 f5f8",
-      "rating": 1489,
-      "ratingDeviation": 76,
-      "popularity": 98,
-      "nbPlays": 15860,
-      "themes": "crushing deflection endgame fork master short",
-      "gameUrl": "https://lichess.org/ZbmGr351/black#96",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/ZbmGr351/black#96"
     },
     {
       "puzzleId": "xylMf",
       "fen": "8/5p2/7R/3r1kp1/5P2/6PK/6P1/8 b - - 0 40",
       "moves": "g5f4 h6h5 f5e6 h5d5 e6d5 g3f4",
-      "rating": 1411,
-      "ratingDeviation": 76,
-      "popularity": 98,
-      "nbPlays": 12661,
-      "themes": "crushing endgame long rookEndgame",
-      "gameUrl": "https://lichess.org/XRwnirrP/black#80",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/XRwnirrP/black#80"
     },
     {
       "puzzleId": "y9bHb",
       "fen": "r3kbnr/1b2qppp/p1npp3/1p2N3/3PB3/BR6/P1P2PPP/3QK2R b Kkq - 3 15",
       "moves": "a8b8 e4c6 b7c6 e5c6 e7b7 c6b8",
-      "rating": 1507,
-      "ratingDeviation": 77,
-      "popularity": 98,
-      "nbPlays": 12728,
-      "themes": "crushing fork long middlegame",
-      "gameUrl": "https://lichess.org/wU6zzb4q/black#30",
-      "openingTags": "French_Defense French_Defense_Knight_Variation"
+      "gameUrl": "https://lichess.org/wU6zzb4q/black#30"
     },
     {
       "puzzleId": "ycLeH",
       "fen": "3r1rk1/p4ppp/5nq1/1p2pN2/4B1P1/4BK1P/P4P2/3Q3R b - - 0 22",
       "moves": "d8d1 f5e7 g8h8 e7g6 h7g6 h1d1",
-      "rating": 1444,
-      "ratingDeviation": 76,
-      "popularity": 98,
-      "nbPlays": 11779,
-      "themes": "advantage fork long master middlegame",
-      "gameUrl": "https://lichess.org/F0lq9l5L/black#44",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/F0lq9l5L/black#44"
     },
     {
       "puzzleId": "z9M0C",
       "fen": "r2qrbk1/1b3ppp/p2p1n2/2pPpN2/2P5/2NB2QP/PP3PP1/R4RK1 b - - 1 16",
       "moves": "e5e4 f5h6 g8h8 h6f7",
-      "rating": 1452,
-      "ratingDeviation": 76,
-      "popularity": 98,
-      "nbPlays": 17304,
-      "themes": "crushing deflection kingsideAttack middlegame pin short",
-      "gameUrl": "https://lichess.org/CxBLkVPG/black#32",
-      "openingTags": "English_Opening English_Opening_Other_variations"
+      "gameUrl": "https://lichess.org/CxBLkVPG/black#32"
     },
     {
       "puzzleId": "zYjUT",
       "fen": "5r1k/1p3Bpp/p2P4/2P5/1P5q/P4Q2/5PK1/8 b - - 1 37",
       "moves": "g7g6 f3c3 h4d4 c3d4",
-      "rating": 1424,
-      "ratingDeviation": 76,
-      "popularity": 98,
-      "nbPlays": 21838,
-      "themes": "endgame mate mateIn2 short",
-      "gameUrl": "https://lichess.org/wWVX1VvV/black#74",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/wWVX1VvV/black#74"
     },
     {
       "puzzleId": "zxOXt",
       "fen": "6rk/1r3pp1/2p2n2/3B2R1/p2R4/8/1PP2P1P/1K6 b - - 0 28",
       "moves": "c6d5 d4h4 f6h7 g5h5",
-      "rating": 1486,
-      "ratingDeviation": 75,
-      "popularity": 98,
-      "nbPlays": 10985,
-      "themes": "crushing endgame short",
-      "gameUrl": "https://lichess.org/JpFju3v5/black#56",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/JpFju3v5/black#56"
     },
     {
       "puzzleId": "01243",
       "fen": "r7/pp1Qp1B1/8/3kb3/4q3/8/PP3PP1/5K2 b - - 4 34",
       "moves": "e5d6 d7b7 d5e6 b7e4",
-      "rating": 1481,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 17089,
-      "themes": "crushing deflection endgame fork master short skewer",
-      "gameUrl": "https://lichess.org/dfLW8TS1/black#68",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/dfLW8TS1/black#68"
     },
     {
       "puzzleId": "04LFh",
       "fen": "8/5pp1/7p/1p1R4/6Pk/1P2RPr1/2r5/5K2 b - - 7 46",
       "moves": "g3h3 d5h5 h4g3 f3f4",
-      "rating": 1430,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 18087,
-      "themes": "advantage discoveredAttack discoveredCheck endgame rookEndgame short",
-      "gameUrl": "https://lichess.org/tbKfJ1jR/black#92",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/tbKfJ1jR/black#92"
     },
     {
       "puzzleId": "063io",
       "fen": "2br2k1/ppq1rppp/3p4/2pP4/2P5/1P1P2PP/P3RQBK/5R2 b - - 2 23",
       "moves": "d8e8 f2f7 e7f7 e2e8 f7f8 f1f8",
-      "rating": 1479,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 14158,
-      "themes": "deflection kingsideAttack long mate mateIn3 middlegame sacrifice",
-      "gameUrl": "https://lichess.org/1awiF6ZG/black#46",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/1awiF6ZG/black#46"
     },
     {
       "puzzleId": "0AKpp",
       "fen": "2r1r1k1/1p1nqp1p/p3p1pP/1P2PnN1/P3NP2/2p3P1/5Q2/3RR1K1 b - - 4 28",
       "moves": "f5h6 d1d7 e7d7 e4f6 g8g7 f6d7",
-      "rating": 1577,
-      "ratingDeviation": 74,
-      "popularity": 97,
-      "nbPlays": 22360,
-      "themes": "attraction crushing fork long middlegame sacrifice",
-      "gameUrl": "https://lichess.org/AXOHglFW/black#56",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/AXOHglFW/black#56"
     },
     {
       "puzzleId": "0Bpwo",
       "fen": "2r1rb2/pbqR1p1k/1p3p1p/2P1NN2/8/6Q1/PP3PPP/R5K1 b - - 1 24",
       "moves": "c7e5 d7f7 h7h8 f7f8 e8f8 g3g7",
-      "rating": 1544,
-      "ratingDeviation": 77,
-      "popularity": 97,
-      "nbPlays": 27020,
-      "themes": "fork long mate mateIn3 middlegame",
-      "gameUrl": "https://lichess.org/NYojGdmm/black#48",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/NYojGdmm/black#48"
     },
     {
       "puzzleId": "0EVg0",
       "fen": "r1bqk2r/ppp1n1pp/2np4/4N2Q/2BP4/N7/P4PPP/R3K2R b KQkq - 1 12",
       "moves": "g7g6 c4f7 e8f8 h5h6",
-      "rating": 1434,
-      "ratingDeviation": 77,
-      "popularity": 97,
-      "nbPlays": 14189,
-      "themes": "mate mateIn2 middlegame short",
-      "gameUrl": "https://lichess.org/9THcghgj/black#24",
-      "openingTags": "Italian_Game Italian_Game_Evans_Gambit"
+      "gameUrl": "https://lichess.org/9THcghgj/black#24"
     },
     {
       "puzzleId": "0IoIH",
       "fen": "8/8/1p3k2/3B2n1/1KP5/p7/P7/8 b - - 3 43",
       "moves": "g5e6 d5e6 f6e6 b4b5 e6e5 b5b6",
-      "rating": 1488,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 10559,
-      "themes": "crushing endgame long",
-      "gameUrl": "https://lichess.org/VcwnDP6c/black#86",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/VcwnDP6c/black#86"
     },
     {
       "puzzleId": "0REpQ",
       "fen": "rn6/ppp4p/3p2p1/7k/2P2Qb1/1P1B3P/P5PK/4q3 b - - 0 26",
       "moves": "e1e5 h3g4 h5h4 g2g3",
-      "rating": 1596,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 28664,
-      "themes": "endgame mate mateIn2 short",
-      "gameUrl": "https://lichess.org/nmqov3qw/black#52",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/nmqov3qw/black#52"
     },
     {
       "puzzleId": "0WNTU",
       "fen": "r4b1r/pp1n2k1/1q2p1pp/3p4/3P1Q1B/2P2P1P/PP3P2/2KR2R1 b - - 3 20",
       "moves": "f8d6 g1g6 g7g6 d1g1 g6h7 f4f7",
-      "rating": 1592,
-      "ratingDeviation": 72,
-      "popularity": 97,
-      "nbPlays": 20751,
-      "themes": "attraction epauletteMate long mate mateIn3 middlegame sacrifice",
-      "gameUrl": "https://lichess.org/NQWGIaxe/black#40",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/NQWGIaxe/black#40"
     },
     {
       "puzzleId": "0awu7",
       "fen": "4rrk1/3R1qpp/b7/p4p2/5B2/2P3QP/P5PK/3R4 b - - 8 33",
       "moves": "e8e7 d7e7 f7e7 f4d6",
-      "rating": 1501,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 11723,
-      "themes": "crushing middlegame short",
-      "gameUrl": "https://lichess.org/XhXQjqU4/black#66",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/XhXQjqU4/black#66"
     },
     {
       "puzzleId": "0eVe0",
       "fen": "r1b2r2/8/p1P1N1kb/1p1qp3/7P/8/PPP5/R3K1QR b KQ - 1 28",
       "moves": "g6h5 e6g7 h6g7 g1g5",
-      "rating": 1599,
-      "ratingDeviation": 74,
-      "popularity": 97,
-      "nbPlays": 24680,
-      "themes": "mate mateIn2 middlegame sacrifice short",
-      "gameUrl": "https://lichess.org/u2rJ7dAR/black#56",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/u2rJ7dAR/black#56"
     },
     {
       "puzzleId": "0fM7I",
       "fen": "r4rk1/p1pq2p1/1bp2P1p/3p1n2/3P2b1/5N2/PPP1NBPP/R2Q1RK1 b - - 0 15",
       "moves": "f8f6 f3e5 g4e2 e5d7 e2d1 d7f6",
-      "rating": 1548,
-      "ratingDeviation": 79,
-      "popularity": 97,
-      "nbPlays": 10078,
-      "themes": "crushing fork long middlegame",
-      "gameUrl": "https://lichess.org/a6fPjZLY/black#30",
-      "openingTags": "Vienna_Game Vienna_Game_Max_Lange_Defense"
+      "gameUrl": "https://lichess.org/a6fPjZLY/black#30"
     },
     {
       "puzzleId": "0hECP",
       "fen": "6k1/pp1n1ppp/2p5/3p1PQn/8/3B3P/PPPr1qNK/4R3 b - - 1 24",
       "moves": "h5f4 e1e8 d7f8 e8f8 g8f8 g5d8",
-      "rating": 1561,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 22288,
-      "themes": "attraction kingsideAttack long mate mateIn3 middlegame sacrifice",
-      "gameUrl": "https://lichess.org/HfuGLvmK/black#48",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/HfuGLvmK/black#48"
     },
     {
       "puzzleId": "0isJQ",
       "fen": "5k2/ppR4p/1b2p1q1/3pP3/7P/BP4PK/P3Qr2/8 b - - 6 32",
       "moves": "f8e8 e2b5 e8d8 b5d7",
-      "rating": 1444,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 16151,
-      "themes": "endgame mate mateIn2 short",
-      "gameUrl": "https://lichess.org/7O3efNvy/black#64",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/7O3efNvy/black#64"
     },
     {
       "puzzleId": "0mPCd",
       "fen": "5k2/2p3pp/4p3/2P5/p2P2qP/Pr2p1P1/1P2R2K/3Q4 b - - 3 37",
       "moves": "b3b2 d1f1 f8e7 e2b2",
-      "rating": 1407,
-      "ratingDeviation": 79,
-      "popularity": 97,
-      "nbPlays": 32945,
-      "themes": "crushing endgame intermezzo short",
-      "gameUrl": "https://lichess.org/AHy47TOi/black#74",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/AHy47TOi/black#74"
     },
     {
       "puzzleId": "0pILG",
       "fen": "8/1pR4R/pr2k3/3pp1K1/8/2P3P1/Pr6/8 b - - 11 60",
       "moves": "e5e4 h7h6 e6e5 c7e7 b6e6 h6e6",
-      "rating": 1587,
-      "ratingDeviation": 74,
-      "popularity": 97,
-      "nbPlays": 22465,
-      "themes": "endgame long mate mateIn3 rookEndgame",
-      "gameUrl": "https://lichess.org/AfOx4QN1/black#120",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/AfOx4QN1/black#120"
     },
     {
       "puzzleId": "0q1rH",
       "fen": "1k1r3b/5p2/BP2p1p1/3QNn2/3P1q2/2P2N2/5PP1/5K2 b - - 0 27",
       "moves": "e6d5 e5c6 b8a8 b6b7",
-      "rating": 1524,
-      "ratingDeviation": 74,
-      "popularity": 97,
-      "nbPlays": 11880,
-      "themes": "advancedPawn fork mate mateIn2 middlegame short",
-      "gameUrl": "https://lichess.org/ATy9UVO5/black#54",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/ATy9UVO5/black#54"
     },
     {
       "puzzleId": "0vBlP",
       "fen": "3Q4/3R2pk/p4r1p/1pq2p2/4p3/2P4P/PP3PP1/6K1 b - - 5 28",
       "moves": "e4e3 d8f6 e3f2 g1f1 c5c4 f1f2",
-      "rating": 1507,
-      "ratingDeviation": 77,
-      "popularity": 97,
-      "nbPlays": 12939,
-      "themes": "crushing endgame long pin",
-      "gameUrl": "https://lichess.org/vH7D53id/black#56",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/vH7D53id/black#56"
     },
     {
       "puzzleId": "135oP",
       "fen": "8/8/2p2kP1/2p5/2K2n1N/3P4/8/8 b - - 4 71",
       "moves": "f4g6 h4g6 f6g6 c4c5 g6f5 c5c6 f5e5 c6c5",
-      "rating": 1591,
-      "ratingDeviation": 78,
-      "popularity": 97,
-      "nbPlays": 12098,
-      "themes": "crushing defensiveMove endgame knightEndgame veryLong",
-      "gameUrl": "https://lichess.org/QzSdOBck/black#142",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/QzSdOBck/black#142"
     },
     {
       "puzzleId": "1B96Z",
       "fen": "2r1kr2/4bRpp/3pP3/p1q5/1p6/3P1QP1/PP5P/4RK2 b - - 10 29",
       "moves": "d6d5 f7f8 e7f8 f3f7 e8d8 f7d7",
-      "rating": 1546,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 29818,
-      "themes": "clearance exposedKing long mate mateIn3 middlegame",
-      "gameUrl": "https://lichess.org/iqVfnBbH/black#58",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/iqVfnBbH/black#58"
     },
     {
       "puzzleId": "1E9im",
       "fen": "3r1k2/1pR2b1N/p7/4p1p1/1P6/7P/6PK/8 b - - 3 38",
       "moves": "f8g7 h7g5 g7f6 g5f7",
-      "rating": 1518,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 14970,
-      "themes": "crushing endgame master short",
-      "gameUrl": "https://lichess.org/y5aU8mK0/black#76",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/y5aU8mK0/black#76"
     },
     {
       "puzzleId": "1JRPv",
       "fen": "4Q3/pp3rqk/6r1/2B1b3/6P1/2P2P2/PP3K2/3R4 b - - 0 40",
       "moves": "g6g4 d1h1 h7g6 e8e6 g7f6 e6g4",
-      "rating": 1444,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 36763,
-      "themes": "crushing exposedKing fork long middlegame",
-      "gameUrl": "https://lichess.org/aOgrDcVL/black#80",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/aOgrDcVL/black#80"
     },
     {
       "puzzleId": "1MssA",
       "fen": "r1bq1rk1/ppp1bppp/8/8/2Q2Bn1/2N2N2/PP3PPP/R3R1K1 b - - 0 14",
       "moves": "c8e6 e1e6 f7e6 c4e6 g8h8 e6g4",
-      "rating": 1507,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 24143,
-      "themes": "advantage fork long middlegame",
-      "gameUrl": "https://lichess.org/jW8ixhtS/black#28",
-      "openingTags": "Italian_Game Italian_Game_Scotch_Gambit"
+      "gameUrl": "https://lichess.org/jW8ixhtS/black#28"
     },
     {
       "puzzleId": "1UNhR",
       "fen": "2r5/4Pk2/3p1P2/5K2/6N1/p7/8/8 b - - 1 65",
       "moves": "a3a2 g4h6 f7e8 f5e6 d6d5 f6f7",
-      "rating": 1549,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 13188,
-      "themes": "advancedPawn endgame long mate mateIn3",
-      "gameUrl": "https://lichess.org/zVvOyj1a/black#130",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/zVvOyj1a/black#130"
     },
     {
       "puzzleId": "1Vilk",
       "fen": "8/5pk1/4p2p/4b1q1/8/3Q3P/8/3R3K b - - 2 41",
       "moves": "g5f4 d1g1 g7f6 g1f1",
-      "rating": 1596,
-      "ratingDeviation": 78,
-      "popularity": 97,
-      "nbPlays": 18011,
-      "themes": "advantage endgame master pin short",
-      "gameUrl": "https://lichess.org/ICH8z4JV/black#82",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/ICH8z4JV/black#82"
     },
     {
       "puzzleId": "1ZOgI",
       "fen": "1k1r2nr/pp2bRpp/2pp4/4q3/2B1P3/2NP3Q/PPPB2PP/6K1 b - - 0 14",
       "moves": "d6d5 d2f4 e5f4 f7f4",
-      "rating": 1463,
-      "ratingDeviation": 74,
-      "popularity": 97,
-      "nbPlays": 16346,
-      "themes": "crushing middlegame pin short",
-      "gameUrl": "https://lichess.org/KNokkiqZ/black#28",
-      "openingTags": "Kings_Gambit_Declined Kings_Gambit_Declined_Queens_Knight_Defense"
+      "gameUrl": "https://lichess.org/KNokkiqZ/black#28"
     },
     {
       "puzzleId": "1fhC6",
       "fen": "6R1/1pr1p1kp/p5p1/4q3/6n1/1B6/PPPQ2PP/7K b - - 2 26",
       "moves": "g7f6 g8f8 f6g7 f8f7 g7h8 d2d8",
-      "rating": 1598,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 17809,
-      "themes": "endgame long mate mateIn3",
-      "gameUrl": "https://lichess.org/WCJI5xMu/black#52",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/WCJI5xMu/black#52"
     },
     {
       "puzzleId": "1hEfz",
       "fen": "8/8/7P/1b1kbp2/2pp4/6P1/1P1R1K2/8 b - - 0 41",
       "moves": "d5e4 d2e2 e4d5 e2e5 d5e5 h6h7",
-      "rating": 1581,
-      "ratingDeviation": 74,
-      "popularity": 97,
-      "nbPlays": 21485,
-      "themes": "advancedPawn crushing endgame long sacrifice",
-      "gameUrl": "https://lichess.org/DTlmO93W/black#82",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/DTlmO93W/black#82"
     },
     {
       "puzzleId": "1iFu6",
       "fen": "8/3R1kpp/1Bp2pb1/8/5PP1/r1n5/2P4P/6K1 b - - 4 27",
       "moves": "f7f8 b6c5 f8e8 d7e7 e8d8 c5a3",
-      "rating": 1591,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 27219,
-      "themes": "advantage endgame fork long",
-      "gameUrl": "https://lichess.org/MG93jVRH/black#54",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/MG93jVRH/black#54"
     },
     {
       "puzzleId": "1l4h6",
       "fen": "8/8/6p1/2p1Q1k1/4p2N/2P5/6PK/1q6 b - - 0 35",
       "moves": "g5h4 g2g3 h4g4 e5f4 g4h5 f4h4",
-      "rating": 1586,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 16182,
-      "themes": "endgame long mate mateIn3 queenEndgame",
-      "gameUrl": "https://lichess.org/MSlR1FeT/black#70",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/MSlR1FeT/black#70"
     },
     {
       "puzzleId": "1npNZ",
       "fen": "1n2Q1k1/6b1/3p4/2pP3p/5PnP/2P3P1/3q2B1/7K b - - 1 35",
       "moves": "g8h7 g2e4 h7h6 e8g6",
-      "rating": 1503,
-      "ratingDeviation": 80,
-      "popularity": 97,
-      "nbPlays": 14522,
-      "themes": "endgame master mate mateIn2 short",
-      "gameUrl": "https://lichess.org/Tw2jBMRf/black#70",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/Tw2jBMRf/black#70"
     },
     {
       "puzzleId": "1pwHw",
       "fen": "r1b2k1r/q3pB2/p1p3pQ/4n2p/N7/7P/PPP3P1/R1B2R1K b - - 0 18",
       "moves": "h8h6 c1h6",
-      "rating": 1401,
-      "ratingDeviation": 77,
-      "popularity": 97,
-      "nbPlays": 11088,
-      "themes": "mate mateIn1 middlegame oneMove",
-      "gameUrl": "https://lichess.org/yoNc6qVf/black#36",
-      "openingTags": "Sicilian_Defense Sicilian_Defense_Classical_Variation"
+      "gameUrl": "https://lichess.org/yoNc6qVf/black#36"
     },
     {
       "puzzleId": "1s1GR",
       "fen": "6k1/p5p1/1qpQp2p/4Pr2/8/7P/PP1R2PK/8 b - - 4 25",
       "moves": "b6e3 d6e6 f5f7 d2d8 g8h7 e6f7",
-      "rating": 1558,
-      "ratingDeviation": 73,
-      "popularity": 97,
-      "nbPlays": 34776,
-      "themes": "crushing deflection endgame fork long",
-      "gameUrl": "https://lichess.org/NxyaiBQL/black#50",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/NxyaiBQL/black#50"
     },
     {
       "puzzleId": "1tn8o",
       "fen": "8/2p1r2p/p7/Pkp1R3/4K2P/1P3P2/8/8 b - - 0 38",
       "moves": "e7e5 e4e5 b5a5 f3f4 a5b4 f4f5 b4b3 f5f6 c5c4 f6f7 c4c3 f7f8q",
-      "rating": 1421,
-      "ratingDeviation": 80,
-      "popularity": 97,
-      "nbPlays": 13781,
-      "themes": "advancedPawn crushing endgame promotion quietMove veryLong",
-      "gameUrl": "https://lichess.org/i2FRnBoO/black#76",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/i2FRnBoO/black#76"
     },
     {
       "puzzleId": "1z8RA",
       "fen": "r1bq1rk1/ppp2pb1/5np1/6N1/2B1N2Q/2p5/PP3PP1/R3K2R b KQ - 3 15",
       "moves": "c3b2 e4f6 d8f6 h4h7",
-      "rating": 1403,
-      "ratingDeviation": 73,
-      "popularity": 97,
-      "nbPlays": 29917,
-      "themes": "kingsideAttack master mate mateIn2 middlegame short",
-      "gameUrl": "https://lichess.org/JfgoHZEw/black#30",
-      "openingTags": "Queens_Pawn_Game Queens_Pawn_Game_Chigorin_Variation"
+      "gameUrl": "https://lichess.org/JfgoHZEw/black#30"
     },
     {
       "puzzleId": "24Q6B",
       "fen": "8/8/2n5/1p2k1pp/1P1Np3/2P1K2P/6P1/8 b - - 2 42",
       "moves": "c6d4 c3d4 e5d5 g2g3 d5c4 e3e4",
-      "rating": 1584,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 12684,
-      "themes": "crushing endgame long quietMove zugzwang",
-      "gameUrl": "https://lichess.org/flSY4R4f/black#84",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/flSY4R4f/black#84"
     },
     {
       "puzzleId": "2Atco",
       "fen": "1rr5/5qkR/3p1n2/2p1pQ2/p3P3/3P2P1/PP2KPB1/2q4R b - - 1 32",
       "moves": "f6h7 h1h7 g7g8 f5f7",
-      "rating": 1561,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 11062,
-      "themes": "master mate mateIn2 middlegame short triangleMate",
-      "gameUrl": "https://lichess.org/5CUoqxpb/black#64",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/5CUoqxpb/black#64"
     },
     {
       "puzzleId": "2HK5S",
       "fen": "r1b2r2/k1p3p1/p1p4p/3pq3/2RN4/1Q6/PP3P1P/5K1R b - - 1 27",
       "moves": "a8b8 d4c6 a7a8 b3b8",
-      "rating": 1480,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 30084,
-      "themes": "fork mate mateIn2 middlegame short",
-      "gameUrl": "https://lichess.org/gX8R3BwD/black#54",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/gX8R3BwD/black#54"
     },
     {
       "puzzleId": "2INfl",
       "fen": "1r4k1/p4p1p/5p2/3p1P1P/2R5/P1Q5/1PPK2P1/6q1 b - - 1 29",
       "moves": "d5c4 c3g3 g8h8 g3b8",
-      "rating": 1432,
-      "ratingDeviation": 77,
-      "popularity": 97,
-      "nbPlays": 33265,
-      "themes": "advantage endgame fork short",
-      "gameUrl": "https://lichess.org/BzXm4wxf/black#58",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/BzXm4wxf/black#58"
     },
     {
       "puzzleId": "2LAB8",
       "fen": "r3k2r/bpqnnp2/p3p1p1/P2pP1Bp/1P5P/2P3N1/4QPP1/RN3RK1 b kq - 2 17",
       "moves": "c7e5 e2e5 d7e5 g5f6 e5g4 f6h8",
-      "rating": 1472,
-      "ratingDeviation": 74,
-      "popularity": 97,
-      "nbPlays": 10203,
-      "themes": "advantage fork long middlegame",
-      "gameUrl": "https://lichess.org/x4nFGJod/black#34",
-      "openingTags": "Caro-Kann_Defense Caro-Kann_Defense_Advance_Variation"
+      "gameUrl": "https://lichess.org/x4nFGJod/black#34"
     },
     {
       "puzzleId": "2NZPX",
       "fen": "rnb1kb1r/ppp3p1/7p/2P1Pp2/3qN3/3B4/PP4PP/R1BQK2R b KQkq - 0 12",
       "moves": "f5e4 d3b5 c8d7 d1d4",
-      "rating": 1514,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 10989,
-      "themes": "opening",
-      "gameUrl": "https://lichess.org/RwmLpRCG/black#24",
-      "openingTags": "Zukertort_Opening Zukertort_Opening_Tennison_Gambit"
+      "gameUrl": "https://lichess.org/RwmLpRCG/black#24"
     },
     {
       "puzzleId": "2PLkz",
       "fen": "4rrk1/Q5bR/2p5/3pPq2/2p5/8/PP3PP1/K6R b - - 3 24",
       "moves": "f5e5 h7h8 g7h8 a7h7",
-      "rating": 1435,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 23543,
-      "themes": "clearance mate mateIn2 middlegame sacrifice short",
-      "gameUrl": "https://lichess.org/anCiEWuo/black#48",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/anCiEWuo/black#48"
     },
     {
       "puzzleId": "2T8eM",
       "fen": "1r3rk1/1p3pp1/1qp5/p2B2PQ/8/P7/1bP1R3/4R2K b - - 0 27",
       "moves": "c6d5 e2h2 b6h6 g5h6",
-      "rating": 1548,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 29781,
-      "themes": "crushing middlegame quietMove short",
-      "gameUrl": "https://lichess.org/4HIHQWew/black#54",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/4HIHQWew/black#54"
     },
     {
       "puzzleId": "2aQzf",
       "fen": "2r1r2R/4bpk1/b7/p3qPpQ/1n2p3/1B1PB3/1P6/3RK3 b - - 1 33",
       "moves": "e8h8 h5f7 g7h6 f7g6",
-      "rating": 1541,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 17990,
-      "themes": "mate mateIn2 middlegame short",
-      "gameUrl": "https://lichess.org/u90mHOfM/black#66",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/u90mHOfM/black#66"
     },
     {
       "puzzleId": "2eHGi",
       "fen": "2r3rk/2q1b2p/p2p1pPQ/1pnb1P1B/3Bp3/P7/1PP4P/4RRK1 b - - 0 28",
       "moves": "e7f8 d4f6 f8g7 h6h7",
-      "rating": 1581,
-      "ratingDeviation": 73,
-      "popularity": 97,
-      "nbPlays": 16796,
-      "themes": "kingsideAttack mate mateIn2 middlegame short",
-      "gameUrl": "https://lichess.org/W8YQadDW/black#56",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/W8YQadDW/black#56"
     },
     {
       "puzzleId": "2fOIo",
       "fen": "6k1/pp4p1/4pp2/6p1/4q3/2P1R2Q/Pr4rP/5R1K b - - 3 38",
       "moves": "e4c2 h3e6 g8h7 e3h3 h7g6 e6e8",
-      "rating": 1594,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 19565,
-      "themes": "endgame long mate mateIn3",
-      "gameUrl": "https://lichess.org/ogrJtwsr/black#76",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/ogrJtwsr/black#76"
     },
     {
       "puzzleId": "2gqYH",
       "fen": "8/5pk1/1p2pb2/6p1/2P1Q3/5NPK/5r2/5n2 b - - 1 45",
       "moves": "f6e7 e4d4 f7f6 d4f2",
-      "rating": 1553,
-      "ratingDeviation": 74,
-      "popularity": 97,
-      "nbPlays": 16760,
-      "themes": "crushing endgame fork master short",
-      "gameUrl": "https://lichess.org/lR2XJEpJ/black#90",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/lR2XJEpJ/black#90"
     },
     {
       "puzzleId": "2hdRS",
       "fen": "r1bq1b1r/1p2p1pp/p1np4/6kQ/4PN2/8/PP3PPP/R4RK1 b - - 1 13",
       "moves": "g5f6 f4d5 f6e6 h5f5",
-      "rating": 1526,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 20448,
-      "themes": "mate mateIn2 middlegame short",
-      "gameUrl": "https://lichess.org/KGJAp3n9/black#26",
-      "openingTags": "Sicilian_Defense Sicilian_Defense_Smith-Morra_Gambit_Accepted"
+      "gameUrl": "https://lichess.org/KGJAp3n9/black#26"
     },
     {
       "puzzleId": "2jhhX",
       "fen": "3r4/6pp/3P4/N7/P5P1/1k5P/5PK1/8 b - - 0 38",
       "moves": "b3a4 a5b7 d8b8 d6d7",
-      "rating": 1450,
-      "ratingDeviation": 74,
-      "popularity": 97,
-      "nbPlays": 26008,
-      "themes": "advancedPawn crushing endgame short",
-      "gameUrl": "https://lichess.org/bo2ICFlJ/black#76",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/bo2ICFlJ/black#76"
     },
     {
       "puzzleId": "2pIV3",
       "fen": "8/7k/4p2P/1p1p1p1K/3P2p1/P1P3P1/8/8 b - - 28 74",
       "moves": "f5f4 h5g4 f4g3 g4g3 h7h6 g3f4 h6g7 f4e5 g7f7 e5d6",
-      "rating": 1512,
-      "ratingDeviation": 73,
-      "popularity": 97,
-      "nbPlays": 32555,
-      "themes": "crushing endgame pawnEndgame veryLong",
-      "gameUrl": "https://lichess.org/PnnxIX23/black#148",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/PnnxIX23/black#148"
     },
     {
       "puzzleId": "2uakt",
       "fen": "r4r2/3R1Pk1/4R1pp/1p2P3/p2p4/8/6PP/6K1 b - - 0 34",
       "moves": "a8d8 d7d8 f8d8 e6e8 g7f7 e8d8",
-      "rating": 1438,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 25430,
-      "themes": "attraction crushing endgame long rookEndgame",
-      "gameUrl": "https://lichess.org/Cx34L9YX/black#68",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/Cx34L9YX/black#68"
     },
     {
       "puzzleId": "2xZJD",
       "fen": "r2qr1k1/pp3ppp/5nn1/2p3B1/3p3R/P2P2QP/BPb3P1/5RK1 b - - 1 21",
       "moves": "g6h4 g5f6 d8f6 f1f6",
-      "rating": 1579,
-      "ratingDeviation": 77,
-      "popularity": 97,
-      "nbPlays": 15731,
-      "themes": "advantage middlegame pin short",
-      "gameUrl": "https://lichess.org/LPN8blPB/black#42",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/LPN8blPB/black#42"
     },
     {
       "puzzleId": "351q7",
       "fen": "r4rk1/2Q3p1/4p1p1/1p2qp2/p6R/1B3P2/PP4P1/1K5R b - - 1 29",
       "moves": "e5c7 b3e6 c7f7 h4h8",
-      "rating": 1527,
-      "ratingDeviation": 74,
-      "popularity": 97,
-      "nbPlays": 26160,
-      "themes": "endgame mate mateIn2 pin short",
-      "gameUrl": "https://lichess.org/c7unfSz2/black#58",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/c7unfSz2/black#58"
     },
     {
       "puzzleId": "38ZQ4",
       "fen": "1r3r1k/2q3bp/pp1p1np1/2pPp3/2P1P2P/P1NB3Q/1P3RP1/5RK1 b - - 1 22",
       "moves": "c7d7 f2f6 d7h3 f6f8 g7f8 g2h3",
-      "rating": 1571,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 11048,
-      "themes": "crushing kingsideAttack long middlegame",
-      "gameUrl": "https://lichess.org/Ll3PhsJr/black#44",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/Ll3PhsJr/black#44"
     },
     {
       "puzzleId": "3F5DC",
       "fen": "5rk1/6p1/p3pnQ1/2pPb3/1p1q3P/1P1PN3/2PB1RK1/8 b - - 0 32",
       "moves": "e6d5 e3f5 d4g4 g6g4 f6g4 f5e7 g8h7 f2f8",
-      "rating": 1477,
-      "ratingDeviation": 74,
-      "popularity": 97,
-      "nbPlays": 31060,
-      "themes": "crushing deflection middlegame veryLong",
-      "gameUrl": "https://lichess.org/ht9y8QTk/black#64",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/ht9y8QTk/black#64"
     },
     {
       "puzzleId": "3MJvM",
       "fen": "8/pbp1R1kp/1p6/3q4/5p2/PP1P2pP/2P3P1/4R2K b - - 3 40",
       "moves": "g7h6 e1e6 h6g5 e6e5 d5e5 e7e5",
-      "rating": 1546,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 13536,
-      "themes": "crushing endgame exposedKing fork long",
-      "gameUrl": "https://lichess.org/g2xa3MfL/black#80",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/g2xa3MfL/black#80"
     },
     {
       "puzzleId": "3OJm2",
       "fen": "4r1k1/pp1q1ppp/2p2n2/3pn3/3N4/2NP2PP/PPP2PQ1/4R1K1 b - - 6 18",
       "moves": "e5f3 d4f3 e8e1 f3e1",
-      "rating": 1417,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 10574,
-      "themes": "advantage hangingPiece middlegame short",
-      "gameUrl": "https://lichess.org/CyDrmnha/black#36",
-      "openingTags": "French_Defense French_Defense_Kings_Indian_Attack"
+      "gameUrl": "https://lichess.org/CyDrmnha/black#36"
     },
     {
       "puzzleId": "3SLwA",
       "fen": "4r1k1/1p3p1p/3b2p1/p7/3B3Q/P1P3PP/1P2qP2/5RK1 b - - 2 28",
       "moves": "e2b2 h4f6 d6e5 d4e5 e8e5 f6e5",
-      "rating": 1533,
-      "ratingDeviation": 78,
-      "popularity": 97,
-      "nbPlays": 18537,
-      "themes": "crushing endgame long",
-      "gameUrl": "https://lichess.org/kzJU9mb3/black#56",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/kzJU9mb3/black#56"
     },
     {
       "puzzleId": "3TZLm",
       "fen": "3r3r/Bp1k1ppp/3b4/3N4/8/8/Pn3PPP/2R1R1K1 b - - 2 21",
       "moves": "d8e8 d5b6 d7d8 c1c8",
-      "rating": 1533,
-      "ratingDeviation": 77,
-      "popularity": 97,
-      "nbPlays": 12992,
-      "themes": "master mate mateIn2 middlegame short",
-      "gameUrl": "https://lichess.org/RjdNlChv/black#42",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/RjdNlChv/black#42"
     },
     {
       "puzzleId": "3WbeR",
       "fen": "4r1k1/rp3pp1/5n1p/1Npn4/8/P2RP1P1/1B3PKP/R7 b - - 1 29",
       "moves": "a7a6 b2f6 d5f6 b5c7",
-      "rating": 1455,
-      "ratingDeviation": 77,
-      "popularity": 97,
-      "nbPlays": 15134,
-      "themes": "crushing middlegame short",
-      "gameUrl": "https://lichess.org/bSST4o8t/black#58",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/bSST4o8t/black#58"
     },
     {
       "puzzleId": "3XGIz",
       "fen": "5R2/6pk/3p1p2/4bP1p/6P1/5R1P/rr3PK1/8 b - - 0 37",
       "moves": "h7h6 f8h8 h6g5 h8h5",
-      "rating": 1415,
-      "ratingDeviation": 78,
-      "popularity": 97,
-      "nbPlays": 17237,
-      "themes": "endgame mate mateIn2 short",
-      "gameUrl": "https://lichess.org/ap6vIcuB/black#74",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/ap6vIcuB/black#74"
     },
     {
       "puzzleId": "3a2O3",
       "fen": "5k2/4n1pp/r1p5/2Pp4/n2Bp3/4P3/P2N2PP/R5K1 b - - 2 23",
       "moves": "e7f5 a1f1 g7g6 g2g4 f8e7 g4f5",
-      "rating": 1444,
-      "ratingDeviation": 73,
-      "popularity": 97,
-      "nbPlays": 11751,
-      "themes": "crushing endgame long pin",
-      "gameUrl": "https://lichess.org/Yc8PBbLy/black#46",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/Yc8PBbLy/black#46"
     },
     {
       "puzzleId": "3cmYb",
       "fen": "5r2/2q1pp1k/p7/2r5/6R1/1BNP3P/1PP3K1/5R2 b - - 2 26",
       "moves": "f8g8 f1f7 h7h8 g4g8 h8g8 f7e7 g8f8 e7c7",
-      "rating": 1588,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 21754,
-      "themes": "crushing discoveredAttack discoveredCheck exposedKing middlegame veryLong",
-      "gameUrl": "https://lichess.org/c8oRRbMv/black#52",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/c8oRRbMv/black#52"
     },
     {
       "puzzleId": "3kVhT",
       "fen": "1k1r4/ppp3p1/8/5Q2/PPn2B2/2p2qP1/8/4R1K1 b - - 1 27",
       "moves": "c4e3 f4c7 b8c7 f5f3",
-      "rating": 1575,
-      "ratingDeviation": 77,
-      "popularity": 97,
-      "nbPlays": 18872,
-      "themes": "crushing discoveredAttack endgame short",
-      "gameUrl": "https://lichess.org/B2pfpg7B/black#54",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/B2pfpg7B/black#54"
     },
     {
       "puzzleId": "3rdLU",
       "fen": "3R4/3P1Kpk/8/6p1/7n/8/8/4r3 b - - 3 48",
       "moves": "g5g4 d8h8 h7h8 d7d8q h8h7 d8h4",
-      "rating": 1565,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 17184,
-      "themes": "advancedPawn attraction endgame fork long mate mateIn3 promotion",
-      "gameUrl": "https://lichess.org/dI6TemdM/black#96",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/dI6TemdM/black#96"
     },
     {
       "puzzleId": "3uvpg",
       "fen": "2r2rk1/1b2q1pp/pp3p2/4N3/3Pp3/PQR5/1P3PPP/5RK1 b - - 1 21",
       "moves": "g8h8 e5g6 h7g6 c3h3",
-      "rating": 1593,
-      "ratingDeviation": 79,
-      "popularity": 97,
-      "nbPlays": 21979,
-      "themes": "mate mateIn2 middlegame sacrifice short",
-      "gameUrl": "https://lichess.org/suBDq5xA/black#42",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/suBDq5xA/black#42"
     },
     {
       "puzzleId": "3vztq",
       "fen": "2b2rk1/p3bp1p/1q4pQ/2ppP3/8/1P3N2/PB3PPP/4R1K1 b - - 3 21",
       "moves": "f8d8 e5e6 f7f6 f3g5",
-      "rating": 1580,
-      "ratingDeviation": 74,
-      "popularity": 97,
-      "nbPlays": 12785,
-      "themes": "crushing middlegame short",
-      "gameUrl": "https://lichess.org/aWAOFz4l/black#42",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/aWAOFz4l/black#42"
     },
     {
       "puzzleId": "40LiS",
       "fen": "2r3k1/p4ppp/4pn2/qprp4/5B2/1PPRRQ1P/P4PP1/6K1 b - - 0 20",
       "moves": "f6e4 b3b4 a5a2 b4c5",
-      "rating": 1448,
-      "ratingDeviation": 77,
-      "popularity": 97,
-      "nbPlays": 13536,
-      "themes": "crushing fork master middlegame short",
-      "gameUrl": "https://lichess.org/0zfiRGth/black#40",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/0zfiRGth/black#40"
     },
     {
       "puzzleId": "414KA",
       "fen": "r4rkR/p5p1/2pb2p1/qp4N1/2nP1p2/2P1B3/PP3PP1/1KQR4 b - - 1 20",
       "moves": "g8h8 d1h1 h8g8 h1h8 g8h8 c1h1 h8g8 h1h7",
-      "rating": 1404,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 10430,
-      "themes": "attraction kingsideAttack mate mateIn4 middlegame sacrifice veryLong",
-      "gameUrl": "https://lichess.org/h1TEcsF7/black#40",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/h1TEcsF7/black#40"
     },
     {
       "puzzleId": "49tRz",
       "fen": "r2q2k1/1b2brPR/p2p2p1/1p6/2nNPp2/2N2P2/PPP3Q1/1K1R4 b - - 0 21",
       "moves": "f7g7 h7g7 g8g7 d4e6 g7f7 e6d8",
-      "rating": 1570,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 21822,
-      "themes": "attraction crushing exposedKing fork long middlegame",
-      "gameUrl": "https://lichess.org/5ID3Dp26/black#42",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/5ID3Dp26/black#42"
     },
     {
       "puzzleId": "4Aebn",
       "fen": "r4r1k/pp3p2/4N2P/q2p4/5PQ1/1P1n4/5RP1/1K5R b - - 0 31",
       "moves": "f8g8 g4g7 g8g7 h6g7 h8g8 h1h8",
-      "rating": 1446,
-      "ratingDeviation": 74,
-      "popularity": 97,
-      "nbPlays": 31691,
-      "themes": "advancedPawn collinearMove discoveredCheck doubleCheck exposedKing long mate mateIn3 middlegame sacrifice",
-      "gameUrl": "https://lichess.org/ZqVU0DOU/black#62",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/ZqVU0DOU/black#62"
     },
     {
       "puzzleId": "4DNDn",
       "fen": "8/8/1p3rp1/p3p3/P1PpN1kP/3P2P1/6K1/8 b - - 6 40",
       "moves": "f6f3 e4f2 f3f2 g2f2",
-      "rating": 1478,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 13638,
-      "themes": "crushing endgame short",
-      "gameUrl": "https://lichess.org/m3UN5OSa/black#80",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/m3UN5OSa/black#80"
     },
     {
       "puzzleId": "4JGBr",
       "fen": "6r1/2pQ1pk1/rq3p1p/1p2R2P/p2R4/P1PP4/B1P5/6K1 b - - 0 33",
       "moves": "f6e5 d7f7 g7h8 f7g8",
-      "rating": 1538,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 18763,
-      "themes": "endgame mate mateIn2 short",
-      "gameUrl": "https://lichess.org/K9eDvq6m/black#66",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/K9eDvq6m/black#66"
     },
     {
       "puzzleId": "4OxrM",
       "fen": "2r5/7R/1p4k1/p2p1pN1/7P/5NPK/4r3/8 b - - 6 40",
       "moves": "c8c1 h4h5 g6f6 h7f7",
-      "rating": 1503,
-      "ratingDeviation": 74,
-      "popularity": 97,
-      "nbPlays": 32785,
-      "themes": "endgame mate mateIn2 short",
-      "gameUrl": "https://lichess.org/j7xqJ6Be/black#80",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/j7xqJ6Be/black#80"
     },
     {
       "puzzleId": "4SBho",
       "fen": "r1b1k2r/1ppq1ppp/p4n2/8/1b1P4/8/PP1BBPPP/R2QK1NR b KQkq - 2 12",
       "moves": "d7d4 d1a4 c8d7 a4b4 d4b4 d2b4",
-      "rating": 1589,
-      "ratingDeviation": 77,
-      "popularity": 97,
-      "nbPlays": 17438,
-      "themes": "crushing long opening",
-      "gameUrl": "https://lichess.org/CQEFsUQV/black#24",
-      "openingTags": "Scandinavian_Defense Scandinavian_Defense_Gubinsky-Melts_Defense"
+      "gameUrl": "https://lichess.org/CQEFsUQV/black#24"
     },
     {
       "puzzleId": "4Urer",
       "fen": "4r3/4P1p1/5bkp/1p6/4BR2/2p4P/2P3P1/7K b - - 3 34",
       "moves": "g6g5 f4g4 g5h5 e4g6",
-      "rating": 1418,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 28615,
-      "themes": "endgame mate mateIn2 short",
-      "gameUrl": "https://lichess.org/2j407i3C/black#68",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/2j407i3C/black#68"
     },
     {
       "puzzleId": "4YPk3",
       "fen": "5rk1/4q1p1/p2bPRQ1/1prP4/2p5/P5NP/2B3PK/5R2 b - - 0 38",
       "moves": "f8f6 g6h7 g8f8 h7h8",
-      "rating": 1500,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 13405,
-      "themes": "mate mateIn2 middlegame short",
-      "gameUrl": "https://lichess.org/xgJ4LCQ1/black#76",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/xgJ4LCQ1/black#76"
     },
     {
       "puzzleId": "4dQzj",
       "fen": "4r1k1/5p1p/p3r1p1/3qP1P1/3P3Q/2p1p2R/P6P/2B3K1 b - - 1 34",
       "moves": "e3e2 h4h7 g8f8 c1a3 e6d6 a3d6",
-      "rating": 1533,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 13053,
-      "themes": "crushing endgame long",
-      "gameUrl": "https://lichess.org/wi8OlKMv/black#68",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/wi8OlKMv/black#68"
     },
     {
       "puzzleId": "4ivwI",
       "fen": "2krr3/pppbbpp1/3p1n1p/8/4PP1B/2N5/PPP1B1PP/2KRR3 b - - 2 14",
       "moves": "d7g4 h4f6 g4e2 f6e7 e2d1 e7d8",
-      "rating": 1523,
-      "ratingDeviation": 77,
-      "popularity": 97,
-      "nbPlays": 10888,
-      "themes": "crushing long middlegame",
-      "gameUrl": "https://lichess.org/RvO1cPKk/black#28",
-      "openingTags": "Scotch_Game Scotch_Game_Other_variations"
+      "gameUrl": "https://lichess.org/RvO1cPKk/black#28"
     },
     {
       "puzzleId": "4kDd5",
       "fen": "5k2/5P1p/4P1pP/3pK3/1pp5/1n6/1P6/8 b - - 2 48",
       "moves": "c4c3 e5f6 c3c2 e6e7",
-      "rating": 1451,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 15528,
-      "themes": "advancedPawn endgame knightEndgame mate mateIn2 short",
-      "gameUrl": "https://lichess.org/XRbHdpA0/black#96",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/XRbHdpA0/black#96"
     },
     {
       "puzzleId": "4oW9s",
       "fen": "8/2p5/1p2K3/r4P2/1k6/p5P1/8/3R4 b - - 1 53",
       "moves": "b4b3 f5f6 a3a2 f6f7 a2a1r d1a1 a5a1 f7f8q",
-      "rating": 1541,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 12803,
-      "themes": "advancedPawn crushing endgame master promotion rookEndgame veryLong",
-      "gameUrl": "https://lichess.org/QY99Mzz2/black#106",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/QY99Mzz2/black#106"
     },
     {
       "puzzleId": "4uU3j",
       "fen": "2r3k1/5pp1/7p/p3RB2/1rbp1P2/7P/P1P3P1/3R2K1 b - - 1 26",
       "moves": "c4e6 e5e6 f7e6 f5e6 g8f8 e6c8",
-      "rating": 1576,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 11972,
-      "themes": "crushing endgame fork long master",
-      "gameUrl": "https://lichess.org/rviyKEwP/black#52",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/rviyKEwP/black#52"
     },
     {
       "puzzleId": "4xyAB",
       "fen": "7k/1p2r1p1/p5q1/3pP2p/7P/2P5/P3Q1PK/5R2 b - - 0 29",
       "moves": "g6e4 f1f8 h8h7 e2h5",
-      "rating": 1444,
-      "ratingDeviation": 78,
-      "popularity": 97,
-      "nbPlays": 16339,
-      "themes": "endgame master mate mateIn2 short",
-      "gameUrl": "https://lichess.org/zi44gMBk/black#58",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/zi44gMBk/black#58"
     },
     {
       "puzzleId": "50WA5",
       "fen": "2r3k1/3Q1pp1/p6p/5P2/2q5/7P/1P4P1/4R2K b - - 6 31",
       "moves": "c4c6 e1e8 c8e8 d7c6",
-      "rating": 1450,
-      "ratingDeviation": 74,
-      "popularity": 97,
-      "nbPlays": 13218,
-      "themes": "crushing deflection endgame short",
-      "gameUrl": "https://lichess.org/LAGBqXSq/black#62",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/LAGBqXSq/black#62"
     },
     {
       "puzzleId": "537GF",
       "fen": "8/8/5pp1/1pkp2P1/p6P/P1PK4/1P6/8 b - - 0 35",
       "moves": "f6f5 h4h5 g6h5 g5g6 c5d6 g6g7",
-      "rating": 1516,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 15312,
-      "themes": "advancedPawn crushing endgame long pawnEndgame",
-      "gameUrl": "https://lichess.org/3BiM80Xy/black#70",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/3BiM80Xy/black#70"
     },
     {
       "puzzleId": "58gnB",
       "fen": "8/7p/1pr1kPp1/p2pP3/8/1R4KP/PP6/8 b - - 2 34",
       "moves": "e6e5 f6f7 c6f6 b3f3 f6f7 f3f7",
-      "rating": 1531,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 32680,
-      "themes": "advancedPawn crushing endgame long rookEndgame",
-      "gameUrl": "https://lichess.org/qCB6J8mW/black#68",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/qCB6J8mW/black#68"
     },
     {
       "puzzleId": "5D0zC",
       "fen": "r3k2r/pp2q1np/1np1bpB1/3pN3/3P2P1/2N1P2P/PPQ2P2/2KR3R b kq - 0 17",
       "moves": "h7g6 e5g6 e7d6 g6h8",
-      "rating": 1485,
-      "ratingDeviation": 78,
-      "popularity": 97,
-      "nbPlays": 22356,
-      "themes": "advantage fork middlegame short",
-      "gameUrl": "https://lichess.org/nlv8vM5B/black#34",
-      "openingTags": "Queens_Gambit_Declined Queens_Gambit_Declined_Exchange_Variation"
+      "gameUrl": "https://lichess.org/nlv8vM5B/black#34"
     },
     {
       "puzzleId": "5GQj2",
       "fen": "r1b2qk1/pppp1npp/2n5/3Q4/2B5/5N1P/P4PP1/bN2R1K1 b - - 1 15",
       "moves": "a1f6 d5f7 f8f7 e1e8",
-      "rating": 1479,
-      "ratingDeviation": 73,
-      "popularity": 97,
-      "nbPlays": 24600,
-      "themes": "kingsideAttack mate mateIn2 middlegame pin sacrifice short",
-      "gameUrl": "https://lichess.org/StibWD4K/black#30",
-      "openingTags": "Danish_Gambit_Accepted Danish_Gambit_Accepted_Other_variations"
+      "gameUrl": "https://lichess.org/StibWD4K/black#30"
     },
     {
       "puzzleId": "5Ia41",
       "fen": "r1b5/pp2nk2/1qn2p2/3p3Q/6r1/1NPB1p2/PP3PPP/R4RK1 b - - 0 23",
       "moves": "g4g6 d3g6 e7g6 h5h7",
-      "rating": 1595,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 10143,
-      "themes": "crushing master masterVsMaster middlegame short",
-      "gameUrl": "https://lichess.org/CtMjLoLs/black#46",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/CtMjLoLs/black#46"
     },
     {
       "puzzleId": "5P6Wj",
       "fen": "r4r2/1bq1bRkB/p7/1pn1p1N1/8/2P1n2P/PP1N4/RQ4K1 b - - 0 23",
       "moves": "f8f7 b1g6 g7h8 g5f7",
-      "rating": 1475,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 16422,
-      "themes": "cornerMate mate mateIn2 middlegame short",
-      "gameUrl": "https://lichess.org/CGjISyGo/black#46",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/CGjISyGo/black#46"
     },
     {
       "puzzleId": "5STau",
       "fen": "2r3k1/pp2qr1p/2p1pbB1/8/3P2Q1/2P4R/PP3PK1/7R b - - 0 37",
       "moves": "h7g6 g4g6 g8f8 h3h8 f6h8 h1h8",
-      "rating": 1473,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 10847,
-      "themes": "exposedKing long mate mateIn3 middlegame",
-      "gameUrl": "https://lichess.org/8TvAuXkK/black#74",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/8TvAuXkK/black#74"
     },
     {
       "puzzleId": "5W6fw",
       "fen": "2kN4/2p2p2/1p2p2p/1Bq1r3/P4p2/2P5/1P3P1P/3R3K b - - 2 30",
       "moves": "c5f2 b5a6 c8b8 d8c6 b8a8 d1d8",
-      "rating": 1479,
-      "ratingDeviation": 77,
-      "popularity": 97,
-      "nbPlays": 31100,
-      "themes": "endgame fork long mate mateIn3 pillsburysMate",
-      "gameUrl": "https://lichess.org/WLdFfWFq/black#60",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/WLdFfWFq/black#60"
     },
     {
       "puzzleId": "5YKd3",
       "fen": "3r2k1/3r3p/4Q1p1/p3P1P1/2pq4/P1n5/5R1P/5R1K b - - 0 31",
       "moves": "g8h8 f2f8 d8f8 f1f8 h8g7 f8g8",
-      "rating": 1429,
-      "ratingDeviation": 79,
-      "popularity": 97,
-      "nbPlays": 28116,
-      "themes": "killBoxMate long mate mateIn3 middlegame",
-      "gameUrl": "https://lichess.org/uTGJBK3b/black#62",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/uTGJBK3b/black#62"
     },
     {
       "puzzleId": "5aywT",
       "fen": "5r1k/pp1n1p1p/1qpN3Q/2nP4/2P5/P4P2/6PP/4R2K b - - 3 29",
       "moves": "c5d3 d6f7 f8f7 e1e8 d7f8 e8f8 f7f8 h6f8",
-      "rating": 1489,
-      "ratingDeviation": 77,
-      "popularity": 97,
-      "nbPlays": 10630,
-      "themes": "kingsideAttack mate mateIn4 middlegame sacrifice veryLong",
-      "gameUrl": "https://lichess.org/b2Hhv1Sg/black#58",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/b2Hhv1Sg/black#58"
     },
     {
       "puzzleId": "5eH57",
       "fen": "8/5pkp/3bpQp1/3p4/3P2N1/1q2P2P/6P1/7K b - - 1 39",
       "moves": "g7g8 g4h6 g8f8 f6f7",
-      "rating": 1430,
-      "ratingDeviation": 79,
-      "popularity": 97,
-      "nbPlays": 26522,
-      "themes": "endgame mate mateIn2 short",
-      "gameUrl": "https://lichess.org/C2DpMqk7/black#78",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/C2DpMqk7/black#78"
     },
     {
       "puzzleId": "5ivmO",
       "fen": "r1b4r/pN2k3/2p2p2/6p1/2nPP2p/2P4P/2R3PB/1R4K1 b - - 0 26",
       "moves": "c4a3 h2d6 e7f7 d6a3",
-      "rating": 1409,
-      "ratingDeviation": 74,
-      "popularity": 97,
-      "nbPlays": 14666,
-      "themes": "crushing fork middlegame short",
-      "gameUrl": "https://lichess.org/1h0tsV8y/black#52",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/1h0tsV8y/black#52"
     },
     {
       "puzzleId": "5kaOA",
       "fen": "8/4k3/p1p5/PpPbP1p1/1P1K1pB1/5P2/8/8 b - - 8 41",
       "moves": "e7d8 e5e6 d5b3 d4e5 d8e7 e5f5 b3e6 f5g5",
-      "rating": 1406,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 10294,
-      "themes": "bishopEndgame crushing endgame veryLong",
-      "gameUrl": "https://lichess.org/3ZkxLELq/black#82",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/3ZkxLELq/black#82"
     },
     {
       "puzzleId": "5lu3C",
       "fen": "r2qk2r/pppn1ppp/3bpnb1/3p4/3PP3/3B1N2/PPPN1PPP/R1BQR1K1 b kq - 0 8",
       "moves": "c7c6 e4e5 g6d3 c2d3",
-      "rating": 1552,
-      "ratingDeviation": 73,
-      "popularity": 97,
-      "nbPlays": 24876,
-      "themes": "crushing fork opening short",
-      "gameUrl": "https://lichess.org/LNRNGpoX/black#16",
-      "openingTags": "Queens_Pawn_Game Queens_Pawn_Game_Zukertort_Variation"
+      "gameUrl": "https://lichess.org/LNRNGpoX/black#16"
     },
     {
       "puzzleId": "5nYFc",
       "fen": "6k1/pppR3p/2p3p1/6r1/8/1P4Pn/PNP2r1P/2R4K b - - 2 26",
       "moves": "g5e5 b2d3 e5d5 d7d5 c6d5 d3f2",
-      "rating": 1546,
-      "ratingDeviation": 73,
-      "popularity": 97,
-      "nbPlays": 15161,
-      "themes": "advantage endgame fork long",
-      "gameUrl": "https://lichess.org/7UkRIO21/black#52",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/7UkRIO21/black#52"
     },
     {
       "puzzleId": "5rSzO",
       "fen": "r3kr2/2p3R1/p2pN3/3Pp2p/3p4/8/P1P1KP2/8 b q - 1 31",
       "moves": "f8f7 g7g8 e8e7 g8a8",
-      "rating": 1426,
-      "ratingDeviation": 78,
-      "popularity": 97,
-      "nbPlays": 22206,
-      "themes": "advantage endgame master short skewer",
-      "gameUrl": "https://lichess.org/P15VmE7D/black#62",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/P15VmE7D/black#62"
     },
     {
       "puzzleId": "5teTv",
       "fen": "3r2rk/p1R2Q2/5p1p/1p2b3/1P2qRPK/P7/7P/8 b - - 2 34",
       "moves": "e5f4 f7f6 g8g7 f6g7",
-      "rating": 1448,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 18049,
-      "themes": "endgame mate mateIn2 short",
-      "gameUrl": "https://lichess.org/LbmFT07o/black#68",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/LbmFT07o/black#68"
     },
     {
       "puzzleId": "5xtUU",
       "fen": "2rr2k1/p4pp1/1p5p/n2b4/5qN1/8/P3QPPP/1B1RR1K1 b - - 1 23",
       "moves": "d5c4 d1d8 c8d8 e2e8 d8e8 e1e8",
-      "rating": 1531,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 29919,
-      "themes": "kingsideAttack long mate mateIn3 middlegame pillsburysMate sacrifice",
-      "gameUrl": "https://lichess.org/So7hto7T/black#46",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/So7hto7T/black#46"
     },
     {
       "puzzleId": "61M8v",
       "fen": "1qr1r1k1/R5bp/2p3p1/1pP2p2/3P4/3B4/5PPP/R2Q2K1 b - - 0 27",
       "moves": "g7d4 d1b3 g8h8 b3f7 c8c7 a7c7",
-      "rating": 1506,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 11906,
-      "themes": "advantage long middlegame",
-      "gameUrl": "https://lichess.org/kVuduHML/black#54",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/kVuduHML/black#54"
     },
     {
       "puzzleId": "67OQ4",
       "fen": "3R4/1P4p1/2K2pk1/7p/8/1r6/8/8 b - - 3 48",
       "moves": "g6f5 d8d5 f5g6 d5b5",
-      "rating": 1466,
-      "ratingDeviation": 79,
-      "popularity": 97,
-      "nbPlays": 28507,
-      "themes": "crushing endgame rookEndgame short",
-      "gameUrl": "https://lichess.org/bPww2EuI/black#96",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/bPww2EuI/black#96"
     },
     {
       "puzzleId": "6CzVR",
       "fen": "r4rk1/pb3ppB/1p2p2R/1P2P3/5P2/4p1R1/2Q1K1PP/6q1 b - - 3 27",
       "moves": "g8h8 h7g8 g7h6 c2h7",
-      "rating": 1568,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 11953,
-      "themes": "clearance discoveredAttack discoveredCheck kingsideAttack mate mateIn2 middlegame sacrifice short",
-      "gameUrl": "https://lichess.org/PUXdTKgj/black#54",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/PUXdTKgj/black#54"
     },
     {
       "puzzleId": "6JPp3",
       "fen": "r4rk1/pQ3pp1/5n1p/8/6b1/1B6/PP1q1PPP/R4RK1 b - - 0 20",
       "moves": "d2b2 b3f7 f8f7 b7b2",
-      "rating": 1598,
-      "ratingDeviation": 78,
-      "popularity": 97,
-      "nbPlays": 31703,
-      "themes": "advantage discoveredAttack middlegame short",
-      "gameUrl": "https://lichess.org/k6CfjNii/black#40",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/k6CfjNii/black#40"
     },
     {
       "puzzleId": "6KQeT",
       "fen": "3r2k1/2q1bppp/8/pr1bp3/8/P1N1B3/2Q2PPP/2R2RK1 b - - 1 23",
       "moves": "b5b7 c3d5 c7c2 d5e7 b7e7 c1c2",
-      "rating": 1486,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 12501,
-      "themes": "advantage intermezzo long middlegame sacrifice",
-      "gameUrl": "https://lichess.org/PpJ3CWRX/black#46",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/PpJ3CWRX/black#46"
     },
     {
       "puzzleId": "6N7Au",
       "fen": "rn3rk1/ppp1qpp1/3p1n1p/5P2/2B4Q/8/PB3PPP/R4RK1 b - - 0 14",
       "moves": "e7e4 b2f6 e4h4 f6h4",
-      "rating": 1443,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 15537,
-      "themes": "crushing middlegame short",
-      "gameUrl": "https://lichess.org/L510lvnE/black#28",
-      "openingTags": "Danish_Gambit_Accepted Danish_Gambit_Accepted_Copenhagen_Defense"
+      "gameUrl": "https://lichess.org/L510lvnE/black#28"
     },
     {
       "puzzleId": "6OC2i",
       "fen": "8/p1r2k2/8/3P4/P1p3p1/2K1B1P1/5P2/8 b - - 1 39",
       "moves": "f7e7 d5d6 e7d6 e3f4 d6c6 f4c7",
-      "rating": 1585,
-      "ratingDeviation": 74,
-      "popularity": 97,
-      "nbPlays": 22686,
-      "themes": "attraction crushing endgame exposedKing long skewer",
-      "gameUrl": "https://lichess.org/l9lGlvBI/black#78",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/l9lGlvBI/black#78"
     },
     {
       "puzzleId": "6SptM",
       "fen": "r4rk1/1bq2ppp/p7/4N3/5Q2/3B1P2/2P3PP/R5K1 b - - 0 21",
       "moves": "f7f6 d3c4 f8f7 c4f7 c7f7 e5f7",
-      "rating": 1418,
-      "ratingDeviation": 77,
-      "popularity": 97,
-      "nbPlays": 10090,
-      "themes": "crushing long middlegame",
-      "gameUrl": "https://lichess.org/uJdjQS95/black#42",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/uJdjQS95/black#42"
     },
     {
       "puzzleId": "6YCqI",
       "fen": "r5k1/p4ppp/1p3n2/1qppQ1B1/8/P7/1P3PPP/4R1K1 b - - 3 27",
       "moves": "f6e4 e5d5 a8e8 e1e4 e8e4 d5e4",
-      "rating": 1554,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 11456,
-      "themes": "crushing endgame fork long",
-      "gameUrl": "https://lichess.org/ouLs0sc6/black#54",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/ouLs0sc6/black#54"
     },
     {
       "puzzleId": "6goba",
       "fen": "r3b1k1/1p4p1/p1n1pq1p/3pN3/3P4/P2BP3/P1Q3PP/5RK1 b - - 1 18",
       "moves": "f6g5 d3h7 g8h8 f1f8",
-      "rating": 1484,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 19296,
-      "themes": "kingsideAttack mate mateIn2 middlegame short",
-      "gameUrl": "https://lichess.org/HzcwgQrS/black#36",
-      "openingTags": "French_Defense French_Defense_Advance_Variation"
+      "gameUrl": "https://lichess.org/HzcwgQrS/black#36"
     },
     {
       "puzzleId": "6ms7a",
       "fen": "4R3/8/1p1k3p/3n2p1/2KP4/7r/3B4/8 b - - 5 46",
       "moves": "d6c6 e8e6 c6d7 c4d5",
-      "rating": 1488,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 24279,
-      "themes": "advantage deflection endgame master short",
-      "gameUrl": "https://lichess.org/TqTR3zRZ/black#92",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/TqTR3zRZ/black#92"
     },
     {
       "puzzleId": "6shAP",
       "fen": "4r3/p4n2/1p4k1/2p3P1/3p2NQ/P1PP4/3q4/5RK1 b - - 1 41",
       "moves": "d2g5 f1f6 g6g7 f6f7 g7f7 h4g5",
-      "rating": 1478,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 14317,
-      "themes": "crushing endgame exposedKing long",
-      "gameUrl": "https://lichess.org/doANNbuS/black#82",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/doANNbuS/black#82"
     },
     {
       "puzzleId": "6wFRd",
       "fen": "r3r1k1/ppp3pp/8/2q2p1Q/1n2B3/6Pb/PP1P1P1P/R1B1R1K1 b - - 1 18",
       "moves": "h3g4 e4d5 b4d5 e1e8 a8e8 h5e8",
-      "rating": 1436,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 14559,
-      "themes": "advantage discoveredAttack kingsideAttack long middlegame",
-      "gameUrl": "https://lichess.org/YdklKHN3/black#36",
-      "openingTags": "Elephant_Gambit Elephant_Gambit_Paulsen_Countergambit"
+      "gameUrl": "https://lichess.org/YdklKHN3/black#36"
     },
     {
       "puzzleId": "6zMU7",
       "fen": "5rk1/2q2pp1/p1p1pn1p/Pp1r4/1P1P3Q/2P3RP/4NPP1/4R1K1 b - - 5 27",
       "moves": "d5h5 h4f6 c7g3 e2g3 g7f6 g3h5",
-      "rating": 1547,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 29668,
-      "themes": "crushing long middlegame pin",
-      "gameUrl": "https://lichess.org/R1cv1NOJ/black#54",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/R1cv1NOJ/black#54"
     },
     {
       "puzzleId": "79WMR",
       "fen": "2R5/1p2r1k1/5pp1/p3n3/8/4P2Q/5BPK/1q6 b - - 5 48",
       "moves": "b1f5 h3h8 g7f7 h8g8",
-      "rating": 1468,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 26898,
-      "themes": "endgame mate mateIn2 short",
-      "gameUrl": "https://lichess.org/CSs04vuZ/black#96",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/CSs04vuZ/black#96"
     },
     {
       "puzzleId": "7AYs3",
       "fen": "8/8/P7/3K3p/3b4/3p1k1P/3B4/8 b - - 3 48",
       "moves": "f3e2 d5d4 e2d2 a6a7 d2e2 a7a8q",
-      "rating": 1461,
-      "ratingDeviation": 77,
-      "popularity": 97,
-      "nbPlays": 12181,
-      "themes": "advancedPawn bishopEndgame crushing endgame long promotion",
-      "gameUrl": "https://lichess.org/fyexX8Kh/black#96",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/fyexX8Kh/black#96"
     },
     {
       "puzzleId": "7CSMe",
       "fen": "5rk1/1pp4p/p2pP2P/5p2/2P3pq/2N5/PP1Q1PP1/6K1 b - - 0 22",
       "moves": "h4e7 c3d5 e7e6 d2g5 e6g6 d5e7 g8f7 e7g6",
-      "rating": 1440,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 25527,
-      "themes": "crushing endgame fork master veryLong",
-      "gameUrl": "https://lichess.org/PCajkyCc/black#44",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/PCajkyCc/black#44"
     },
     {
       "puzzleId": "7FIvw",
       "fen": "r2qr1k1/pp2bppp/2p3b1/2B2n2/3P1Q2/2N2N1P/P4PP1/R3R1K1 b - - 3 21",
       "moves": "e7d6 e1e8 d8e8 c5d6",
-      "rating": 1404,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 18527,
-      "themes": "crushing kingsideAttack master middlegame short",
-      "gameUrl": "https://lichess.org/nPg3kiBk/black#42",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/nPg3kiBk/black#42"
     },
     {
       "puzzleId": "7Lhru",
       "fen": "5rk1/3n1Rbp/pp4p1/8/3PQ1n1/PB6/1PP1KPP1/q7 b - - 0 20",
       "moves": "f8f7 e4e8 d7f8 e8f7 g8h8 f7g8",
-      "rating": 1585,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 24831,
-      "themes": "long mate mateIn3 middlegame pin",
-      "gameUrl": "https://lichess.org/Dm2rwJNY/black#40",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/Dm2rwJNY/black#40"
     },
     {
       "puzzleId": "7Polc",
       "fen": "2r1r1k1/5p2/2p2n1p/1p3Pp1/p1pP2N1/2P2P1P/PP4K1/R3R3 b - - 1 32",
       "moves": "e8e1 g4f6 g8g7 f6h5 g7f8 a1e1",
-      "rating": 1550,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 15853,
-      "themes": "crushing endgame hangingPiece kingsideAttack long",
-      "gameUrl": "https://lichess.org/2DnPU4hg/black#64",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/2DnPU4hg/black#64"
     },
     {
       "puzzleId": "7Sapi",
       "fen": "r1bq1rk1/pp3B1p/6pB/2p1b3/8/3P1Q2/Pp4PP/R4RK1 b - - 0 17",
       "moves": "f8f7 f3f7 g8h8 f7f8 d8f8 f1f8",
-      "rating": 1472,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 30557,
-      "themes": "kingsideAttack long mate mateIn3 middlegame pillsburysMate",
-      "gameUrl": "https://lichess.org/kzIwAFO7/black#34",
-      "openingTags": "Sicilian_Defense Sicilian_Defense_Alapin_Variation"
+      "gameUrl": "https://lichess.org/kzIwAFO7/black#34"
     },
     {
       "puzzleId": "7X044",
       "fen": "1r6/5p2/4pP2/3p2P1/5P2/p1k1P3/K6R/8 b - - 2 45",
       "moves": "b8b2 h2b2 a3b2 a2b1 d5d4 e3d4",
-      "rating": 1477,
-      "ratingDeviation": 77,
-      "popularity": 97,
-      "nbPlays": 12769,
-      "themes": "crushing endgame long rookEndgame",
-      "gameUrl": "https://lichess.org/3gHnMSik/black#90",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/3gHnMSik/black#90"
     },
     {
       "puzzleId": "7XRVc",
       "fen": "8/kp6/p2R1b1p/1P6/2P1qpp1/1P1R1n1P/8/3K4 b - - 0 47",
       "moves": "g4h3 b5b6 a7b8 d6d8 f6d8 d3d8",
-      "rating": 1520,
-      "ratingDeviation": 74,
-      "popularity": 97,
-      "nbPlays": 15303,
-      "themes": "endgame long mate mateIn3 sacrifice",
-      "gameUrl": "https://lichess.org/UzW6Fwta/black#94",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/UzW6Fwta/black#94"
     },
     {
       "puzzleId": "7ZpWY",
       "fen": "6k1/5p1p/Pq2p1p1/4P3/2P2P2/1r2b2P/Q5P1/4R2K b - - 1 39",
       "moves": "e3c5 a6a7 b6a7 a2b3",
-      "rating": 1415,
-      "ratingDeviation": 77,
-      "popularity": 97,
-      "nbPlays": 20248,
-      "themes": "advancedPawn advantage deflection endgame short",
-      "gameUrl": "https://lichess.org/XpLz3jYt/black#78",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/XpLz3jYt/black#78"
     },
     {
       "puzzleId": "7gReb",
       "fen": "8/6k1/6p1/p3B3/2pP4/2Pn4/P2q4/1K4Q1 b - - 6 38",
       "moves": "g7g8 g1g6 g8f8 e5d6",
-      "rating": 1473,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 14714,
-      "themes": "balestraMate endgame mate mateIn2 short",
-      "gameUrl": "https://lichess.org/MR1G1VhC/black#76",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/MR1G1VhC/black#76"
     },
     {
       "puzzleId": "7hcUa",
       "fen": "5r2/1k4Qp/8/3q4/1pN1p3/2P5/1P4KP/8 b - - 5 37",
       "moves": "f8f7 g7f7 d5f7 c4d6 b7c6 d6f7",
-      "rating": 1414,
-      "ratingDeviation": 77,
-      "popularity": 97,
-      "nbPlays": 19789,
-      "themes": "attraction crushing endgame exposedKing fork long master sacrifice",
-      "gameUrl": "https://lichess.org/LfW9jYg3/black#74",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/LfW9jYg3/black#74"
     },
     {
       "puzzleId": "7l178",
       "fen": "2r3k1/pp3b1p/6p1/8/PP1QNq2/7P/6P1/4R2K b - - 0 38",
       "moves": "c8c1 e4f6 f4f6 d4f6 c1e1 h1h2",
-      "rating": 1551,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 15943,
-      "themes": "crushing endgame long master",
-      "gameUrl": "https://lichess.org/21ycrSm8/black#76",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/21ycrSm8/black#76"
     },
     {
       "puzzleId": "7srBs",
       "fen": "r3kb1r/5ppp/p1p1p1n1/q1PpPb2/8/P1N1BN2/1PP2PPP/R2Q1RK1 b kq - 0 12",
       "moves": "f8c5 b2b4 c5b4 a3b4",
-      "rating": 1466,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 16613,
-      "themes": "crushing fork middlegame short",
-      "gameUrl": "https://lichess.org/sRFgSzd7/black#24",
-      "openingTags": "Caro-Kann_Defense Caro-Kann_Defense_Advance_Variation"
+      "gameUrl": "https://lichess.org/sRFgSzd7/black#24"
     },
     {
       "puzzleId": "81tvj",
       "fen": "r2q1rn1/7k/b1p1pp1P/p2p4/1p1P1P1P/2P1P3/PP1N2Q1/2K3RR b - - 0 20",
       "moves": "f8f7 g2g6 h7h8 g6f7",
-      "rating": 1415,
-      "ratingDeviation": 77,
-      "popularity": 97,
-      "nbPlays": 17258,
-      "themes": "crushing fork middlegame short",
-      "gameUrl": "https://lichess.org/2SzPbMAP/black#40",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/2SzPbMAP/black#40"
     },
     {
       "puzzleId": "85dON",
       "fen": "8/8/1b4p1/3pkp1p/4p2P/4PPP1/3NK3/8 b - - 3 59",
       "moves": "d5d4 d2c4 e5f6 c4b6",
-      "rating": 1557,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 12961,
-      "themes": "crushing endgame fork master short",
-      "gameUrl": "https://lichess.org/jyzUurrn/black#118",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/jyzUurrn/black#118"
     },
     {
       "puzzleId": "8AQE0",
       "fen": "r7/3bQ1rk/2pp1N2/p1p2P2/P1Pq2P1/3P3N/1P6/7K b - - 3 35",
       "moves": "h7h6 g4g5 g7g5 e7h7",
-      "rating": 1488,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 26978,
-      "themes": "mate mateIn2 middlegame short",
-      "gameUrl": "https://lichess.org/MvKKwQ4O/black#70",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/MvKKwQ4O/black#70"
     },
     {
       "puzzleId": "8BL6x",
       "fen": "7r/pRk1p3/2p1P3/2N4p/3p3P/P7/qPPKBr2/3R4 b - - 1 41",
       "moves": "c7d6 c5e4 d6e6 e4f2",
-      "rating": 1405,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 11167,
-      "themes": "advantage fork middlegame short",
-      "gameUrl": "https://lichess.org/yuZpm1q4/black#82",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/yuZpm1q4/black#82"
     },
     {
       "puzzleId": "8GR0j",
       "fen": "3r1bk1/1bq2pp1/7p/1p3Q2/2pPN3/2P5/1P4PP/rB1R1R1K b - - 0 27",
       "moves": "d8d5 e4f6 g7f6 f5h7",
-      "rating": 1415,
-      "ratingDeviation": 74,
-      "popularity": 97,
-      "nbPlays": 13386,
-      "themes": "kingsideAttack mate mateIn2 middlegame sacrifice short",
-      "gameUrl": "https://lichess.org/NjOyNpaS/black#54",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/NjOyNpaS/black#54"
     },
     {
       "puzzleId": "8Hver",
       "fen": "5R2/p1pQ2pk/7p/4p3/8/P1P1q2P/1r4PK/8 b - - 3 37",
       "moves": "e3g5 d7d3 g5g6 f8h8 h7h8 d3g6",
-      "rating": 1585,
-      "ratingDeviation": 77,
-      "popularity": 97,
-      "nbPlays": 23828,
-      "themes": "crushing deflection endgame long",
-      "gameUrl": "https://lichess.org/RhMFvz7Y/black#74",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/RhMFvz7Y/black#74"
     },
     {
       "puzzleId": "8OLoI",
       "fen": "r2k2nr/pp2pp2/3pn2p/3qb1p1/Q2N4/2P1B2P/PP3PP1/R2R2K1 b - - 3 18",
       "moves": "a7a6 d4e6 d5e6 e3b6 d8c8 a4e8",
-      "rating": 1412,
-      "ratingDeviation": 78,
-      "popularity": 97,
-      "nbPlays": 33726,
-      "themes": "clearance long mate mateIn3 middlegame",
-      "gameUrl": "https://lichess.org/SO2VYqfk/black#36",
-      "openingTags": "Caro-Kann_Defense Caro-Kann_Defense_Other_variations"
+      "gameUrl": "https://lichess.org/SO2VYqfk/black#36"
     },
     {
       "puzzleId": "8Pftw",
       "fen": "6k1/2p3p1/pp3qn1/2p3Np/2P2N1P/P3r1P1/1PQR1K2/4r3 b - - 2 31",
       "moves": "g6f4 c2h7 g8f8 h7h8 f8e7 h8d8",
-      "rating": 1510,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 18408,
-      "themes": "kingsideAttack long mate mateIn3 middlegame",
-      "gameUrl": "https://lichess.org/csH3CfWZ/black#62",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/csH3CfWZ/black#62"
     },
     {
       "puzzleId": "8TjV5",
       "fen": "6k1/3R1pp1/1p5p/3n4/2p5/5P2/6PP/7K b - - 3 39",
       "moves": "c4c3 d7d5 c3c2 d5d8 g8h7 d8c8",
-      "rating": 1500,
-      "ratingDeviation": 78,
-      "popularity": 97,
-      "nbPlays": 29159,
-      "themes": "crushing endgame hangingPiece long",
-      "gameUrl": "https://lichess.org/9tqFREAQ/black#78",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/9tqFREAQ/black#78"
     },
     {
       "puzzleId": "8XVzg",
       "fen": "3r2k1/2qb3p/1p4n1/3B1p2/1pP2P2/6P1/1Q5P/4R1K1 b - - 3 35",
       "moves": "g8f8 b2f6",
-      "rating": 1416,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 11981,
-      "themes": "master mate mateIn1 middlegame oneMove",
-      "gameUrl": "https://lichess.org/mPEWxhS5/black#70",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/mPEWxhS5/black#70"
     },
     {
       "puzzleId": "8Z4HX",
       "fen": "1R6/6p1/4pk2/1Pn1n2p/4p2P/6P1/4KP2/8 b - - 2 41",
       "moves": "e5c4 b8c8 c4b6 c8c5",
-      "rating": 1510,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 15963,
-      "themes": "crushing endgame master short",
-      "gameUrl": "https://lichess.org/vF2sWzII/black#82",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/vF2sWzII/black#82"
     },
     {
       "puzzleId": "8b5BJ",
       "fen": "1r4k1/2Q2p1p/4p1pb/p3P3/1q6/1P3N1P/P5P1/3R3K b - - 5 32",
       "moves": "b4b6 d1d8 b8d8 c7b6",
-      "rating": 1459,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 14664,
-      "themes": "advantage deflection endgame master masterVsMaster short",
-      "gameUrl": "https://lichess.org/gVzDwArI/black#64",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/gVzDwArI/black#64"
     },
     {
       "puzzleId": "8bN8G",
       "fen": "8/p6R/2p2k2/6p1/1bB2r2/1P6/P5K1/8 b - - 2 43",
       "moves": "b4e7 h7f7 f6g6 f7e7",
-      "rating": 1517,
-      "ratingDeviation": 77,
-      "popularity": 97,
-      "nbPlays": 34001,
-      "themes": "advantage deflection endgame short",
-      "gameUrl": "https://lichess.org/s8itQwpA/black#86",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/s8itQwpA/black#86"
     },
     {
       "puzzleId": "8hpcq",
       "fen": "2k2rR1/pp1q4/3p4/2pPp3/3pPr2/7p/PPP1QP2/6RK b - - 9 32",
       "moves": "f4f2 e2f2 f8g8 g1g8",
-      "rating": 1556,
-      "ratingDeviation": 73,
-      "popularity": 97,
-      "nbPlays": 24395,
-      "themes": "crushing endgame pin short",
-      "gameUrl": "https://lichess.org/3KfYFRxR/black#64",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/3KfYFRxR/black#64"
     },
     {
       "puzzleId": "8jXC8",
       "fen": "2R2rk1/1b4pp/p4q2/8/4pN2/4Q1P1/PP5P/3R2K1 b - - 0 30",
       "moves": "f8c8 e3b3 f6f7 b3f7 g8f7 d1d7",
-      "rating": 1521,
-      "ratingDeviation": 78,
-      "popularity": 97,
-      "nbPlays": 14553,
-      "themes": "attraction crushing endgame fork long master",
-      "gameUrl": "https://lichess.org/y6vz8bW1/black#60",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/y6vz8bW1/black#60"
     },
     {
       "puzzleId": "8l3Qe",
       "fen": "8/ppp1Q1kp/3p2p1/4n3/8/6P1/PPq1B1K1/8 b - - 3 35",
       "moves": "g7h6 e7f8 h6g5 f8f4",
-      "rating": 1539,
-      "ratingDeviation": 71,
-      "popularity": 97,
-      "nbPlays": 27925,
-      "themes": "endgame mate mateIn2 short",
-      "gameUrl": "https://lichess.org/IMgwsWhk/black#70",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/IMgwsWhk/black#70"
     },
     {
       "puzzleId": "8nQxy",
       "fen": "8/7P/3p2K1/p1pPb1P1/P1P2k2/8/8/8 b - - 0 52",
       "moves": "e5d4 g6h6 f4f5 g5g6 f5e4 g6g7",
-      "rating": 1554,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 10759,
-      "themes": "advancedPawn bishopEndgame crushing endgame long",
-      "gameUrl": "https://lichess.org/lf0Np2am/black#104",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/lf0Np2am/black#104"
     },
     {
       "puzzleId": "8pizB",
       "fen": "8/5kp1/1p1p3p/1P1P1K1P/2P5/8/8/8 b - - 0 62",
       "moves": "f7f8 f5e6 f8e8 e6d6",
-      "rating": 1449,
-      "ratingDeviation": 77,
-      "popularity": 97,
-      "nbPlays": 22422,
-      "themes": "crushing endgame pawnEndgame short",
-      "gameUrl": "https://lichess.org/9jKoICEC/black#124",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/9jKoICEC/black#124"
     },
     {
       "puzzleId": "8rlPn",
       "fen": "3q4/3Pk3/2P5/8/4R3/3K4/8/8 b - - 2 64",
       "moves": "e7d6 e4e8 d6c6 e8d8",
-      "rating": 1426,
-      "ratingDeviation": 77,
-      "popularity": 97,
-      "nbPlays": 24423,
-      "themes": "crushing endgame queenRookEndgame short",
-      "gameUrl": "https://lichess.org/HhlVExPb/black#128",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/HhlVExPb/black#128"
     },
     {
       "puzzleId": "8uZfM",
       "fen": "8/5p1k/6p1/3qR3/3P4/2p2P2/6K1/3R4 b - - 0 43",
       "moves": "c3c2 d1h1 h7g7 e5d5",
-      "rating": 1456,
-      "ratingDeviation": 74,
-      "popularity": 97,
-      "nbPlays": 15644,
-      "themes": "crushing endgame master queenRookEndgame short",
-      "gameUrl": "https://lichess.org/3ZyoM3dM/black#86",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/3ZyoM3dM/black#86"
     },
     {
       "puzzleId": "8w33H",
       "fen": "3n3r/p4kp1/3Q3p/q2p1R1P/2pP4/2P5/p1PBKP2/r5N1 b - - 0 28",
       "moves": "f7g8 f5f8 g8h7 d6g6",
-      "rating": 1437,
-      "ratingDeviation": 74,
-      "popularity": 97,
-      "nbPlays": 22728,
-      "themes": "kingsideAttack master mate mateIn2 middlegame short",
-      "gameUrl": "https://lichess.org/CDnLRouc/black#56",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/CDnLRouc/black#56"
     },
     {
       "puzzleId": "8xIVU",
       "fen": "r2q1bnr/ppp2kpp/2np4/4P3/4P3/5Q2/PPP2PPP/RNB1K2R b KQ - 0 7",
       "moves": "f7e6 f3f5 e6e7 c1g5 e7e8 g5d8",
-      "rating": 1465,
-      "ratingDeviation": 77,
-      "popularity": 97,
-      "nbPlays": 28527,
-      "themes": "crushing long opening skewer",
-      "gameUrl": "https://lichess.org/szTz5Idz/black#14",
-      "openingTags": "Italian_Game Italian_Game_Other_variations"
+      "gameUrl": "https://lichess.org/szTz5Idz/black#14"
     },
     {
       "puzzleId": "8ziZy",
       "fen": "8/3NR1pk/8/7K/8/7P/2r3P1/7n b - - 0 40",
       "moves": "c2g2 d7f6 h7h8 e7e8",
-      "rating": 1400,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 12095,
-      "themes": "endgame mate mateIn2 pin short",
-      "gameUrl": "https://lichess.org/ZXWhwjw7/black#80",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/ZXWhwjw7/black#80"
     },
     {
       "puzzleId": "93lNz",
       "fen": "4Rrk1/pQ5R/2p3pp/3n4/8/1Pq4P/P5P1/7K b - - 5 30",
       "moves": "f8e8 b7f7",
-      "rating": 1419,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 12476,
-      "themes": "endgame mate mateIn1 oneMove triangleMate",
-      "gameUrl": "https://lichess.org/cOsqTZRD/black#60",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/cOsqTZRD/black#60"
     },
     {
       "puzzleId": "95TVr",
       "fen": "7r/p1p1qpk1/1p2p1pp/4P3/8/2P2Q1P/PP3PP1/3R1K2 b - - 5 23",
       "moves": "h8d8 f3f6 e7f6 e5f6 g7f6 d1d8",
-      "rating": 1464,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 16524,
-      "themes": "advantage endgame long",
-      "gameUrl": "https://lichess.org/NdXzthSl/black#46",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/NdXzthSl/black#46"
     },
     {
       "puzzleId": "9A2IP",
       "fen": "r5k1/pp3rpp/3qB3/3p4/3B4/8/P1P1R1PP/R5K1 b - - 2 20",
       "moves": "a8e8 e6f7 g8f7 a1f1",
-      "rating": 1454,
-      "ratingDeviation": 77,
-      "popularity": 97,
-      "nbPlays": 12473,
-      "themes": "advantage attraction master middlegame short",
-      "gameUrl": "https://lichess.org/PcAecqk3/black#40",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/PcAecqk3/black#40"
     },
     {
       "puzzleId": "9EWUR",
       "fen": "4r3/b3P2p/p4krN/1p6/2p3PP/2P5/5P2/4R1K1 b - - 0 32",
       "moves": "e8e7 g4g5 g6g5 h4g5 f6g5 e1e7",
-      "rating": 1430,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 25407,
-      "themes": "advantage endgame exposedKing long",
-      "gameUrl": "https://lichess.org/kzYCR5LI/black#64",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/kzYCR5LI/black#64"
     },
     {
       "puzzleId": "9IK8U",
       "fen": "3r2k1/5p2/2qP1Pp1/1p5p/5Q2/8/1P5P/4R1K1 b - - 5 43",
       "moves": "c6d6 e1e8 d8e8 f4d6",
-      "rating": 1489,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 12057,
-      "themes": "crushing deflection endgame short",
-      "gameUrl": "https://lichess.org/IeoO64EU/black#86",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/IeoO64EU/black#86"
     },
     {
       "puzzleId": "9LXVA",
       "fen": "r1bq1rk1/1pp2ppp/p7/3Q4/2B3n1/2N5/PPP2PPb/R1B1R2K b - - 1 14",
       "moves": "d8h4 d5f7 f8f7 e1e8",
-      "rating": 1403,
-      "ratingDeviation": 74,
-      "popularity": 97,
-      "nbPlays": 31674,
-      "themes": "kingsideAttack mate mateIn2 opening pin sacrifice short",
-      "gameUrl": "https://lichess.org/CKzC6Reu/black#28",
-      "openingTags": "Philidor_Defense Philidor_Defense_Other_variations"
+      "gameUrl": "https://lichess.org/CKzC6Reu/black#28"
     },
     {
       "puzzleId": "9PKg1",
       "fen": "5rk1/ppp2p1p/7q/4b1p1/6R1/P1N1P3/1P1rB1Q1/R5K1 b - - 1 26",
       "moves": "f7f6 e2c4 g8h8 g2d2",
-      "rating": 1424,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 10286,
-      "themes": "crushing discoveredAttack middlegame short",
-      "gameUrl": "https://lichess.org/Rlkeixt3/black#52",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/Rlkeixt3/black#52"
     },
     {
       "puzzleId": "9ZLyH",
       "fen": "8/5p2/6pp/8/8/1RPk1KP1/2r2P1P/8 b - - 4 37",
       "moves": "c2c3 b3c3 d3c3 f3e4",
-      "rating": 1540,
-      "ratingDeviation": 77,
-      "popularity": 97,
-      "nbPlays": 17063,
-      "themes": "crushing defensiveMove endgame rookEndgame short",
-      "gameUrl": "https://lichess.org/vbhzVhzP/black#74",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/vbhzVhzP/black#74"
     },
     {
       "puzzleId": "9bTfy",
       "fen": "r1bq1rk1/1p1nbppp/p1p4n/6N1/2BPN3/3Q4/PP3PPP/R1B2RK1 b - - 4 11",
       "moves": "d7b6 e4f6 g7f6 d3h7",
-      "rating": 1445,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 11533,
-      "themes": "discoveredAttack kingsideAttack master mate mateIn2 opening sacrifice short",
-      "gameUrl": "https://lichess.org/9moZ8rL7/black#22",
-      "openingTags": "Queens_Gambit_Declined Queens_Gambit_Declined_Janowski_Variation"
+      "gameUrl": "https://lichess.org/9moZ8rL7/black#22"
     },
     {
       "puzzleId": "9edPU",
       "fen": "r3r3/pp3kp1/2pQ1p2/3bp3/1B6/P2P4/1PP4q/5KR1 b - - 1 31",
       "moves": "d5f3 d6d7 e8e7 d7e7 f7g8 e7g7",
-      "rating": 1503,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 14685,
-      "themes": "long mate mateIn3 middlegame",
-      "gameUrl": "https://lichess.org/0yJwkERe/black#62",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/0yJwkERe/black#62"
     },
     {
       "puzzleId": "9ijzN",
       "fen": "5r1k/6p1/4p1Qp/p3b3/P7/1P3B2/4PP1q/3R1K2 b - - 5 34",
       "moves": "f8f6 d1d8 f6f8 d8f8",
-      "rating": 1522,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 10082,
-      "themes": "endgame mate mateIn2 short",
-      "gameUrl": "https://lichess.org/cdRAUk7Y/black#68",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/cdRAUk7Y/black#68"
     },
     {
       "puzzleId": "9kyaJ",
       "fen": "4kR2/pp5Q/2ppp1p1/8/5rP1/5P2/P1q4P/5R1K b - - 0 30",
       "moves": "e8f8 h7h6 f8e7 h6f4",
-      "rating": 1449,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 15508,
-      "themes": "crushing endgame fork short",
-      "gameUrl": "https://lichess.org/crGt6vHe/black#60",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/crGt6vHe/black#60"
     },
     {
       "puzzleId": "9oHhh",
       "fen": "r3kbnr/pp2pppp/2n5/1BRpP3/3P4/4BP1P/q2N1P2/3QK2R b Kkq - 1 12",
       "moves": "e7e6 c5c6 b7c6 b5c6 e8d8 c6a8",
-      "rating": 1594,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 29174,
-      "themes": "advantage fork long middlegame",
-      "gameUrl": "https://lichess.org/dKUu9AgD/black#24",
-      "openingTags": "Caro-Kann_Defense Caro-Kann_Defense_Advance_Variation"
+      "gameUrl": "https://lichess.org/dKUu9AgD/black#24"
     },
     {
       "puzzleId": "9sFGM",
       "fen": "1r4rk/5p1p/p2p1PpQ/1p2p3/3bR1q1/1B3R2/PP4PP/7K b - - 0 31",
       "moves": "g4e4 h6h7 h8h7 f3h3 e4h4 h3h4",
-      "rating": 1532,
-      "ratingDeviation": 74,
-      "popularity": 97,
-      "nbPlays": 17785,
-      "themes": "attraction kingsideAttack long master mate mateIn3 middlegame sacrifice",
-      "gameUrl": "https://lichess.org/dDtxQp5Q/black#62",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/dDtxQp5Q/black#62"
     },
     {
       "puzzleId": "9u9cc",
       "fen": "8/1p6/p7/P5P1/1P3p2/2k2K1p/8/8 b - - 1 47",
       "moves": "c3b4 g5g6 h3h2 f3g2",
-      "rating": 1417,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 25805,
-      "themes": "crushing endgame pawnEndgame short",
-      "gameUrl": "https://lichess.org/TwPwOjLr/black#94",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/TwPwOjLr/black#94"
     },
     {
       "puzzleId": "A116g",
       "fen": "1r1r3k/7R/p2p3p/p1pB1P2/3qP3/2n2P2/1P4QP/K5R1 b - - 3 31",
       "moves": "h8h7 g2g6 h7h8 g6h6",
-      "rating": 1441,
-      "ratingDeviation": 74,
-      "popularity": 97,
-      "nbPlays": 10503,
-      "themes": "deflection mate mateIn2 middlegame short",
-      "gameUrl": "https://lichess.org/R7jO5Jby/black#62",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/R7jO5Jby/black#62"
     },
     {
       "puzzleId": "A36aS",
       "fen": "r1b1k2r/pp1n1p2/2pR3p/4B3/2q1P3/2N5/PPP3PP/R2Q3K b kq - 0 17",
       "moves": "d7e5 d6d8 e8e7 d1d6",
-      "rating": 1475,
-      "ratingDeviation": 77,
-      "popularity": 97,
-      "nbPlays": 22047,
-      "themes": "mate mateIn2 middlegame short triangleMate",
-      "gameUrl": "https://lichess.org/Ri9JV8ob/black#34",
-      "openingTags": "Kings_Knight_Opening Kings_Knight_Opening_Other_variations"
+      "gameUrl": "https://lichess.org/Ri9JV8ob/black#34"
     },
     {
       "puzzleId": "A6zTk",
       "fen": "2rq1rk1/p4ppp/5n2/4p1B1/3bN3/3Q2P1/PP3P1P/R4RK1 b - - 7 18",
       "moves": "d4f2 e4f2 d8d3 f2d3",
-      "rating": 1429,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 11662,
-      "themes": "advantage hangingPiece middlegame short",
-      "gameUrl": "https://lichess.org/lSUVt1Eq/black#36",
-      "openingTags": "Queens_Pawn_Game Queens_Pawn_Game_Symmetrical_Variation"
+      "gameUrl": "https://lichess.org/lSUVt1Eq/black#36"
     },
     {
       "puzzleId": "AEI2L",
       "fen": "r5k1/5Rbp/q2N2p1/p2pP3/3Q4/P7/1P4PP/7K b - - 0 30",
       "moves": "a6d6 f7g7 g8g7 e5d6",
-      "rating": 1462,
-      "ratingDeviation": 74,
-      "popularity": 97,
-      "nbPlays": 17579,
-      "themes": "crushing discoveredAttack discoveredCheck endgame intermezzo short",
-      "gameUrl": "https://lichess.org/VL78Rj9s/black#60",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/VL78Rj9s/black#60"
     },
     {
       "puzzleId": "AIGeE",
       "fen": "7r/1RBrb3/5p2/2p2np1/kp5p/3P1P2/PPP2P1P/2K4R b - - 0 24",
       "moves": "h8c8 b2b3 a4a3 b7a7",
-      "rating": 1541,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 21954,
-      "themes": "mate mateIn2 middlegame short",
-      "gameUrl": "https://lichess.org/x7boNUdF/black#48",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/x7boNUdF/black#48"
     },
     {
       "puzzleId": "AJIcH",
       "fen": "8/PK4pk/8/8/8/1P4p1/r6p/7R b - - 1 50",
       "moves": "g3g2 h1h2 h7g8 h2g2",
-      "rating": 1456,
-      "ratingDeviation": 78,
-      "popularity": 97,
-      "nbPlays": 13139,
-      "themes": "crushing endgame rookEndgame short",
-      "gameUrl": "https://lichess.org/ftgS17n0/black#100",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/ftgS17n0/black#100"
     },
     {
       "puzzleId": "AKHrw",
       "fen": "2r2k2/R7/n5p1/p2PBb1p/3K4/1P4P1/7P/8 b - - 3 42",
       "moves": "a6c5 e5d6 f8e8 d6c5",
-      "rating": 1509,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 11062,
-      "themes": "advantage endgame short",
-      "gameUrl": "https://lichess.org/wpVulp5c/black#84",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/wpVulp5c/black#84"
     },
     {
       "puzzleId": "AP5Nu",
       "fen": "2R5/5pk1/p6p/2pb2pN/6P1/2rp3K/5P1P/8 b - - 1 37",
       "moves": "g7g6 c8g8 g6h7 h5f6",
-      "rating": 1407,
-      "ratingDeviation": 80,
-      "popularity": 97,
-      "nbPlays": 26153,
-      "themes": "cornerMate endgame mate mateIn2 short",
-      "gameUrl": "https://lichess.org/MqlBhqrL/black#74",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/MqlBhqrL/black#74"
     },
     {
       "puzzleId": "ARmii",
       "fen": "r2qk2r/pb2npbp/2p3pB/4p3/3pP3/2N5/PPPQBPPP/R3K2R b KQkq - 1 13",
       "moves": "d4c3 d2d8 a8d8 h6g7 c3b2 a1b1",
-      "rating": 1526,
-      "ratingDeviation": 73,
-      "popularity": 97,
-      "nbPlays": 22423,
-      "themes": "advantage long middlegame",
-      "gameUrl": "https://lichess.org/b1IsFq86/black#26",
-      "openingTags": "Sicilian_Defense Sicilian_Defense_Bowdler_Attack"
+      "gameUrl": "https://lichess.org/b1IsFq86/black#26"
     },
     {
       "puzzleId": "AYE4B",
       "fen": "1r3r2/2p2pk1/3p2p1/3P2Rn/ppB2q1P/3Q1P2/PPP5/1K4R1 b - - 3 23",
       "moves": "f4h4 g5g6 f7g6 d3g6 g7h8 g6h6",
-      "rating": 1457,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 18634,
-      "themes": "long master mate mateIn3 middlegame sacrifice",
-      "gameUrl": "https://lichess.org/oFuHoDLe/black#46",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/oFuHoDLe/black#46"
     },
     {
       "puzzleId": "AbKDH",
       "fen": "4r1k1/1pn1q1p1/pn1rBp1p/8/P7/2N1Q3/1P1NRPPP/4R1K1 b - - 0 25",
       "moves": "d6e6 e3b6 e6b6 e2e7 e8e7 e1e7",
-      "rating": 1547,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 14209,
-      "themes": "crushing discoveredAttack long middlegame",
-      "gameUrl": "https://lichess.org/FaX08nGh/black#50",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/FaX08nGh/black#50"
     },
     {
       "puzzleId": "Adjn1",
       "fen": "R7/ppp2Qpk/2n4p/5b2/8/3q4/P2N1PPP/b5K1 b - - 1 21",
       "moves": "d3d2 f7f5 g7g6 f5f7 a1g7 f7g8",
-      "rating": 1423,
-      "ratingDeviation": 74,
-      "popularity": 97,
-      "nbPlays": 14838,
-      "themes": "endgame hangingPiece long mate mateIn3",
-      "gameUrl": "https://lichess.org/oOoKseIr/black#42",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/oOoKseIr/black#42"
     },
     {
       "puzzleId": "AgobB",
       "fen": "2kr3r/R1n2ppp/4p3/8/1R1P4/3P4/P4PPP/6K1 b - - 0 20",
       "moves": "d8d6 b4c4 d6d7 a7a8 c8b7 a8h8",
-      "rating": 1470,
-      "ratingDeviation": 77,
-      "popularity": 97,
-      "nbPlays": 17039,
-      "themes": "crushing endgame exposedKing long master pin skewer",
-      "gameUrl": "https://lichess.org/yqkOdVHf/black#40",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/yqkOdVHf/black#40"
     },
     {
       "puzzleId": "AhYdW",
       "fen": "1r6/3k4/2p2p2/B3pN2/K3P3/QP1P4/5PP1/3q3r b - - 0 44",
       "moves": "d1d3 a3e7 d7c8 e7c7",
-      "rating": 1574,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 18780,
-      "themes": "endgame mate mateIn2 short",
-      "gameUrl": "https://lichess.org/k8agxyVg/black#88",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/k8agxyVg/black#88"
     },
     {
       "puzzleId": "Aj4n6",
       "fen": "2k5/P7/1KP5/4P3/7p/r7/8/8 b - - 0 49",
       "moves": "h4h3 e5e6 c8d8 c6c7 d8e7 c7c8q",
-      "rating": 1535,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 16244,
-      "themes": "advancedPawn crushing deflection endgame exposedKing long promotion rookEndgame",
-      "gameUrl": "https://lichess.org/PGTt5Wce/black#98",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/PGTt5Wce/black#98"
     },
     {
       "puzzleId": "AlOkY",
       "fen": "8/3r1k2/pK1R1Rp1/5p1p/2r5/P7/P4P2/8 b - - 1 41",
       "moves": "f7e7 d6e6 e7d8 f6f8",
-      "rating": 1473,
-      "ratingDeviation": 78,
-      "popularity": 97,
-      "nbPlays": 28939,
-      "themes": "endgame mate mateIn2 rookEndgame short",
-      "gameUrl": "https://lichess.org/pxzVbfLo/black#82",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/pxzVbfLo/black#82"
     },
     {
       "puzzleId": "AqIE4",
       "fen": "1r2r3/4kp2/8/6Q1/1p1P2B1/3RP3/1q4P1/2q1B1K1 b - - 5 37",
       "moves": "f7f6 g5g7 e7d6 g7d7",
-      "rating": 1439,
-      "ratingDeviation": 77,
-      "popularity": 97,
-      "nbPlays": 12168,
-      "themes": "mate mateIn2 middlegame short",
-      "gameUrl": "https://lichess.org/Bc8seLcu/black#74",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/Bc8seLcu/black#74"
     },
     {
       "puzzleId": "Ar4yB",
       "fen": "r1b3k1/pp3rbR/4p1Q1/3p2P1/3N1P2/PPqB4/2P5/2K5 b - - 6 33",
       "moves": "c3d4 h7h8 g8h8 g6h7",
-      "rating": 1537,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 11213,
-      "themes": "attraction mate mateIn2 middlegame pin sacrifice short",
-      "gameUrl": "https://lichess.org/R7fJWv7C/black#66",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/R7fJWv7C/black#66"
     },
     {
       "puzzleId": "AsMQR",
       "fen": "8/4pk2/3p2p1/3Pn3/4P2p/1R3B1P/r3NbPK/8 b - - 5 45",
       "moves": "e5f3 b3f3 f7g8 f3f2",
-      "rating": 1502,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 12027,
-      "themes": "advantage endgame fork short",
-      "gameUrl": "https://lichess.org/sJGSoZOC/black#90",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/sJGSoZOC/black#90"
     },
     {
       "puzzleId": "AwHJ6",
       "fen": "rn2k2r/pbpp2p1/1p2pp1q/6p1/3P2Q1/P1PB3P/2PB1PP1/R3R1K1 b kq - 1 14",
       "moves": "h6h5 g4h5 h8h5 d3g6 e8e7 g6h5",
-      "rating": 1419,
-      "ratingDeviation": 78,
-      "popularity": 97,
-      "nbPlays": 34952,
-      "themes": "advantage attraction fork long middlegame",
-      "gameUrl": "https://lichess.org/zDIqH3DF/black#28",
-      "openingTags": "French_Defense French_Defense_Knight_Variation"
+      "gameUrl": "https://lichess.org/zDIqH3DF/black#28"
     },
     {
       "puzzleId": "B1ZgY",
       "fen": "rn3rk1/pp2bpp1/2p1p1bp/q3P3/4N3/1P3NP1/P1P1QPBP/3R1RK1 b - - 2 15",
       "moves": "a5a2 d1a1 a2b2 f1b1 b2b1 a1b1",
-      "rating": 1521,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 10014,
-      "themes": "advantage clearance long middlegame trappedPiece",
-      "gameUrl": "https://lichess.org/Kj0DXcwI/black#30",
-      "openingTags": "Hungarian_Opening Hungarian_Opening_Slav_Formation"
+      "gameUrl": "https://lichess.org/Kj0DXcwI/black#30"
     },
     {
       "puzzleId": "B6c0b",
       "fen": "3r2k1/p2q1pp1/7p/Q7/4p3/P2p1PP1/2R4P/3R2K1 b - - 0 26",
       "moves": "d3c2 a5d8 d7d8 d1d8 g8h7 d8c8 c2c1q c8c1",
-      "rating": 1496,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 13958,
-      "themes": "crushing endgame veryLong xRayAttack",
-      "gameUrl": "https://lichess.org/TRxXiXc5/black#52",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/TRxXiXc5/black#52"
     },
     {
       "puzzleId": "B8D8l",
       "fen": "8/4R3/8/1p5p/4k2P/1r4P1/5K2/8 b - - 6 42",
       "moves": "e4d3 e7e3 d3c4 e3b3 c4b3 g3g4 h5g4 h4h5",
-      "rating": 1575,
-      "ratingDeviation": 77,
-      "popularity": 97,
-      "nbPlays": 15710,
-      "themes": "crushing defensiveMove endgame rookEndgame veryLong",
-      "gameUrl": "https://lichess.org/j6RZI3Hd/black#84",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/j6RZI3Hd/black#84"
     },
     {
       "puzzleId": "BDll2",
       "fen": "r5k1/1bqn1rpp/p2b1pN1/4pP1Q/P3P1P1/1P1p1R2/6BP/R1B3K1 b - - 3 24",
       "moves": "c7c3 h5h7 g8h7 f3h3 h7g8 h3h8",
-      "rating": 1581,
-      "ratingDeviation": 76,
-      "popularity": 97,
-      "nbPlays": 16678,
-      "themes": "attraction kingsideAttack long master mate mateIn3 middlegame sacrifice",
-      "gameUrl": "https://lichess.org/cbCongex/black#48",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/cbCongex/black#48"
     },
     {
       "puzzleId": "BHGct",
       "fen": "r4rk1/pp3ppp/2p1p1n1/3pn3/2PB4/1Pq5/P3QPPP/R2R2K1 b - - 5 17",
       "moves": "g6f4 e2e5 f7f6 e5f4",
-      "rating": 1506,
-      "ratingDeviation": 77,
-      "popularity": 97,
-      "nbPlays": 15312,
-      "themes": "advantage middlegame short",
-      "gameUrl": "https://lichess.org/NSnpOrId/black#34",
-      "openingTags": "Caro-Kann_Defense Caro-Kann_Defense_Advance_Variation"
+      "gameUrl": "https://lichess.org/NSnpOrId/black#34"
     },
     {
       "puzzleId": "BK928",
       "fen": "1r3r2/6Q1/2pb4/p2p2k1/8/1PP3qP/P5P1/4R1K1 b - - 1 32",
       "moves": "g5h4 g7h6",
-      "rating": 1403,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 10981,
-      "themes": "endgame mate mateIn1 oneMove",
-      "gameUrl": "https://lichess.org/N23eBR2a/black#64",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/N23eBR2a/black#64"
     },
     {
       "puzzleId": "BMlVd",
       "fen": "3r4/pb4kp/6p1/2p1QB2/8/5P2/P5PK/3r1q2 b - - 0 33",
       "moves": "g7g8 f5e6 g8f8 e5f6 f8e8 f6f7",
-      "rating": 1593,
-      "ratingDeviation": 75,
-      "popularity": 97,
-      "nbPlays": 28164,
-      "themes": "endgame long mate mateIn3",
-      "gameUrl": "https://lichess.org/d0iB0ZzK/black#66",
-      "openingTags": ""
+      "gameUrl": "https://lichess.org/d0iB0ZzK/black#66"
     }
   ]
 }

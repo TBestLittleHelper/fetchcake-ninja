@@ -28,7 +28,7 @@ export function showRunDialog(puzzles: Puzzle[], cupName: string, stats: PuzzleS
     const puzzleLink = document.createElement('a')
     puzzleLink.className = 'runPuzzleNum'
     puzzleLink.textContent = `#${index + 1}`
-    puzzleLink.href = `https://lichess.org/training/${puzzle.puzzleId}`
+    puzzleLink.href = puzzle.gameUrl
     puzzleLink.target = '_blank'
     puzzleLink.rel = 'noopener noreferrer'
 

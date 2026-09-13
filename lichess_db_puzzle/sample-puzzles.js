@@ -27,10 +27,6 @@ function matchesCupFilters(puzzle, filter) {
 		&& puzzle.popularity >= filter.popularity;
 }
 
-function filterPuzzlesForCup(puzzles, filter) {
-	return puzzles.filter((puzzle) => matchesCupFilters(puzzle, filter));
-}
-
 async function samplePuzzles() {
 	const puzzlesByCup = Object.fromEntries(
 		Object.keys(cupFilters).map((cupName) => [cupName, []]),
@@ -102,7 +98,9 @@ async function samplePuzzles() {
 			.slice(0, numberOfPuzzles);
 
 		for (let batchIndex = 0; batchIndex < batchesPerCup; batchIndex++) {
-			const batch = topPuzzles.filter((_, index) => index % batchesPerCup === batchIndex);
+			const batch = topPuzzles
+				.filter((_, index) => index % batchesPerCup === batchIndex)
+				.map(({ puzzleId, fen, moves, gameUrl }) => ({ puzzleId, fen, moves, gameUrl }));
 			const outputFile = path.join(outputDirectory, `${cupName}-${batchIndex + 1}.json`);
 			const jsonOutput = JSON.stringify({ puzzles: batch }, null, 2);
 			fs.writeFileSync(outputFile, jsonOutput);
