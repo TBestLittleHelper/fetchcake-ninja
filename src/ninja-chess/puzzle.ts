@@ -7,8 +7,9 @@ const puzzleCache: Partial<Record<string, Puzzle[]>> = {};
 
 async function loadPuzzleData(cup: CupName, batch: number): Promise<Puzzle[]> {
 	const cacheKey = `${cup}-${batch}`;
-	if (puzzleCache[cacheKey]) {
-		return puzzleCache[cacheKey]!;
+	const cached = puzzleCache[cacheKey];
+	if (cached) {
+		return cached;
 	}
 
 	const puzzles = (await import(`../assets/${cup}-${batch}.json`)).default.puzzles as Puzzle[];
