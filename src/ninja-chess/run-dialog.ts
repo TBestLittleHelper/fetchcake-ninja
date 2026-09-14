@@ -7,7 +7,7 @@ import { parseUci } from 'chessops/util'
 import type { Puzzle, PuzzleStats } from './types'
 
 export function showRunDialog(puzzles: Puzzle[], cupName: string, stats: PuzzleStats[], date?: string): void {
-  const dialog = document.getElementById('runDialog') as HTMLDialogElement
+  const dialog = document.querySelector<HTMLDialogElement>('#runDialog')!
   const title = document.getElementById('runDialogTitle')!
   const statsElement = document.getElementById('runDialogStats')!
   const dateElement = document.getElementById('runDialogDate')!
