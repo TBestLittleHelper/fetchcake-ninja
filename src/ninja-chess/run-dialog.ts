@@ -8,10 +8,8 @@ import type { Puzzle, PuzzleStats } from './types'
 
 export function showRunDialog(puzzles: Puzzle[], cupName: string, stats: PuzzleStats[], date?: string): void {
   const dialog = document.querySelector<HTMLDialogElement>('#runDialog')!
-  const title = document.getElementById('runDialogTitle')!
-  const statsElement = document.getElementById('runDialogStats')!
-  const dateElement = document.getElementById('runDialogDate')!
-  const grid = document.getElementById('runDialogGrid')!
+  const [title, statsElement, dateElement, grid] = ['runDialogTitle', 'runDialogStats', 'runDialogDate', 'runDialogGrid']
+    .map((id) => document.getElementById(id)!)
 
   const totalTime = stats.reduce((sum, s) => sum + s.time, 0)
   const totalSquares = stats.reduce((sum, s) => sum + s.squares, 0)
