@@ -1,10 +1,10 @@
 import { Chessground } from '@lichess-org/chessground'
+import { uciToMove } from '@lichess-org/chessground/util'
 import type { Config } from '@lichess-org/chessground/config'
 import { Chess } from 'chessops/chess'
 import { parseFen, makeFen } from 'chessops/fen'
 import { parseUci } from 'chessops/util'
 import type { Puzzle, PuzzleStats } from './types'
-import type { Key } from '@lichess-org/chessground/types'
 
 export function showRunDialog(puzzles: Puzzle[], cupName: string, stats: PuzzleStats[], date?: string): void {
   const dialog = document.getElementById('runDialog') as HTMLDialogElement
@@ -50,7 +50,7 @@ export function showRunDialog(puzzles: Puzzle[], cupName: string, stats: PuzzleS
       disableContextMenu: true,
       fen,
       orientation: chess.turn,
-      lastMove: [firstMove.substring(0, 2), firstMove.substring(2, 4)] as Key[],
+      lastMove: uciToMove(firstMove),
     }
 
     Chessground(boardContainer, config)
