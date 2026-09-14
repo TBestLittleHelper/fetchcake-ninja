@@ -232,19 +232,10 @@ boardElement.addEventListener('pointermove', (event: PointerEvent) => {
 })
 
 function isSolved(): boolean {
-  if (gameState.solution.length === 0) return false;
-
-  // Get first move and convert to squares
-  const firstMove = gameState.solution[0];
-  const fromSquare = firstMove.substring(0, 2) as Key;
-  const toSquare = firstMove.substring(2, 4) as Key;
-
-  // Check if attempt matches the two squares from the first move
-  if (gameState.attemptSquares.includes(fromSquare) && gameState.attemptSquares.includes(toSquare)) {
-    return true;
-  }
-
-  return false;
+  const move = uciToMove(gameState.solution[0]);
+  // Solved when the player has both the start and the end square of the first move in the solution.
+  // We only care about the first move being solved, in our game.
+  return move !== undefined && move.every((square) => gameState.attemptSquares.includes(square));
 }
 
 function nextPuzzle(puzzleBatch: Puzzle[], nextIndex: number): void {
