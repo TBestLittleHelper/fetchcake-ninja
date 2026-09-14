@@ -6,6 +6,7 @@ import './chessground.cburnett.css'
 import '../assets/cssUtil/checkbox.css'
 
 import { Chessground } from '@lichess-org/chessground';
+import { uciToMove } from '@lichess-org/chessground/util';
 import type { Config } from "@lichess-org/chessground/config";
 
 import { Chess } from 'chessops/chess';
@@ -124,7 +125,7 @@ const config: Config = {
   },
   fen: puzzle.fen,
   orientation: puzzle.chess.turn,
-  lastMove: [gameState.moveUci.substring(0, 2), gameState.moveUci.substring(2, 4)] as Key[]
+  lastMove: uciToMove(gameState.moveUci)
 
 }
 const ground = Chessground(boardElement, config)
@@ -174,7 +175,7 @@ async function loadCup(cup: CupName) {
   ground.set({
     fen: puzzle.fen,
     orientation: puzzle.chess.turn,
-    lastMove: [gameState.moveUci.substring(0, 2), gameState.moveUci.substring(2, 4)] as Key[],
+    lastMove: uciToMove(gameState.moveUci),
   });
 }
 
@@ -268,8 +269,7 @@ function nextPuzzle(puzzleBatch: Puzzle[], nextIndex: number): void {
   ground.set({
     fen: puzzle.fen,
     orientation: puzzle.chess.turn,
-    lastMove: [gameState.moveUci.substring(0, 2),
-    gameState.moveUci.substring(2, 4)] as Key[]
+    lastMove: uciToMove(gameState.moveUci)
   })
 }
 
