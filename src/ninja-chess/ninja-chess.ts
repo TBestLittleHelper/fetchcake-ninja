@@ -178,6 +178,7 @@ function loadCompletedCups(): Set<CupName> {
 
 async function loadCup(cup: CupName) {
   selectedCup = cup;
+  runActive = true;
   puzzleBatch = await getPuzzleBatch(selectedCup);
   cupButtons.forEach((button) => {
     button.classList.toggle('selected', button.dataset.cup === cup);
@@ -208,7 +209,11 @@ for (const cupButton of cupButtons) {
 }
 
 let lastSquare: Key | null = null
+let runActive = true
 const logSquareAtPos = (x: number, y: number) => {
+  if (!runActive) {
+    return
+  }
   const square = ground.getKeyAtDomPos([x, y])
   if (!square || square === lastSquare) {
     return
@@ -264,6 +269,7 @@ function nextPuzzle(nextIndex: number): void {
 }
 
 function endRun(): void {
+  runActive = false;
   completedCups.add(selectedCup);
   try {
     localStorage.setItem(COMPLETED_CUPS_KEY, JSON.stringify([...completedCups]));
