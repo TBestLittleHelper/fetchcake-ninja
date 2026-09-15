@@ -134,15 +134,25 @@ const puzzle = loadPuzzle()
 
 const config: Config = {
   coordinates: true,
-  viewOnly: true,
+  /*
+   * viewOnly false lets chessground keep its own bounds cache updated on resize/scroll;
+   * However, we actually don't want any user interactions, therefore we disable every
+   * interaction the player could perform with other config options.
+   */
+  viewOnly: false,
   disableContextMenu: true,
   highlight: {
     lastMove: true,
   },
   fen: puzzle.fen,
   orientation: puzzle.chess.turn,
-  lastMove: uciToMove(gameState.moveUci)
-
+  lastMove: uciToMove(gameState.moveUci),
+  movable: { color: undefined },
+  draggable: { enabled: false },
+  selectable: { enabled: false },
+  premovable: { enabled: false },
+  predroppable: { enabled: false },
+  drawable: { enabled: false },
 }
 const ground = Chessground(boardElement, config)
 
