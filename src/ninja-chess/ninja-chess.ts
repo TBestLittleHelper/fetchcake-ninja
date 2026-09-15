@@ -93,6 +93,22 @@ function loadPuzzle() {
   return { chess, fen }
 }
 
+function setPuzzle(index: number): void {
+  gameState.currentPuzzle = puzzleBatch[index];
+  gameState.currentPuzzleTotalSquares = 0;
+  gameState.moves = gameState.currentPuzzle.moves.split(' ');
+  gameState.moveUci = gameState.moves[0];
+  gameState.solution = gameState.moves.slice(1);
+  gameState.attemptSquares = [];
+  const puzzle = loadPuzzle();
+  ground.setShapes([]);
+  ground.set({
+    fen: puzzle.fen,
+    orientation: puzzle.chess.turn,
+    lastMove: uciToMove(gameState.moveUci),
+  });
+}
+
 
 const addAttempt = (square: Key): void => {
   if (puzzleStartTime === 0) {
@@ -160,23 +176,10 @@ async function loadCup(cup: CupName) {
   puzzleStats.length = 0;
   puzzleStartTime = 0;
   gameState.solvedPuzzles = 0;
-  gameState.currentPuzzle = puzzleBatch[0];
-  gameState.currentPuzzleTotalSquares = 0;
-  gameState.moves = gameState.currentPuzzle.moves.split(' ');
-  gameState.moveUci = gameState.moves[0];
-  gameState.solution = gameState.moves.slice(1);
-  gameState.attemptSquares = [];
   if (progressElement) {
     progressElement.value = 0;
   }
-
-  const puzzle = loadPuzzle();
-  ground.setShapes([]);
-  ground.set({
-    fen: puzzle.fen,
-    orientation: puzzle.chess.turn,
-    lastMove: uciToMove(gameState.moveUci),
-  });
+  setPuzzle(0);
 }
 
 for (const cupButton of cupButtons) {
@@ -215,7 +218,7 @@ const logSquareAtPos = (x: number, y: number) => {
       endRun();
       return;
     }
-    nextPuzzle(puzzleBatch, gameState.solvedPuzzles)
+    nextPuzzle(gameState.solvedPuzzles)
   }
 }
 
@@ -238,30 +241,16 @@ function isSolved(): boolean {
   return move !== undefined && move.every((square) => gameState.attemptSquares.includes(square));
 }
 
-function nextPuzzle(puzzleBatch: Puzzle[], nextIndex: number): void {
+function nextPuzzle(nextIndex: number): void {
   lastSquare = null;
   puzzleStartTime = Date.now();
 
   if (nextIndex >= puzzleBatch.length) {
     nextIndex = 0;
   }
-  gameState.currentPuzzle = puzzleBatch[nextIndex];
-  gameState.currentPuzzleTotalSquares = 0;
-  gameState.moves = gameState.currentPuzzle.moves.split(" ");
-  gameState.moveUci = gameState.moves[0]
-  gameState.solution = gameState.moves.slice(1)
-  gameState.attemptSquares = []
-
-  const puzzle = loadPuzzle()
+  setPuzzle(nextIndex);
 
   console.log("Play " + gameState.solution[0].toString())
-
-  ground.setShapes([]);
-  ground.set({
-    fen: puzzle.fen,
-    orientation: puzzle.chess.turn,
-    lastMove: uciToMove(gameState.moveUci)
-  })
 }
 
 function endRun(): void {
