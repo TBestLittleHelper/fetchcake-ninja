@@ -15,6 +15,7 @@ import { parseUci } from 'chessops/util';
 
 import { PuzzleBatchSize, getPuzzleBatch } from './puzzle';
 import { initSound, playSound, resumeAudioContext } from './sound';
+import { initShapeColor, getShapeColor } from './shape-color';
 import { showRunDialog } from './run-dialog';
 import { openLeaderboard, loadRunHistory, saveRunHistory, clearRunHistory } from './leaderboard';
 import type { Key } from '@lichess-org/chessground/types';
@@ -124,7 +125,7 @@ const addAttempt = (square: Key): void => {
 
   const updatedShapes: DrawShape[] = gameState.attemptSquares.map(sq => ({
     orig: sq,
-    brush: 'paleBlue',
+    brush: getShapeColor(),
   }));
 
   ground.setShapes(updatedShapes);
@@ -155,6 +156,8 @@ const config: Config = {
   drawable: { enabled: false },
 }
 const ground = Chessground(boardElement, config)
+
+initShapeColor(ground.state.drawable.brushes);
 
 const cupButtons = Array.from(document.querySelectorAll<SVGSVGElement>('#cupContainer svg.cup-icon'));
 
