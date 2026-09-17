@@ -67,6 +67,7 @@ main {
   height: 2.2rem;
   margin: auto;
   accent-color: chartreuse;
+  pointer-events: none;
 }
 
 #board {
